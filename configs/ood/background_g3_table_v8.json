@@ -1,0 +1,11 @@
+{
+  "schema": "humano.background-g3-table.v1",
+  "assignment": "source_episode_index_mod_4",
+  "physics_changed": false,
+  "materials": [
+    {"family": "Wood", "name": "Wood_Tiles_Oak_Mountain_Herringbone", "path": "data/resources/materials/vMaterials_2/Wood/Wood_Tiles_Oak_Mountain.mdl"},
+    {"family": "Wood", "name": "Wood_Tiles_Oak_Mountain_Mosaic", "path": "data/resources/materials/vMaterials_2/Wood/Wood_Tiles_Oak_Mountain.mdl"},
+    {"type": "usd_preview_surface", "family": "Plastic", "name": "GlossyCyanPlasticG3", "diffuse_color": [0.02, 0.62, 0.72], "roughness": 0.18, "metallic": 0.0},
+    {"type": "usd_preview_surface", "family": "Metal", "name": "PolishedSteelG3", "diffuse_color": [0.72, 0.74, 0.78], "roughness": 0.12, "metallic": 1.0}
+  ]
+}

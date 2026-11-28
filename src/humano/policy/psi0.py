@@ -1,0 +1,1 @@
+from humano.policy._lerobot_policy import LerobotPolicyAgent as Psi0Agent

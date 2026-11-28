@@ -1,0 +1,49 @@
+{
+  "tasks": [
+    "G1WholebodyTableAppleToBasketTeleop",
+    "G1WholebodyTablePlateToShelfTeleop",
+    "G1WholebodyTableMilkToTrashCanTeleop",
+    "G1WholebodyTableBreadToTrayTeleop",
+    "G1WholebodyGroundBasketToTableTeleop",
+    "G1WholebodyGroundBoxToTableTeleop",
+    "G1WholebodyGroundBottleToTableTeleop",
+    "G1WholebodyChairPushToTableTeleop",
+    "G1WholebodyDollyPushToTableTeleop",
+    "G1WholebodyTableEraserOutOfPenHolderTeleop"
+  ],
+  "evaluation_time_budget": {
+    "schema_version": 2,
+    "tasks": {
+      "G1WholebodyTableAppleToBasketTeleop": {
+        "max_steps_200hz": 10550
+      },
+      "G1WholebodyTablePlateToShelfTeleop": {
+        "max_steps_200hz": 8480
+      },
+      "G1WholebodyTableMilkToTrashCanTeleop": {
+        "max_steps_200hz": 3590
+      },
+      "G1WholebodyTableBreadToTrayTeleop": {
+        "max_steps_200hz": 6700
+      },
+      "G1WholebodyGroundBasketToTableTeleop": {
+        "max_steps_200hz": 3960
+      },
+      "G1WholebodyGroundBoxToTableTeleop": {
+        "max_steps_200hz": 6980
+      },
+      "G1WholebodyGroundBottleToTableTeleop": {
+        "max_steps_200hz": 5360
+      },
+      "G1WholebodyChairPushToTableTeleop": {
+        "max_steps_200hz": 4250
+      },
+      "G1WholebodyDollyPushToTableTeleop": {
+        "max_steps_200hz": 6750
+      },
+      "G1WholebodyTableEraserOutOfPenHolderTeleop": {
+        "max_steps_200hz": 12620
+      }
+    }
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "tasks": [
+    "G1WholebodyTableSmallObjectPickTeleop",
+    "G1WholebodyTableLargeObjectPickTeleop",
+    "G1WholebodyTableObjectPickTeleop",
+    "G1WholebodyGroundSmallObjectPickTeleop",
+    "G1WholebodyGroundLargeObjectPickTeleop",
+    "G1WholebodyGroundObjectPickTeleop",
+    "G1WholebodyTableSmallObjectToBasketTeleop",
+    "G1WholebodyTableLargeObjectToCabinetTeleop",
+    "G1WholebodyTableObjectToTrashCanTeleop",
+    "G1WholebodyFoodToTrayTeleop"
+  ],
+  "evaluation_time_budget": {
+    "schema_version": 2,
+    "tasks": {
+      "G1WholebodyTableSmallObjectPickTeleop": {
+        "max_steps_200hz": 2560
+      },
+      "G1WholebodyTableLargeObjectPickTeleop": {
+        "max_steps_200hz": 2770
+      },
+      "G1WholebodyTableObjectPickTeleop": {
+        "max_steps_200hz": 2970
+      },
+      "G1WholebodyGroundSmallObjectPickTeleop": {
+        "max_steps_200hz": 2030
+      },
+      "G1WholebodyGroundLargeObjectPickTeleop": {
+        "max_steps_200hz": 2450
+      },
+      "G1WholebodyGroundObjectPickTeleop": {
+        "max_steps_200hz": 2670
+      },
+      "G1WholebodyTableSmallObjectToBasketTeleop": {
+        "max_steps_200hz": 2770
+      },
+      "G1WholebodyTableLargeObjectToCabinetTeleop": {
+        "max_steps_200hz": 4840
+      },
+      "G1WholebodyTableObjectToTrashCanTeleop": {
+        "max_steps_200hz": 3620
+      },
+      "G1WholebodyFoodToTrayTeleop": {
+        "max_steps_200hz": 3300
+      }
+    }
+  }
+}

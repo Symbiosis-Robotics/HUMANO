@@ -1,0 +1,191 @@
+{
+  "idResults": {
+    "columns": [
+      "Basic",
+      "Advanced",
+      "Spatial",
+      "Object",
+      "Movement",
+      "Goal",
+      "Long-Horizon",
+      "Conditional"
+    ],
+    "rows": [
+      {
+        "model": "Diffusion Policy",
+        "scores": [
+          2.8,
+          0.4,
+          4.6,
+          12.4,
+          11.6,
+          3.6,
+          0.6,
+          0.4
+        ],
+        "reportedAverage": 4.6
+      },
+      {
+        "model": "Flow Matching",
+        "scores": [
+          2,
+          1.2,
+          9.8,
+          26.4,
+          20,
+          4.4,
+          3.2,
+          6.8
+        ],
+        "reportedAverage": 9.2
+      },
+      {
+        "model": "ACT",
+        "scores": [
+          4,
+          2.4,
+          9.8,
+          32,
+          29.6,
+          3.6,
+          1.2,
+          7.2
+        ],
+        "reportedAverage": 11.2
+      },
+      {
+        "model": "π0.5",
+        "scores": [
+          20.4,
+          37.6,
+          27,
+          41.6,
+          38.4,
+          8.8,
+          3.8,
+          13.6
+        ],
+        "reportedAverage": 23.9
+      },
+      {
+        "model": "GR00T N1.7",
+        "scores": [
+          21.6,
+          34,
+          35.8,
+          41.6,
+          36.4,
+          19.2,
+          14.6,
+          24.8
+        ],
+        "reportedAverage": 28.5
+      },
+      {
+        "model": "Ψ0",
+        "scores": [
+          8.8,
+          17.6,
+          12.6,
+          31.6,
+          38.4,
+          4.8,
+          1,
+          6.4
+        ],
+        "reportedAverage": 15.2
+      }
+    ]
+  },
+  "oodResults": {
+    "columns": [
+      "Distractor",
+      "Lighting",
+      "Background",
+      "Camera",
+      "Language",
+      "Sensor Noise",
+      "Robot Init."
+    ],
+    "rows": [
+      {
+        "model": "Diffusion Policy",
+        "scores": [
+          3.9,
+          1.7,
+          4.8,
+          0.2,
+          4.3,
+          0.4,
+          2.1
+        ],
+        "reportedAverage": 2.5
+      },
+      {
+        "model": "Flow Matching",
+        "scores": [
+          5.8,
+          3.7,
+          9.2,
+          2.6,
+          8.9,
+          1.8,
+          7.4
+        ],
+        "reportedAverage": 5.6
+      },
+      {
+        "model": "ACT",
+        "scores": [
+          5.5,
+          2.5,
+          10,
+          0.8,
+          11.3,
+          0.6,
+          7.6
+        ],
+        "reportedAverage": 5.4
+      },
+      {
+        "model": "π0.5",
+        "scores": [
+          21.1,
+          20.1,
+          22,
+          14.3,
+          23,
+          8.1,
+          15.7
+        ],
+        "reportedAverage": 17.8
+      },
+      {
+        "model": "GR00T N1.7",
+        "scores": [
+          21.8,
+          24.7,
+          28.5,
+          11,
+          26.9,
+          10.3,
+          17
+        ],
+        "reportedAverage": 20
+      },
+      {
+        "model": "Ψ0",
+        "scores": [
+          10.4,
+          12.2,
+          12.8,
+          6.8,
+          13.2,
+          2.5,
+          9.2
+        ],
+        "reportedAverage": 9.6
+      }
+    ]
+  }
+}

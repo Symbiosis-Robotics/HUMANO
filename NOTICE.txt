@@ -1,0 +1,9 @@
+NVIDIA model attribution
+
+Licensed by NVIDIA Corporation under the NVIDIA Open Model License
+
+This notice applies to the following bundled models:
+
+third_party/decoupled_wbc/sim2mujoco/resources/robots/g1/policy/GR00T-WholeBodyControl-Balance.onnx
+third_party/decoupled_wbc/sim2mujoco/resources/robots/g1/policy/GR00T-WholeBodyControl-Walk.onnx
+third_party/gear_sonic_deploy/policy/release/model_decoder.onnx

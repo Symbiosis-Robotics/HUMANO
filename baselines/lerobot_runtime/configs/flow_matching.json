@@ -1,0 +1,8 @@
+{
+  "baseline": "flow_matching",
+  "policy_type": "multi_task_dit",
+  "objective": "flow_matching",
+  "observation_schema": "humano.lerobot.v1",
+  "action_shape": [40, 78],
+  "requires_task": true
+}

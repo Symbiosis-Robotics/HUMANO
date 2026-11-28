@@ -1,0 +1,254 @@
+{
+  "candidate_coverage": {
+    "advanced/G1WholebodyChairPushToTableTeleop.json:0": {
+      "eval": 9,
+      "train": 11
+    },
+    "advanced/G1WholebodyDollyPushToTableTeleop.json:0": {
+      "eval": 11,
+      "train": 9
+    },
+    "advanced/G1WholebodyGroundBasketToTableTeleop.json:0": {
+      "eval": 9,
+      "train": 11
+    },
+    "advanced/G1WholebodyGroundBottleToTableTeleop.json:6c44852efcfd287aaac30c01fb3dc081d01de199e5bd22606725900305fd285e": {
+      "eval": 9,
+      "train": 11
+    },
+    "advanced/G1WholebodyGroundBottleToTableTeleop.json:7bf79a48c9bb940d70cfaf9677543d562c038b3d895c4453204a54c12938644a": {
+      "eval": 8,
+      "train": 12
+    },
+    "advanced/G1WholebodyGroundBottleToTableTeleop.json:86e839e3db482c7a33dd06f523e9315a72a17c4e6798e1d62efbe72aa0c7c402": {
+      "eval": 8,
+      "train": 12
+    },
+    "advanced/G1WholebodyGroundBoxToTableTeleop.json:0": {
+      "eval": 9,
+      "train": 11
+    },
+    "advanced/G1WholebodyTableAppleToBasketTeleop.json:0": {
+      "eval": 8,
+      "train": 12
+    },
+    "advanced/G1WholebodyTableBookToShelfTeleop.json:0": {
+      "eval": 8,
+      "train": 12
+    },
+    "advanced/G1WholebodyTableBreadToTrayTeleop.json:0": {
+      "eval": 9,
+      "train": 11
+    },
+    "advanced/G1WholebodyTableEraserOutOfPenHolderTeleop.json:0": {
+      "eval": 9,
+      "train": 11
+    },
+    "advanced/G1WholebodyTableMilkToTrashCanTeleop.json:0": {
+      "eval": 9,
+      "train": 11
+    },
+    "advanced/G1WholebodyTablePlateToShelfTeleop.json:0": {
+      "eval": 11,
+      "train": 9
+    },
+    "basic/G1WholebodyBallKickTeleop.json:0": {
+      "eval": 8,
+      "train": 12
+    },
+    "basic/G1WholebodyChairPushTeleop.json:0": {
+      "eval": 8,
+      "train": 12
+    },
+    "basic/G1WholebodyChairSitTeleop.json:0": {
+      "eval": 9,
+      "train": 11
+    },
+    "basic/G1WholebodyDollyPushTeleop.json:0": {
+      "eval": 11,
+      "train": 9
+    },
+    "basic/G1WholebodyDrawerOpenTeleop.json:0": {
+      "eval": 8,
+      "train": 12
+    },
+    "basic/G1WholebodyGroundBasketPickTeleop.json:0": {
+      "eval": 10,
+      "train": 10
+    },
+    "basic/G1WholebodyGroundBottlePickTeleop.json:0": {
+      "eval": 8,
+      "train": 12
+    },
+    "basic/G1WholebodyGroundBoxPickTeleop.json:0": {
+      "eval": 10,
+      "train": 10
+    },
+    "basic/G1WholebodyTableApplePickTeleop.json:0": {
+      "eval": 8,
+      "train": 11
+    },
+    "basic/G1WholebodyTableBookPickTeleop.json:0": {
+      "eval": 9,
+      "train": 11
+    },
+    "basic/G1WholebodyTableButtonPressTeleop.json:0": {
+      "eval": 8,
+      "train": 12
+    },
+    "basic/G1WholebodyTablePlatePickTeleop.json:0": {
+      "eval": 9,
+      "train": 11
+    }
+  },
+  "content_hash": "b23492f8993d1270544d608aca55540f2c56c09d9fc0ec1acf9896144b1e0eb7",
+  "eval_floor_plans": [
+    "FloorPlan6",
+    "FloorPlan13",
+    "FloorPlan14",
+    "FloorPlan15",
+    "FloorPlan16",
+    "FloorPlan20",
+    "FloorPlan21",
+    "FloorPlan27",
+    "FloorPlan28",
+    "FloorPlan201",
+    "FloorPlan211",
+    "FloorPlan214",
+    "FloorPlan216",
+    "FloorPlan217",
+    "FloorPlan219",
+    "FloorPlan220",
+    "FloorPlan225",
+    "FloorPlan229",
+    "FloorPlan302",
+    "FloorPlan305",
+    "FloorPlan309",
+    "FloorPlan311",
+    "FloorPlan314",
+    "FloorPlan317",
+    "FloorPlan318",
+    "FloorPlan319",
+    "FloorPlan322",
+    "FloorPlan327",
+    "FloorPlan401",
+    "FloorPlan403",
+    "FloorPlan406",
+    "FloorPlan410",
+    "FloorPlan415",
+    "FloorPlan417",
+    "FloorPlan430"
+  ],
+  "excluded_floor_plans": [
+    "FloorPlan11",
+    "FloorPlan218",
+    "FloorPlan323"
+  ],
+  "existing_training_successes": {
+    "retained_in_train_split": 452,
+    "total": 668
+  },
+  "minimum_candidate_coverage": {
+    "eval": 8,
+    "required": 5,
+    "train": 9
+  },
+  "room_type_counts": {
+    "bathroom": {
+      "eval": 7,
+      "excluded": 0,
+      "source": 21,
+      "train": 14
+    },
+    "bedroom": {
+      "eval": 10,
+      "excluded": 1,
+      "source": 29,
+      "train": 18
+    },
+    "kitchen": {
+      "eval": 9,
+      "excluded": 1,
+      "source": 26,
+      "train": 16
+    },
+    "living_room": {
+      "eval": 9,
+      "excluded": 1,
+      "source": 27,
+      "train": 17
+    }
+  },
+  "scene_index_sha256": "b7ea4ec35e85ae6ba3a6c6ec4915bbac79fea3c90c6e42e13335a2ad4ee3e2ce",
+  "schema": "humano.global-floorplan-split-100.v1",
+  "seed": 112233,
+  "selected_floor_plan_count": 100,
+  "source_floor_plan_count": 103,
+  "train_floor_plans": [
+    "FloorPlan1",
+    "FloorPlan2",
+    "FloorPlan5",
+    "FloorPlan7",
+    "FloorPlan8",
+    "FloorPlan9",
+    "FloorPlan10",
+    "FloorPlan12",
+    "FloorPlan17",
+    "FloorPlan19",
+    "FloorPlan22",
+    "FloorPlan24",
+    "FloorPlan25",
+    "FloorPlan26",
+    "FloorPlan29",
+    "FloorPlan30",
+    "FloorPlan202",
+    "FloorPlan203",
+    "FloorPlan206",
+    "FloorPlan207",
+    "FloorPlan208",
+    "FloorPlan209",
+    "FloorPlan212",
+    "FloorPlan213",
+    "FloorPlan215",
+    "FloorPlan221",
+    "FloorPlan222",
+    "FloorPlan223",
+    "FloorPlan224",
+    "FloorPlan226",
+    "FloorPlan227",
+    "FloorPlan228",
+    "FloorPlan230",
+    "FloorPlan301",
+    "FloorPlan303",
+    "FloorPlan304",
+    "FloorPlan306",
+    "FloorPlan307",
+    "FloorPlan308",
+    "FloorPlan310",
+    "FloorPlan313",
+    "FloorPlan315",
+    "FloorPlan316",
+    "FloorPlan320",
+    "FloorPlan321",
+    "FloorPlan324",
+    "FloorPlan325",
+    "FloorPlan326",
+    "FloorPlan328",
+    "FloorPlan329",
+    "FloorPlan330",
+    "FloorPlan402",
+    "FloorPlan404",
+    "FloorPlan405",
+    "FloorPlan407",
+    "FloorPlan408",
+    "FloorPlan409",
+    "FloorPlan413",
+    "FloorPlan414",
+    "FloorPlan416",
+    "FloorPlan419",
+    "FloorPlan420",
+    "FloorPlan422",
+    "FloorPlan423",
+    "FloorPlan429"
+  ]
+}

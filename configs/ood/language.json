@@ -1,0 +1,541 @@
+{
+  "status": "implementation_default_adjustable",
+  "training_text_source": "task.class.description",
+  "test_count_per_task": 3,
+  "rules": "docs/data_collection.md#\u4efb\u52a1\u6587\u672c\u63cf\u8ff0\u751f\u6210\u89c4\u5219",
+  "tasks": [
+    {
+      "task": "G1WholebodyChairPushToTableTeleop",
+      "native_description": "A task where the G1 robot must push a movable chair forward until it is close to the front edge of a high table.",
+      "class_source": "src/humano/tasks/advanced/g1_wholebody_chair_push_to_table_teleop.py",
+      "class_line": 26,
+      "test_instructions": [
+        "The robot pushes the movable chair forward until it is positioned upright in front of the high table.",
+        "A movable chair stands away from the high table, and the robot pushes it into position at the table front without tipping it over.",
+        "Push the movable chair forward until it is close to the front edge of the high table."
+      ],
+      "test_sources": [
+        "old_rule_action",
+        "old_rule_scene",
+        "native_equivalent_rewrite"
+      ],
+      "reuse_note": "\u590d\u7528\u5df2\u6709\u4e24\u6761\uff1b\u624b\u90e8/\u521d\u6001\u7ec6\u8282\u9700\u5bf9\u7167\u5f53\u524d\u6570\u636e\u786e\u8ba4\u3002",
+      "current_training_texts": [
+        "push the chair to the front of the table"
+      ],
+      "already_in_current_training": [],
+      "previous_instructions": [
+        "The robot pushes the movable chair forward until it is positioned upright in front of the high table.",
+        "A movable chair stands away from the high table, and the robot pushes it into position at the table front without tipping it over."
+      ]
+    },
+    {
+      "task": "G1WholebodyDollyPushToTableTeleop",
+      "native_description": "A task where the G1 robot must push a dolly forward until most of the dolly footprint is under a high table.",
+      "class_source": "src/humano/tasks/advanced/g1_wholebody_dolly_push_to_table_teleop.py",
+      "class_line": 28,
+      "test_instructions": [
+        "The robot pushes the dolly forward until most of its footprint is beneath the high table.",
+        "A dolly faces a high table; the robot pushes it forward until most of its footprint is under the table.",
+        "Move the dolly forward by pushing it until the high table covers most of its footprint."
+      ],
+      "test_sources": [
+        "old_rule_action",
+        "old_rule_scene",
+        "native_equivalent_rewrite"
+      ],
+      "reuse_note": "\u65e7\u6587\u672c\u53ea\u5199\u684c\u524d\uff0c\u672c\u8f6e\u4fee\u6b63\u4e3a\u5f53\u524d class \u548c\u6210\u529f\u6761\u4ef6\u7684\u684c\u4e0b\u7ec8\u6001\u3002",
+      "current_training_texts": [
+        "push the dolly to the front of the table"
+      ],
+      "already_in_current_training": [],
+      "previous_instructions": [
+        "The robot pushes the dolly forward until it is positioned at the front edge of the high table.",
+        "A dolly starts on the floor facing a high table, and the robot moves it forward into position at the table front."
+      ]
+    },
+    {
+      "task": "G1WholebodyGroundBasketToTableTeleop",
+      "native_description": "A task where the G1 robot must pick up a basket on the ground and place it on a low table.",
+      "class_source": "src/humano/tasks/advanced/g1_wholebody_ground_to_table_teleop.py",
+      "class_line": 276,
+      "test_instructions": [
+        "The robot uses its right hand to lift the basket from the ground and place it securely on the low table.",
+        "A basket rests on the floor beside a low table, and the robot picks it up and sets it on the tabletop with its right hand.",
+        "Pick up the basket from the ground and set it on the low table."
+      ],
+      "test_sources": [
+        "old_rule_action",
+        "old_rule_scene",
+        "native_equivalent_rewrite"
+      ],
+      "reuse_note": "\u590d\u7528\u5df2\u6709\u4e24\u6761\uff1b\u624b\u90e8/\u521d\u6001\u7ec6\u8282\u9700\u5bf9\u7167\u5f53\u524d\u6570\u636e\u786e\u8ba4\u3002",
+      "current_training_texts": [
+        "pick up the basket on the ground and place it on the low table"
+      ],
+      "already_in_current_training": [],
+      "previous_instructions": [
+        "The robot uses its right hand to lift the basket from the ground and place it securely on the low table.",
+        "A basket rests on the floor beside a low table, and the robot picks it up and sets it on the tabletop with its right hand."
+      ]
+    },
+    {
+      "task": "G1WholebodyGroundBottleToTableTeleop",
+      "native_description": "A task where the G1 robot must pick up a bottle on the ground and place it on a high table.",
+      "class_source": "src/humano/tasks/advanced/g1_wholebody_ground_to_table_teleop.py",
+      "class_line": 245,
+      "test_instructions": [
+        "The robot uses its right hand to pick up the bottle from the ground and place it securely on the high table.",
+        "A bottle rests on the floor beside a high table, and the robot picks it up and sets it on the tabletop with its right hand.",
+        "Lift the bottle from the ground and place it on the high table."
+      ],
+      "test_sources": [
+        "old_rule_action",
+        "old_rule_scene",
+        "native_equivalent_rewrite"
+      ],
+      "reuse_note": "\u590d\u7528\u5df2\u6709\u4e24\u6761\uff1b\u624b\u90e8/\u521d\u6001\u7ec6\u8282\u9700\u5bf9\u7167\u5f53\u524d\u6570\u636e\u786e\u8ba4\u3002",
+      "current_training_texts": [
+        "pick up the bottle on the ground and place it on the table"
+      ],
+      "already_in_current_training": [],
+      "previous_instructions": [
+        "The robot uses its right hand to pick up the bottle from the ground and place it securely on the high table.",
+        "A bottle rests on the floor beside a high table, and the robot picks it up and sets it on the tabletop with its right hand."
+      ]
+    },
+    {
+      "task": "G1WholebodyGroundBoxToTableTeleop",
+      "native_description": "A task where the G1 robot must pick up a box on the ground and place it on a low table.",
+      "class_source": "src/humano/tasks/advanced/g1_wholebody_ground_to_table_teleop.py",
+      "class_line": 260,
+      "test_instructions": [
+        "The robot reaches down to the box on the ground, lifts it, and places it securely on the low table.",
+        "A box rests on the floor beside a low table, and the robot picks it up before setting it on the tabletop.",
+        "Pick up the box from the ground and put it on the low table."
+      ],
+      "test_sources": [
+        "old_rule_action",
+        "old_rule_scene",
+        "native_equivalent_rewrite"
+      ],
+      "reuse_note": "\u590d\u7528\u5df2\u6709\u4e24\u6761\uff1b\u624b\u90e8/\u521d\u6001\u7ec6\u8282\u9700\u5bf9\u7167\u5f53\u524d\u6570\u636e\u786e\u8ba4\u3002",
+      "current_training_texts": [
+        "pick up the box on the ground and place it on the low table"
+      ],
+      "already_in_current_training": [],
+      "previous_instructions": [
+        "The robot reaches down to the box on the ground, lifts it, and places it securely on the low table.",
+        "A box rests on the floor beside a low table, and the robot picks it up before setting it on the tabletop."
+      ]
+    },
+    {
+      "task": "G1WholebodyTableAppleToBasketTeleop",
+      "native_description": "A task where the G1 robot must pick up an apple on a low table and place it in a basket on the same low table.",
+      "class_source": "src/humano/tasks/advanced/g1_wholebody_table_apple_to_basket_teleop.py",
+      "class_line": 38,
+      "test_instructions": [
+        "The robot uses its right hand to pick up the apple from the low table and place it inside the basket.",
+        "An apple and a basket rest on the low table, and the robot moves the apple into the basket with its right hand.",
+        "Pick up the apple from the low table and put it in the basket on that table."
+      ],
+      "test_sources": [
+        "old_rule_action",
+        "old_rule_scene",
+        "native_equivalent_rewrite"
+      ],
+      "reuse_note": "\u590d\u7528\u5df2\u6709\u4e24\u6761\uff1b\u624b\u90e8/\u521d\u6001\u7ec6\u8282\u9700\u5bf9\u7167\u5f53\u524d\u6570\u636e\u786e\u8ba4\u3002",
+      "current_training_texts": [
+        "pick up the apple on the low table and place it in the basket"
+      ],
+      "already_in_current_training": [],
+      "previous_instructions": [
+        "The robot uses its right hand to pick up the apple from the low table and place it inside the basket.",
+        "An apple and a basket rest on the low table, and the robot moves the apple into the basket with its right hand."
+      ]
+    },
+    {
+      "task": "G1WholebodyTableBreadToTrayTeleop",
+      "native_description": "A task where the G1 robot must pick up bread on a high table and place it in a tray on the same high table.",
+      "class_source": "src/humano/tasks/advanced/g1_wholebody_table_bread_to_tray_teleop.py",
+      "class_line": 35,
+      "test_instructions": [
+        "The robot picks up the bread from the high table and places it fully inside the tray on the same tabletop.",
+        "Bread and a tray rest on the high table, and the robot moves the bread from the tabletop into the tray.",
+        "Lift the bread from the high table and place it in the tray on the same table."
+      ],
+      "test_sources": [
+        "old_rule_action",
+        "old_rule_scene",
+        "native_equivalent_rewrite"
+      ],
+      "reuse_note": "\u590d\u7528\u5df2\u6709\u4e24\u6761\uff1b\u624b\u90e8/\u521d\u6001\u7ec6\u8282\u9700\u5bf9\u7167\u5f53\u524d\u6570\u636e\u786e\u8ba4\u3002",
+      "current_training_texts": [
+        "pick up the bread on the high table and place it in the tray"
+      ],
+      "already_in_current_training": [],
+      "previous_instructions": [
+        "The robot picks up the bread from the high table and places it fully inside the tray on the same tabletop.",
+        "Bread and a tray rest on the high table, and the robot moves the bread from the tabletop into the tray."
+      ]
+    },
+    {
+      "task": "G1WholebodyTableEraserOutOfPenHolderTeleop",
+      "native_description": "A task where the G1 robot must tip a pen holder on a high table so that the eraser falls out onto the table.",
+      "class_source": "src/humano/tasks/advanced/g1_wholebody_table_eraser_out_of_pen_holder_teleop.py",
+      "class_line": 41,
+      "test_instructions": [
+        "The robot tips the pen holder on the high table until the eraser falls out onto the tabletop.",
+        "A pen holder containing an eraser sits on the high table, and the robot empties the eraser from the holder onto the tabletop.",
+        "Tip the pen holder on the high table so that the eraser falls onto the tabletop."
+      ],
+      "test_sources": [
+        "old_rule_action",
+        "old_rule_scene",
+        "native_equivalent_rewrite"
+      ],
+      "reuse_note": "\u590d\u7528\u5df2\u6709\u4e24\u6761\uff1b\u624b\u90e8/\u521d\u6001\u7ec6\u8282\u9700\u5bf9\u7167\u5f53\u524d\u6570\u636e\u786e\u8ba4\u3002",
+      "current_training_texts": [
+        "tip the pen holder and pour the eraser onto the table"
+      ],
+      "already_in_current_training": [],
+      "previous_instructions": [
+        "The robot tips the pen holder on the high table until the eraser falls out onto the tabletop.",
+        "A pen holder containing an eraser sits on the high table, and the robot empties the eraser from the holder onto the tabletop."
+      ]
+    },
+    {
+      "task": "G1WholebodyTableMilkToTrashCanTeleop",
+      "native_description": "A task where the G1 robot must pick up a milk carton on a high table and place it in a trash can on the ground.",
+      "class_source": "src/humano/tasks/advanced/g1_wholebody_table_milk_to_trash_can_teleop.py",
+      "class_line": 36,
+      "test_instructions": [
+        "The robot picks up the milk carton from the high table and places it in the trash can on the ground.",
+        "A milk carton rests on the high table; the robot picks it up and places it in the trash can on the ground.",
+        "Pick up the milk carton from the high table and put it in the trash can on the ground."
+      ],
+      "test_sources": [
+        "old_rule_action",
+        "old_rule_scene",
+        "native_equivalent_rewrite"
+      ],
+      "reuse_note": "\u672a\u5728\u5df2\u627e\u5230\u7684\u65e7\u6e05\u5355\u4e2d\u53d1\u73b0\uff1b\u672c\u8f6e\u6309\u65e2\u5b9a\u4e24\u6761\u89c4\u5219\u8865\u9f50\uff0c\u5f85\u5ba1\u6838\u3002",
+      "current_training_texts": [
+        "pick up the milk carton on the high table and place it in the trash can"
+      ],
+      "already_in_current_training": [],
+      "previous_instructions": null
+    },
+    {
+      "task": "G1WholebodyTablePlateToShelfTeleop",
+      "native_description": "A task where the G1 robot must pick up a plate on a high table and place it in a shelf standing next to the table.",
+      "class_source": "src/humano/tasks/advanced/g1_wholebody_table_plate_to_shelf_teleop.py",
+      "class_line": 47,
+      "test_instructions": [
+        "The robot uses both hands to lift the plate from the high table and place it inside the shelf beside the table.",
+        "A plate rests on the high table beside a shelf, and the robot picks it up with both hands before placing it in the shelf.",
+        "Lift the plate from the high table and place it in the shelf next to the table."
+      ],
+      "test_sources": [
+        "old_rule_action",
+        "old_rule_scene",
+        "native_equivalent_rewrite"
+      ],
+      "reuse_note": "\u590d\u7528\u5df2\u6709\u4e24\u6761\uff1b\u624b\u90e8/\u521d\u6001\u7ec6\u8282\u9700\u5bf9\u7167\u5f53\u524d\u6570\u636e\u786e\u8ba4\u3002",
+      "current_training_texts": [
+        "pick up the plate on the high table and place it in the shelf"
+      ],
+      "already_in_current_training": [],
+      "previous_instructions": [
+        "The robot uses both hands to lift the plate from the high table and place it inside the shelf beside the table.",
+        "A plate rests on the high table beside a shelf, and the robot picks it up with both hands before placing it in the shelf."
+      ]
+    },
+    {
+      "task": "G1WholebodyBallKickTeleop",
+      "native_description": "A task where the G1 robot must kick a ball on the ground.",
+      "class_source": "src/humano/tasks/basic/g1_wholebody_ball_kick_teleop.py",
+      "class_line": 24,
+      "test_instructions": [
+        "The robot moves toward the football on the ground and kicks it forward with one foot.",
+        "A football rests on the floor ahead of the robot, which approaches the ball and kicks it straight forward.",
+        "Kick the ball that is on the ground."
+      ],
+      "test_sources": [
+        "old_rule_action",
+        "old_rule_scene",
+        "native_equivalent_rewrite"
+      ],
+      "reuse_note": "\u590d\u7528\u5df2\u6709\u4e24\u6761\uff1b\u65e7\u6587\u672c football \u4e0e\u539f\u751f ball \u7684\u5bf9\u8c61\u540d\u79f0\u9700\u7edf\u4e00\u6838\u67e5\uff0cforward/straight \u7b49\u989d\u5916\u7ea6\u675f\u4e5f\u9700\u786e\u8ba4\u3002",
+      "current_training_texts": [
+        "The robot moves toward the football on the ground and kicks it forward with one foot.",
+        "A football rests on the floor ahead of the robot, which approaches the ball and kicks it straight forward."
+      ],
+      "already_in_current_training": [
+        "A football rests on the floor ahead of the robot, which approaches the ball and kicks it straight forward.",
+        "The robot moves toward the football on the ground and kicks it forward with one foot."
+      ],
+      "previous_instructions": [
+        "The robot moves toward the football on the ground and kicks it forward with one foot.",
+        "A football rests on the floor ahead of the robot, which approaches the ball and kicks it straight forward."
+      ]
+    },
+    {
+      "task": "G1WholebodyChairPushTeleop",
+      "native_description": "A task where the G1 robot must push a movable chair.",
+      "class_source": "src/humano/tasks/basic/g1_wholebody_chair_push_teleop.py",
+      "class_line": 45,
+      "test_instructions": [
+        "The robot walks to the movable chair and pushes it straight forward while keeping the chair upright.",
+        "A movable chair stands ahead of the robot, which approaches it and pushes the chair forward without tipping it over.",
+        "Push the movable chair."
+      ],
+      "test_sources": [
+        "old_rule_action",
+        "old_rule_scene",
+        "native_equivalent_rewrite"
+      ],
+      "reuse_note": "\u590d\u7528\u5df2\u6709\u4e24\u6761\uff1b\u624b\u90e8/\u521d\u6001\u7ec6\u8282\u9700\u5bf9\u7167\u5f53\u524d\u6570\u636e\u786e\u8ba4\u3002",
+      "current_training_texts": [
+        "The robot walks to the movable chair and pushes it straight forward while keeping the chair upright.",
+        "A movable chair stands ahead of the robot, which approaches it and pushes the chair forward without tipping it over."
+      ],
+      "already_in_current_training": [
+        "A movable chair stands ahead of the robot, which approaches it and pushes the chair forward without tipping it over.",
+        "The robot walks to the movable chair and pushes it straight forward while keeping the chair upright."
+      ],
+      "previous_instructions": [
+        "The robot walks to the movable chair and pushes it straight forward while keeping the chair upright.",
+        "A movable chair stands ahead of the robot, which approaches it and pushes the chair forward without tipping it over."
+      ]
+    },
+    {
+      "task": "G1WholebodyChairSitTeleop",
+      "native_description": "A task where the G1 robot must sit on a stable movable chair.",
+      "class_source": "src/humano/tasks/basic/g1_wholebody_chair_sit_teleop.py",
+      "class_line": 26,
+      "test_instructions": [
+        "The robot walks to the chair, turns into position, and lowers its body until it is seated stably on the chair.",
+        "A stable chair is positioned ahead of the robot, which approaches it and sits down securely on the seat.",
+        "Sit on the stable movable chair."
+      ],
+      "test_sources": [
+        "old_rule_action",
+        "old_rule_scene",
+        "native_equivalent_rewrite"
+      ],
+      "reuse_note": "\u590d\u7528\u5df2\u6709\u4e24\u6761\uff1b\u624b\u90e8/\u521d\u6001\u7ec6\u8282\u9700\u5bf9\u7167\u5f53\u524d\u6570\u636e\u786e\u8ba4\u3002",
+      "current_training_texts": [
+        "A stable chair is positioned ahead of the robot, which approaches it and sits down securely on the seat.",
+        "The robot walks to the chair, turns into position, and lowers its body until it is seated stably on the chair."
+      ],
+      "already_in_current_training": [
+        "A stable chair is positioned ahead of the robot, which approaches it and sits down securely on the seat.",
+        "The robot walks to the chair, turns into position, and lowers its body until it is seated stably on the chair."
+      ],
+      "previous_instructions": [
+        "The robot walks to the chair, turns into position, and lowers its body until it is seated stably on the chair.",
+        "A stable chair is positioned ahead of the robot, which approaches it and sits down securely on the seat."
+      ]
+    },
+    {
+      "task": "G1WholebodyDollyPushTeleop",
+      "native_description": "A task where the G1 robot must push a dolly forward.",
+      "class_source": "src/humano/tasks/basic/g1_wholebody_dolly_push_teleop.py",
+      "class_line": 66,
+      "test_instructions": [
+        "The robot walks to the dolly, grips it securely, and pushes the dolly straight forward across the floor.",
+        "A dolly stands in front of the robot, which approaches it and moves it forward by pushing it.",
+        "Push the dolly forward."
+      ],
+      "test_sources": [
+        "old_rule_action",
+        "old_rule_scene",
+        "native_equivalent_rewrite"
+      ],
+      "reuse_note": "\u590d\u7528\u5df2\u6709\u4e24\u6761\uff1b\u624b\u90e8/\u521d\u6001\u7ec6\u8282\u9700\u5bf9\u7167\u5f53\u524d\u6570\u636e\u786e\u8ba4\u3002",
+      "current_training_texts": [
+        "The robot walks to the dolly, grips it securely, and pushes the dolly straight forward across the floor.",
+        "A dolly stands in front of the robot, which approaches it and moves it forward by pushing it."
+      ],
+      "already_in_current_training": [
+        "A dolly stands in front of the robot, which approaches it and moves it forward by pushing it.",
+        "The robot walks to the dolly, grips it securely, and pushes the dolly straight forward across the floor."
+      ],
+      "previous_instructions": [
+        "The robot walks to the dolly, grips it securely, and pushes the dolly straight forward across the floor.",
+        "A dolly stands in front of the robot, which approaches it and moves it forward by pushing it."
+      ]
+    },
+    {
+      "task": "G1WholebodyGroundBasketPickTeleop",
+      "native_description": "A task where the G1 robot must pick up a basket on the ground.",
+      "class_source": "src/humano/tasks/basic/g1_wholebody_ground_basket_pick_teleop.py",
+      "class_line": 22,
+      "test_instructions": [
+        "The robot reaches for the basket, grasps it securely, and lifts it clear of its supporting surface.",
+        "A basket is within reach of the robot, which grasps and picks it up securely.",
+        "Pick up the basket that is on the ground."
+      ],
+      "test_sources": [
+        "old_rule_action",
+        "old_rule_scene",
+        "native_equivalent_rewrite"
+      ],
+      "reuse_note": "\u590d\u7528\u5df2\u6709\u4e24\u6761\uff1b\u624b\u90e8/\u521d\u6001\u7ec6\u8282\u9700\u5bf9\u7167\u5f53\u524d\u6570\u636e\u786e\u8ba4\u3002",
+      "current_training_texts": [
+        "The robot reaches for the basket, grasps it securely, and lifts it clear of its supporting surface.",
+        "A basket is within reach of the robot, which grasps and picks it up securely."
+      ],
+      "already_in_current_training": [
+        "A basket is within reach of the robot, which grasps and picks it up securely.",
+        "The robot reaches for the basket, grasps it securely, and lifts it clear of its supporting surface."
+      ],
+      "previous_instructions": [
+        "The robot reaches for the basket, grasps it securely, and lifts it clear of its supporting surface.",
+        "A basket is within reach of the robot, which grasps and picks it up securely."
+      ]
+    },
+    {
+      "task": "G1WholebodyGroundBottlePickTeleop",
+      "native_description": "A task where the G1 robot must pick up a bottle on the ground.",
+      "class_source": "src/humano/tasks/basic/g1_wholebody_ground_bottle_pick_teleop.py",
+      "class_line": 18,
+      "test_instructions": [
+        "The robot reaches for the bottle, grasps it with its right hand, and lifts it securely.",
+        "A bottle is within reach of the robot, which picks it up and holds it securely with its right hand.",
+        "Pick up the bottle from the ground."
+      ],
+      "test_sources": [
+        "old_rule_action",
+        "old_rule_scene",
+        "native_equivalent_rewrite"
+      ],
+      "reuse_note": "\u590d\u7528\u5df2\u6709\u4e24\u6761\uff1b\u624b\u90e8/\u521d\u6001\u7ec6\u8282\u9700\u5bf9\u7167\u5f53\u524d\u6570\u636e\u786e\u8ba4\u3002",
+      "current_training_texts": [
+        "A bottle is within reach of the robot, which picks it up and holds it securely with its right hand.",
+        "The robot reaches for the bottle, grasps it with its right hand, and lifts it securely."
+      ],
+      "already_in_current_training": [
+        "A bottle is within reach of the robot, which picks it up and holds it securely with its right hand.",
+        "The robot reaches for the bottle, grasps it with its right hand, and lifts it securely."
+      ],
+      "previous_instructions": [
+        "The robot reaches for the bottle, grasps it with its right hand, and lifts it securely.",
+        "A bottle is within reach of the robot, which picks it up and holds it securely with its right hand."
+      ]
+    },
+    {
+      "task": "G1WholebodyGroundBoxPickTeleop",
+      "native_description": "A task where the G1 robot must pick up a box on the ground.",
+      "class_source": "src/humano/tasks/basic/g1_wholebody_ground_box_pick_teleop.py",
+      "class_line": 18,
+      "test_instructions": [
+        "The robot reaches for the box, grasps it securely, and lifts it clear of its supporting surface.",
+        "A box is within reach of the robot, which grasps and picks it up securely.",
+        "Pick up the box that is on the ground."
+      ],
+      "test_sources": [
+        "old_rule_action",
+        "old_rule_scene",
+        "native_equivalent_rewrite"
+      ],
+      "reuse_note": "\u590d\u7528\u5df2\u6709\u4e24\u6761\uff1b\u624b\u90e8/\u521d\u6001\u7ec6\u8282\u9700\u5bf9\u7167\u5f53\u524d\u6570\u636e\u786e\u8ba4\u3002",
+      "current_training_texts": [
+        "The robot reaches for the box, grasps it securely, and lifts it clear of its supporting surface.",
+        "A box is within reach of the robot, which grasps and picks it up securely."
+      ],
+      "already_in_current_training": [
+        "A box is within reach of the robot, which grasps and picks it up securely.",
+        "The robot reaches for the box, grasps it securely, and lifts it clear of its supporting surface."
+      ],
+      "previous_instructions": [
+        "The robot reaches for the box, grasps it securely, and lifts it clear of its supporting surface.",
+        "A box is within reach of the robot, which grasps and picks it up securely."
+      ]
+    },
+    {
+      "task": "G1WholebodyTableApplePickTeleop",
+      "native_description": "A task where the G1 robot must move forward to pick up an apple on the table.",
+      "class_source": "src/humano/tasks/basic/g1_wholebody_table_apple_pick_teleop.py",
+      "class_line": 22,
+      "test_instructions": [
+        "The robot approaches the high table, grasps the apple resting on the tabletop, and lifts it clear of the surface.",
+        "An apple rests on the high table in front of the robot, which moves closer and picks the apple up.",
+        "Move forward to the table and pick up the apple."
+      ],
+      "test_sources": [
+        "old_rule_action",
+        "old_rule_scene",
+        "native_equivalent_rewrite"
+      ],
+      "reuse_note": "\u590d\u7528\u5df2\u6709\u4e24\u6761\uff1b\u624b\u90e8/\u521d\u6001\u7ec6\u8282\u9700\u5bf9\u7167\u5f53\u524d\u6570\u636e\u786e\u8ba4\u3002",
+      "current_training_texts": [
+        "The robot approaches the high table, grasps the apple resting on the tabletop, and lifts it clear of the surface.",
+        "An apple rests on the high table in front of the robot, which moves closer and picks the apple up."
+      ],
+      "already_in_current_training": [
+        "An apple rests on the high table in front of the robot, which moves closer and picks the apple up.",
+        "The robot approaches the high table, grasps the apple resting on the tabletop, and lifts it clear of the surface."
+      ],
+      "previous_instructions": [
+        "The robot approaches the high table, grasps the apple resting on the tabletop, and lifts it clear of the surface.",
+        "An apple rests on the high table in front of the robot, which moves closer and picks the apple up."
+      ]
+    },
+    {
+      "task": "G1WholebodyTableButtonPressTeleop",
+      "native_description": "A task where the G1 robot must press a button on the table.",
+      "class_source": "src/humano/tasks/basic/g1_wholebody_table_button_press_teleop.py",
+      "class_line": 90,
+      "test_instructions": [
+        "The robot moves forward to the table and presses the button on the tabletop.",
+        "A button sits on the table in front of the robot, which approaches it and pushes the button down.",
+        "Approach the table and press the button."
+      ],
+      "test_sources": [
+        "old_rule_action",
+        "old_rule_scene",
+        "native_equivalent_rewrite"
+      ],
+      "reuse_note": "Replaces the stale TableBookPick entry with the current Spatial S-9 task.",
+      "current_training_texts": [
+        "move forward to the table and press the button"
+      ],
+      "already_in_current_training": [],
+      "previous_instructions": [
+        "The robot moves forward to the table and presses the button on the tabletop.",
+        "A button sits on the table in front of the robot, which approaches it and pushes the button down."
+      ]
+    },
+    {
+      "task": "G1WholebodyTablePlatePickTeleop",
+      "native_description": "A task where the G1 robot must move forward to pick up a large plate on the table with both hands.",
+      "class_source": "src/humano/tasks/basic/g1_wholebody_table_plate_pick_teleop.py",
+      "class_line": 25,
+      "test_instructions": [
+        "The robot approaches the high table and uses both hands to grasp the large plate and lift it from the tabletop.",
+        "A large plate rests on the high tabletop, and the robot moves closer before picking it up securely with both hands.",
+        "Move forward to the table and pick up the large plate using both hands."
+      ],
+      "test_sources": [
+        "old_rule_action",
+        "old_rule_scene",
+        "native_equivalent_rewrite"
+      ],
+      "reuse_note": "\u590d\u7528\u5df2\u6709\u4e24\u6761\uff1b\u624b\u90e8/\u521d\u6001\u7ec6\u8282\u9700\u5bf9\u7167\u5f53\u524d\u6570\u636e\u786e\u8ba4\u3002",
+      "current_training_texts": [
+        "A large plate rests on the high tabletop, and the robot moves closer before picking it up securely with both hands.",
+        "The robot approaches the high table and uses both hands to grasp the large plate and lift it from the tabletop."
+      ],
+      "already_in_current_training": [
+        "A large plate rests on the high tabletop, and the robot moves closer before picking it up securely with both hands.",
+        "The robot approaches the high table and uses both hands to grasp the large plate and lift it from the tabletop."
+      ],
+      "previous_instructions": [
+        "The robot approaches the high table and uses both hands to grasp the large plate and lift it from the tabletop.",
+        "A large plate rests on the high tabletop, and the robot moves closer before picking it up securely with both hands."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,428 @@
+{
+  "schema": "humano.task-scene-room-types.v1",
+  "excluded_room_types": [
+    "bathroom"
+  ],
+  "tasks": {
+    "G1WholebodyBallKickTeleop": {
+      "suite": "basic",
+      "primary": "living_room",
+      "fallback": [],
+      "reason": "足球和大范围地面运动最符合客厅。"
+    },
+    "G1WholebodyChairPushTeleop": {
+      "suite": "basic",
+      "primary": "living_room",
+      "fallback": ["bedroom"],
+      "reason": "椅子常见于客厅和卧室，且任务需要连续开放地面。"
+    },
+    "G1WholebodyChairSitTeleop": {
+      "suite": "basic",
+      "primary": "living_room",
+      "fallback": ["bedroom"],
+      "reason": "坐椅子以客厅最自然，卧室可作为补充。"
+    },
+    "G1WholebodyDollyPushTeleop": {
+      "suite": "basic",
+      "primary": "living_room",
+      "fallback": ["kitchen"],
+      "reason": "推车需要较长通行空间，厨房也可解释为服务推车。"
+    },
+    "G1WholebodyGroundBasketPickTeleop": {
+      "suite": "basic",
+      "primary": "living_room",
+      "fallback": ["bedroom"],
+      "reason": "picnic basket 更适合客厅储物或卧室收纳场景。"
+    },
+    "G1WholebodyGroundBottlePickTeleop": {
+      "suite": "basic",
+      "primary": "kitchen",
+      "fallback": ["living_room"],
+      "reason": "普通瓶子优先解释为厨房或客厅的饮料瓶。"
+    },
+    "G1WholebodyGroundBoxPickTeleop": {
+      "suite": "basic",
+      "primary": "living_room",
+      "fallback": ["bedroom"],
+      "reason": "纸箱和储物箱更符合客厅与卧室。"
+    },
+    "G1WholebodyTableApplePickTeleop": {
+      "suite": "basic",
+      "primary": "kitchen",
+      "fallback": [],
+      "reason": "食物与桌面操作明确属于厨房。"
+    },
+    "G1WholebodyTableButtonPressTeleop": {
+      "suite": "basic",
+      "primary": "kitchen",
+      "fallback": ["living_room"],
+      "reason": "可解释为厨房电器按钮，客厅桌面设备作为补充。"
+    },
+    "G1WholebodyTablePlatePickTeleop": {
+      "suite": "basic",
+      "primary": "kitchen",
+      "fallback": ["living_room"],
+      "reason": "餐具任务优先选择厨房；客厅桌面摆放自然且保留客厅特征时可作为备选。"
+    },
+    "G1WholebodyChairPushToTableTeleop": {
+      "suite": "advanced",
+      "primary": "living_room",
+      "fallback": ["kitchen"],
+      "reason": "客厅桌椅最自然，厨房餐桌也合理。"
+    },
+    "G1WholebodyDollyPushToTableTeleop": {
+      "suite": "advanced",
+      "primary": "living_room",
+      "fallback": ["kitchen"],
+      "reason": "客厅侧重移动路径，厨房可解释为服务推车。"
+    },
+    "G1WholebodyGroundBasketToTableTeleop": {
+      "suite": "advanced",
+      "primary": "kitchen",
+      "fallback": ["living_room"],
+      "reason": "野餐篮放到桌上，厨房或餐桌语义更强。"
+    },
+    "G1WholebodyGroundBottleToTableTeleop": {
+      "suite": "advanced",
+      "primary": "kitchen",
+      "fallback": ["living_room"],
+      "reason": "饮料瓶放到桌面，厨房优先。"
+    },
+    "G1WholebodyGroundBoxToTableTeleop": {
+      "suite": "advanced",
+      "primary": "living_room",
+      "fallback": ["bedroom"],
+      "reason": "储物箱整理更符合客厅和卧室。"
+    },
+    "G1WholebodyTableAppleToBasketTeleop": {
+      "suite": "advanced",
+      "primary": "kitchen",
+      "fallback": [],
+      "reason": "食物分拣与收纳任务属于厨房。"
+    },
+    "G1WholebodyTableBookToShelfTeleop": {
+      "suite": "long",
+      "primary": "bedroom",
+      "fallback": ["living_room"],
+      "reason": "书桌到书架以卧室学习场景优先。"
+    },
+    "G1WholebodyTableBreadToTrayTeleop": {
+      "suite": "advanced",
+      "primary": "kitchen",
+      "fallback": [],
+      "reason": "面包与托盘是明确的厨房任务。"
+    },
+    "G1WholebodyTableEraserOutOfPenHolderTeleop": {
+      "suite": "advanced",
+      "primary": "bedroom",
+      "fallback": ["living_room"],
+      "reason": "缺少书房类别时，卧室书桌是最接近的代理。"
+    },
+    "G1WholebodyTableMilkToTrashCanTeleop": {
+      "suite": "advanced",
+      "primary": "kitchen",
+      "fallback": [],
+      "reason": "食品包装与厨房垃圾桶语义明确。"
+    },
+    "G1WholebodyTablePlateToShelfTeleop": {
+      "suite": "advanced",
+      "primary": "kitchen",
+      "fallback": [],
+      "reason": "盘子放入橱柜或餐具架属于厨房。"
+    },
+    "G1WholebodyTableSmallObjectPickTeleop": {
+      "suite": "object",
+      "primary": "kitchen",
+      "fallback": ["living_room"],
+      "reason": "苹果、香蕉和蛋糕的桌面抓取优先使用厨房。"
+    },
+    "G1WholebodyTableLargeObjectPickTeleop": {
+      "suite": "object",
+      "primary": "kitchen",
+      "fallback": ["living_room"],
+      "reason": "盘子和托盘的双手桌面抓取优先使用厨房。"
+    },
+    "G1WholebodyTableObjectPickTeleop": {
+      "suite": "object",
+      "primary": "living_room",
+      "fallback": ["kitchen"],
+      "reason": "混合桌面物品抓取兼容客厅和厨房。"
+    },
+    "G1WholebodyGroundSmallObjectPickTeleop": {
+      "suite": "object",
+      "primary": "living_room",
+      "fallback": ["bedroom"],
+      "reason": "地面小物体拾取适合普通起居空间。"
+    },
+    "G1WholebodyGroundLargeObjectPickTeleop": {
+      "suite": "object",
+      "primary": "living_room",
+      "fallback": ["bedroom"],
+      "reason": "地面大物体拾取需要开阔起居空间。"
+    },
+    "G1WholebodyGroundObjectPickTeleop": {
+      "suite": "object",
+      "primary": "living_room",
+      "fallback": ["bedroom"],
+      "reason": "不同抓法的地面物品任务适合起居空间。"
+    },
+    "G1WholebodyTableSmallObjectToBasketTeleop": {
+      "suite": "object",
+      "primary": "kitchen",
+      "fallback": ["living_room"],
+      "reason": "小物体放篮子适合厨房分拣场景。"
+    },
+    "G1WholebodyTableLargeObjectToCabinetTeleop": {
+      "suite": "object",
+      "primary": "kitchen",
+      "fallback": ["living_room"],
+      "reason": "将盘子或托盘放入桌面柜体优先使用厨房。"
+    },
+    "G1WholebodyTableObjectToTrashCanTeleop": {
+      "suite": "object",
+      "primary": "kitchen",
+      "fallback": [],
+      "reason": "桌面物品丢入垃圾桶属于厨房清理。"
+    },
+    "G1WholebodyFoodToTrayTeleop": {
+      "suite": "object",
+      "primary": "kitchen",
+      "fallback": [],
+      "reason": "食品放托盘属于厨房。"
+    },
+    "G1WholebodyLongTableAppleToDrawerTeleop": {
+      "suite": "long",
+      "primary": "kitchen",
+      "fallback": [],
+      "reason": "苹果放入抽屉是食品收纳操作，厨房最自然。"
+    },
+    "G1WholebodyLongTablePlateToDrawerTeleop": {
+      "suite": "long",
+      "primary": "kitchen",
+      "fallback": [],
+      "reason": "盘子放入抽屉属于餐具收纳。"
+    },
+    "G1WholebodyLongBreadCakeToTrayTeleop": {
+      "suite": "long",
+      "primary": "kitchen",
+      "fallback": [],
+      "reason": "面包和蛋糕放上托盘属于备餐操作。"
+    },
+    "G1WholebodyLongBreadToTrayAndLiftTeleop": {
+      "suite": "long",
+      "primary": "kitchen",
+      "fallback": [],
+      "reason": "面包放入托盘并端起属于备餐操作。"
+    },
+    "G1WholebodyLongCakeToPlateAndLiftTeleop": {
+      "suite": "long",
+      "primary": "kitchen",
+      "fallback": [],
+      "reason": "蛋糕放入盘子并端起属于备餐操作。"
+    },
+    "G1WholebodyLongGroundBoxToDollyAndPushTeleop": {
+      "suite": "long",
+      "primary": "living_room",
+      "fallback": ["kitchen"],
+      "reason": "箱子装上 Dolly 后推动需要开放通道；厨房服务推车场景也合理。"
+    },
+    "G1WholebodyLongChairPushAndSitTeleop": {
+      "suite": "long",
+      "primary": "living_room",
+      "fallback": ["kitchen"],
+      "reason": "推椅子并坐下适合起居区，厨房餐桌旁也可完成。"
+    },
+    "G1WholebodyLongTableFootballToGroundAndKickTeleop": {
+      "suite": "long",
+      "primary": "living_room",
+      "fallback": [],
+      "reason": "足球落地后踢球需要开阔起居空间。"
+    },
+    "G1WholebodyLongGroundBasketToTableAppleToBasketTeleop": {
+      "suite": "long",
+      "primary": "kitchen",
+      "fallback": ["living_room"],
+      "reason": "篮子上桌并收纳苹果优先对应厨房餐桌，客厅桌面也可承载。"
+    },
+    "G1WholebodyLongGroundBoxToTableBottleToBoxTeleop": {
+      "suite": "long",
+      "primary": "kitchen",
+      "fallback": ["living_room"],
+      "reason": "瓶子放进低桌箱子并举起箱子属于桌面整理，厨房优先。"
+    },
+    "G1WholebodyLongAppleBananaToBasketTeleop": {
+      "suite": "long",
+      "primary": "kitchen",
+      "fallback": [],
+      "reason": "苹果和香蕉放入篮子属于食品分拣。"
+    },
+    "G1WholebodyLongBasketAppleToTableBananaToTrashCanTeleop": {
+      "suite": "long",
+      "primary": "kitchen",
+      "fallback": [],
+      "reason": "苹果上桌并把香蕉放入垃圾桶属于食品整理。"
+    },
+    "G1WholebodyLongPeanutsFromCupToPlateTeleop": {
+      "suite": "long",
+      "primary": "kitchen",
+      "fallback": [],
+      "reason": "花生从容器倒入盘子属于食品操作。"
+    },
+    "G1WholebodyLongStorageBoxCakeToTableBreadToTrayTeleop": {
+      "suite": "long",
+      "primary": "kitchen",
+      "fallback": [],
+      "reason": "蛋糕和面包的两阶段取放属于备餐操作。"
+    },
+    "G1WholebodyLongAppleToBasketThenBasketToGroundTeleop": {
+      "suite": "long",
+      "primary": "kitchen",
+      "fallback": [],
+      "reason": "苹果入篮并搬动篮子延续苹果分拣任务的厨房房型。"
+    },
+    "G1WholebodyLongHighTableAppleToLowTableDrawerTeleop": {
+      "suite": "long",
+      "primary": "kitchen",
+      "fallback": [],
+      "reason": "高桌苹果转移到低桌抽屉属于食品收纳。"
+    },
+    "G1WholebodyLongLowTablePlateToHighTableDrawerTeleop": {
+      "suite": "long",
+      "primary": "kitchen",
+      "fallback": [],
+      "reason": "低桌盘子转移到高桌抽屉属于餐具收纳。"
+    },
+    "G1WholebodyLongMoveBoxThenChairToTableTeleop": {
+      "suite": "long",
+      "primary": "living_room",
+      "fallback": ["kitchen"],
+      "reason": "先移开箱子再推椅子到桌前需要桌椅与开放通道。"
+    },
+    "G1WholebodyLongShelfBookToTableDrawerTeleop": {
+      "suite": "long",
+      "primary": "bedroom",
+      "fallback": ["living_room"],
+      "reason": "书架取书再放入桌面抽屉优先对应卧室书桌，客厅书架也合理。"
+    },
+    "G1WholebodyGoalApplePlacementTeleop": {
+      "suite": "goal",
+      "primary": "kitchen",
+      "fallback": [],
+      "reason": "苹果可放入篮子、盒子或托盘，仍是食品收纳。"
+    },
+    "G1WholebodyGoalPlatePlacementTeleop": {
+      "suite": "goal",
+      "primary": "kitchen",
+      "fallback": [],
+      "reason": "盘子按指令放入容器或柜体属于餐具收纳。"
+    },
+    "G1WholebodyGoalBreadPlacementTeleop": {
+      "suite": "goal",
+      "primary": "kitchen",
+      "fallback": [],
+      "reason": "面包按指令放入篮子、托盘或垃圾桶属于食品操作。"
+    },
+    "G1WholebodyGoalMilkPlacementTeleop": {
+      "suite": "goal",
+      "primary": "kitchen",
+      "fallback": [],
+      "reason": "牛奶盒按指令放入容器或垃圾桶属于厨房整理。"
+    },
+    "G1WholebodyGoalObjectToBasketTeleop": {
+      "suite": "goal",
+      "primary": "kitchen",
+      "fallback": [],
+      "reason": "可选苹果、香蕉或面包放入篮子，均属食品分拣。"
+    },
+    "G1WholebodyGoalBookPlacementTeleop": {
+      "suite": "goal",
+      "primary": "bedroom",
+      "fallback": ["living_room"],
+      "reason": "书本放入书架或柜体优先对应卧室书桌，客厅书架也合理。"
+    },
+    "G1WholebodyGoalGroundBottlePlacementTeleop": {
+      "suite": "goal",
+      "primary": "kitchen",
+      "fallback": ["living_room"],
+      "reason": "地面瓶子放到桌面或柜体，厨房优先，客厅饮料场景也合理。"
+    },
+    "G1WholebodyGoalEraserPourTeleop": {
+      "suite": "goal",
+      "primary": "bedroom",
+      "fallback": ["living_room"],
+      "reason": "笔筒倒出橡皮到指定表面属于书桌文具整理。"
+    },
+    "G1WholebodyGoalStorageBoxPlacementTeleop": {
+      "suite": "goal",
+      "primary": "living_room",
+      "fallback": ["kitchen", "bedroom"],
+      "reason": "目标物可为盘子、书或瓶子；起居收纳为共通场景，厨房和卧室也分别合理。"
+    },
+    "G1WholebodyGoalFootballPlacementTeleop": {
+      "suite": "goal",
+      "primary": "living_room",
+      "fallback": [],
+      "reason": "足球放到地面或柜体需要起居空间。"
+    },
+    "G1WholebodyConditionPlateToDrawerTeleop": {
+      "suite": "condition",
+      "primary": "kitchen",
+      "fallback": [],
+      "reason": "按抽屉状态收纳盘子属于餐具整理。"
+    },
+    "G1WholebodyConditionAppleToDrawerTeleop": {
+      "suite": "condition",
+      "primary": "kitchen",
+      "fallback": [],
+      "reason": "按抽屉状态收纳苹果属于食品整理。"
+    },
+    "G1WholebodyConditionBottleToEmptyBoxTeleop": {
+      "suite": "condition",
+      "primary": "kitchen",
+      "fallback": ["living_room"],
+      "reason": "瓶子放入空收纳盒，厨房优先，客厅饮料收纳也合理。"
+    },
+    "G1WholebodyConditionAppleToFruitFreeBasketTeleop": {
+      "suite": "condition",
+      "primary": "kitchen",
+      "fallback": [],
+      "reason": "苹果放入无其他水果的篮子属于食品分拣。"
+    },
+    "G1WholebodyConditionChairToTableAndSitTeleop": {
+      "suite": "condition",
+      "primary": "living_room",
+      "fallback": ["kitchen"],
+      "reason": "根据位置推椅子到桌前并坐下，起居区优先，厨房餐桌也合理。"
+    },
+    "G1WholebodyConditionBasketToTableAppleToBasketTeleop": {
+      "suite": "condition",
+      "primary": "kitchen",
+      "fallback": ["living_room"],
+      "reason": "根据篮子位置整理苹果，厨房优先，客厅桌面也可承载。"
+    },
+    "G1WholebodyConditionPeanutsToEmptyPlateOrTrayTeleop": {
+      "suite": "condition",
+      "primary": "kitchen",
+      "fallback": [],
+      "reason": "花生倒入空盘子或托盘属于食品操作。"
+    },
+    "G1WholebodyConditionBreadToPlateOrTrayTeleop": {
+      "suite": "condition",
+      "primary": "kitchen",
+      "fallback": [],
+      "reason": "面包按容器状态放入盘子或托盘属于备餐操作。"
+    },
+    "G1WholebodyConditionClearChairAndPushDollyTeleop": {
+      "suite": "condition",
+      "primary": "living_room",
+      "fallback": ["kitchen"],
+      "reason": "Dolly 是障碍，实际动作是推椅子到桌前；起居区优先。"
+    },
+    "G1WholebodyConditionBookToOccupiedShelfLayerTeleop": {
+      "suite": "condition",
+      "primary": "bedroom",
+      "fallback": ["living_room"],
+      "reason": "根据书架占用层放书优先对应卧室书桌，客厅书架也合理。"
+    }
+  }
+}

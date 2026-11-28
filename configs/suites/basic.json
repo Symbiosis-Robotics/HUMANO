@@ -1,0 +1,49 @@
+{
+  "tasks": [
+    "G1WholebodyTableApplePickTeleop",
+    "G1WholebodyTablePlatePickTeleop",
+    "G1WholebodyChairPushTeleop",
+    "G1WholebodyDollyPushTeleop",
+    "G1WholebodyChairSitTeleop",
+    "G1WholebodyTableButtonPressTeleop",
+    "G1WholebodyGroundBottlePickTeleop",
+    "G1WholebodyGroundBoxPickTeleop",
+    "G1WholebodyBallKickTeleop",
+    "G1WholebodyGroundBasketPickTeleop"
+  ],
+  "evaluation_time_budget": {
+    "schema_version": 2,
+    "tasks": {
+      "G1WholebodyTableApplePickTeleop": {
+        "max_steps_200hz": 5640
+      },
+      "G1WholebodyTablePlatePickTeleop": {
+        "max_steps_200hz": 3680
+      },
+      "G1WholebodyChairPushTeleop": {
+        "max_steps_200hz": 2790
+      },
+      "G1WholebodyDollyPushTeleop": {
+        "max_steps_200hz": 4030
+      },
+      "G1WholebodyChairSitTeleop": {
+        "max_steps_200hz": 1790
+      },
+      "G1WholebodyTableButtonPressTeleop": {
+        "max_steps_200hz": 2160
+      },
+      "G1WholebodyGroundBottlePickTeleop": {
+        "max_steps_200hz": 4010
+      },
+      "G1WholebodyGroundBoxPickTeleop": {
+        "max_steps_200hz": 2970
+      },
+      "G1WholebodyBallKickTeleop": {
+        "max_steps_200hz": 1920
+      },
+      "G1WholebodyGroundBasketPickTeleop": {
+        "max_steps_200hz": 6980
+      }
+    }
+  }
+}

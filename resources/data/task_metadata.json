@@ -1,0 +1,2169 @@
+{
+  "source": "Task IDs and environment IDs from humano.zip/humano/script.js; task instructions from HUMANO v1.0 train episode metadata.",
+  "tasks": [
+    {
+      "id": "B-1",
+      "suite": "Basic",
+      "instruction": "move forward to the table and pick up the apple",
+      "demos": 50,
+      "environmentId": "G1WholebodyTableApplePickTeleop-v0",
+      "annotations": "Tabletop grasping",
+      "title": "Pick an apple from the table."
+    },
+    {
+      "id": "B-2",
+      "suite": "Basic",
+      "instruction": "move forward to the table and pick up the large plate with both hands",
+      "demos": 50,
+      "environmentId": "G1WholebodyTablePlatePickTeleop-v0",
+      "annotations": "Bimanual grasping",
+      "title": "Pick a plate from the table with both hands."
+    },
+    {
+      "id": "B-3",
+      "suite": "Basic",
+      "instruction": "walk to the chair and push it forward",
+      "demos": 50,
+      "environmentId": "G1WholebodyChairPushTeleop-v0",
+      "annotations": "Contact pushing",
+      "title": "Push the chair."
+    },
+    {
+      "id": "B-4",
+      "suite": "Basic",
+      "instruction": "walk to the dolly and push it forward",
+      "demos": 50,
+      "environmentId": "G1WholebodyDollyPushTeleop-v0",
+      "annotations": "Wheeled-object pushing",
+      "title": "Push the dolly."
+    },
+    {
+      "id": "B-5",
+      "suite": "Basic",
+      "instruction": "walk to the chair and sit down",
+      "demos": 50,
+      "environmentId": "G1WholebodyChairSitTeleop-v0",
+      "annotations": "Posture transition",
+      "title": "Sit on the chair."
+    },
+    {
+      "id": "B-6",
+      "suite": "Basic",
+      "instruction": "move forward to the table and press the button",
+      "demos": 50,
+      "environmentId": "G1WholebodyTableButtonPressTeleop-v0",
+      "annotations": "Button pressing",
+      "title": "Press the button on the table."
+    },
+    {
+      "id": "B-7",
+      "suite": "Basic",
+      "instruction": "pick up the bottle on the ground",
+      "demos": 50,
+      "environmentId": "G1WholebodyGroundBottlePickTeleop-v0",
+      "annotations": "Floor-level reaching",
+      "title": "Pick up the bottle from the ground."
+    },
+    {
+      "id": "B-8",
+      "suite": "Basic",
+      "instruction": "pick up the box on the ground",
+      "demos": 50,
+      "environmentId": "G1WholebodyGroundBoxPickTeleop-v0",
+      "annotations": "Floor-level lifting",
+      "title": "Pick up the box from the ground."
+    },
+    {
+      "id": "B-9",
+      "suite": "Basic",
+      "instruction": "move forward and kick the ball",
+      "demos": 50,
+      "environmentId": "G1WholebodyBallKickTeleop-v0",
+      "annotations": "Foot–object interaction",
+      "title": "Kick the ball."
+    },
+    {
+      "id": "B-10",
+      "suite": "Basic",
+      "instruction": "pick up the basket on the ground",
+      "demos": 50,
+      "environmentId": "G1WholebodyGroundBasketPickTeleop-v0",
+      "annotations": "Floor-level grasping",
+      "title": "Pick up the basket from the ground."
+    },
+    {
+      "id": "A-1",
+      "suite": "Advanced",
+      "instruction": "pick up the apple on the low table and place it in the basket",
+      "demos": 50,
+      "environmentId": "G1WholebodyTableAppleToBasketTeleop-v0",
+      "annotations": "Object–container placement",
+      "title": "Put the tabletop apple into the basket."
+    },
+    {
+      "id": "A-2",
+      "suite": "Advanced",
+      "instruction": "pick up the plate on the high table and place it in the shelf",
+      "demos": 50,
+      "environmentId": "G1WholebodyTablePlateToShelfTeleop-v0",
+      "annotations": "Shelf placement",
+      "title": "Put the tabletop plate into the shelf."
+    },
+    {
+      "id": "A-3",
+      "suite": "Advanced",
+      "instruction": "pick up the milk carton on the high table and place it in the trash can",
+      "demos": 50,
+      "environmentId": "G1WholebodyTableMilkToTrashCanTeleop-v0",
+      "annotations": "Targeted disposal",
+      "title": "Put the tabletop milk carton into the trash can."
+    },
+    {
+      "id": "A-4",
+      "suite": "Advanced",
+      "instruction": "pick up the bread on the high table and place it in the tray",
+      "demos": 50,
+      "environmentId": "G1WholebodyTableBreadToTrayTeleop-v0",
+      "annotations": "Food placement",
+      "title": "Put the tabletop bread into the tray."
+    },
+    {
+      "id": "A-5",
+      "suite": "Advanced",
+      "instruction": "pick up the basket on the ground and place it on the low table",
+      "demos": 50,
+      "environmentId": "G1WholebodyGroundBasketToTableTeleop-v0",
+      "annotations": "Floor-to-table transfer",
+      "title": "Move the basket from the ground onto the table."
+    },
+    {
+      "id": "A-6",
+      "suite": "Advanced",
+      "instruction": "pick up the box on the ground and place it on the low table",
+      "demos": 50,
+      "environmentId": "G1WholebodyGroundBoxToTableTeleop-v0",
+      "annotations": "Floor-to-table lifting",
+      "title": "Move the box from the ground onto the table."
+    },
+    {
+      "id": "A-7",
+      "suite": "Advanced",
+      "instruction": "pick up the bottle on the ground and place it on the table",
+      "demos": 50,
+      "environmentId": "G1WholebodyGroundBottleToTableTeleop-v0",
+      "annotations": "Floor-to-table transfer",
+      "title": "Move the bottle from the ground onto the table."
+    },
+    {
+      "id": "A-8",
+      "suite": "Advanced",
+      "instruction": "push the chair to the front of the table",
+      "demos": 50,
+      "environmentId": "G1WholebodyChairPushToTableTeleop-v0",
+      "annotations": "Contact-based positioning",
+      "title": "Push the chair toward the table."
+    },
+    {
+      "id": "A-9",
+      "suite": "Advanced",
+      "instruction": "push the dolly forward until most of its footprint is under the high table",
+      "demos": 50,
+      "environmentId": "G1WholebodyDollyPushToTableTeleop-v0",
+      "annotations": "Dolly positioning under a table",
+      "title": "Push the dolly toward the table."
+    },
+    {
+      "id": "A-10",
+      "suite": "Advanced",
+      "instruction": "tip the pen holder and pour the eraser onto the table",
+      "demos": 50,
+      "environmentId": "G1WholebodyTableEraserOutOfPenHolderTeleop-v0",
+      "annotations": "Container pouring",
+      "title": "Pour the eraser out of the pen holder."
+    },
+    {
+      "id": "S-1",
+      "suite": "Spatial",
+      "instruction": "move forward to the table and pick up the apple",
+      "demos": 50,
+      "environmentId": "G1WholebodyTableApplePickTeleop-v0",
+      "annotations": "5 starting positions for the apple.",
+      "title": "Pick an apple from the table.",
+      "variants": [
+        {
+          "label": "Configuration 1",
+          "episodes": [
+            23
+          ],
+          "description": "Apple (x, y): (-0.05, -0.32) m"
+        },
+        {
+          "label": "Configuration 2",
+          "episodes": [
+            9
+          ],
+          "description": "Apple (x, y): (-0.05, 0) m"
+        },
+        {
+          "label": "Configuration 3",
+          "episodes": [
+            11
+          ],
+          "description": "Apple (x, y): (-0.275, -0.3) m"
+        },
+        {
+          "label": "Configuration 4",
+          "episodes": [
+            0
+          ],
+          "description": "Apple (x, y): (-0.275, 0.3) m"
+        },
+        {
+          "label": "Configuration 5",
+          "episodes": [
+            12
+          ],
+          "description": "Apple (x, y): (-0.275, 0) m"
+        }
+      ]
+    },
+    {
+      "id": "S-2",
+      "suite": "Spatial",
+      "instruction": "move forward to the table and pick up the large plate with both hands",
+      "demos": 50,
+      "environmentId": "G1WholebodyTablePlatePickTeleop-v0",
+      "annotations": "5 starting positions for the plate.",
+      "title": "Pick a plate from the table with both hands.",
+      "variants": [
+        {
+          "label": "Configuration 1",
+          "episodes": [
+            31
+          ],
+          "description": "Plate (x, y): (-0.05, -0.32) m"
+        },
+        {
+          "label": "Configuration 2",
+          "episodes": [
+            38
+          ],
+          "description": "Plate (x, y): (-0.05, 0) m"
+        },
+        {
+          "label": "Configuration 3",
+          "episodes": [
+            40
+          ],
+          "description": "Plate (x, y): (-0.275, -0.3) m"
+        },
+        {
+          "label": "Configuration 4",
+          "episodes": [
+            0
+          ],
+          "description": "Plate (x, y): (-0.275, 0.3) m"
+        },
+        {
+          "label": "Configuration 5",
+          "episodes": [
+            49
+          ],
+          "description": "Plate (x, y): (-0.275, 0) m"
+        }
+      ]
+    },
+    {
+      "id": "S-3",
+      "suite": "Spatial",
+      "instruction": "pick up the bottle on the ground",
+      "demos": 50,
+      "environmentId": "G1WholebodyGroundBottlePickTeleop-v0",
+      "annotations": "Three pickup locations: ground, low table and high table.",
+      "alternateInstructions": [
+        "pick up the bottle on the high table",
+        "pick up the bottle on the low table"
+      ],
+      "title": "Pick up the bottle from the ground.",
+      "variants": [
+        {
+          "label": "Ground",
+          "episodes": [
+            0
+          ]
+        },
+        {
+          "label": "High table",
+          "episodes": [
+            14
+          ],
+          "instruction": "pick up the bottle on the high table"
+        },
+        {
+          "label": "Low table",
+          "episodes": [
+            10
+          ],
+          "instruction": "pick up the bottle on the low table"
+        }
+      ]
+    },
+    {
+      "id": "S-4",
+      "suite": "Spatial",
+      "instruction": "pick up the box on the ground",
+      "demos": 50,
+      "environmentId": "G1WholebodyGroundBoxPickTeleop-v0",
+      "annotations": "Three pickup locations: ground, low table and high table.",
+      "alternateInstructions": [
+        "pick up the box on the high table",
+        "pick up the box on the low table"
+      ],
+      "title": "Pick up the box from the ground.",
+      "variants": [
+        {
+          "label": "Ground",
+          "episodes": [
+            0
+          ]
+        },
+        {
+          "label": "High table",
+          "episodes": [
+            26
+          ],
+          "instruction": "pick up the box on the high table"
+        },
+        {
+          "label": "Low table",
+          "episodes": [
+            13
+          ],
+          "instruction": "pick up the box on the low table"
+        }
+      ]
+    },
+    {
+      "id": "S-5",
+      "suite": "Spatial",
+      "instruction": "walk to the chair and sit down",
+      "demos": 50,
+      "environmentId": "G1WholebodyChairSitTeleop-v0",
+      "annotations": "4 robot starting positions around the chair.",
+      "title": "Sit on the chair.",
+      "variants": [
+        {
+          "label": "Configuration 1",
+          "episodes": [
+            40
+          ],
+          "description": "Robot (x, y): (-0.28, -0.67) m"
+        },
+        {
+          "label": "Configuration 2",
+          "episodes": [
+            1
+          ],
+          "description": "Robot (x, y): (-0.28, 0.67) m"
+        },
+        {
+          "label": "Configuration 3",
+          "episodes": [
+            0
+          ],
+          "description": "Robot (x, y): (-0.95, 0) m"
+        },
+        {
+          "label": "Configuration 4",
+          "episodes": [
+            20
+          ],
+          "description": "Robot (x, y): (0.39, 0) m"
+        }
+      ]
+    },
+    {
+      "id": "S-6",
+      "suite": "Spatial",
+      "instruction": "walk to the dolly and push it forward",
+      "demos": 50,
+      "environmentId": "G1WholebodyDollyPushTeleop-v0",
+      "annotations": "4 robot starting positions around the dolly.",
+      "title": "Push the dolly.",
+      "variants": [
+        {
+          "label": "Configuration 1",
+          "episodes": [
+            0
+          ],
+          "description": "Robot (x, y): (-1.15, 0) m"
+        },
+        {
+          "label": "Configuration 2",
+          "episodes": [
+            18
+          ],
+          "description": "Robot (x, y): (0.25, -1.4) m"
+        },
+        {
+          "label": "Configuration 3",
+          "episodes": [
+            17
+          ],
+          "description": "Robot (x, y): (0.25, 1.4) m"
+        },
+        {
+          "label": "Configuration 4",
+          "episodes": [
+            35
+          ],
+          "description": "Robot (x, y): (1.65, 0) m"
+        }
+      ]
+    },
+    {
+      "id": "S-7",
+      "suite": "Spatial",
+      "instruction": "walk to the chair and push it forward",
+      "demos": 50,
+      "environmentId": "G1WholebodyChairPushTeleop-v0",
+      "annotations": "4 robot starting positions around the chair.",
+      "title": "Push the chair.",
+      "variants": [
+        {
+          "label": "Configuration 1",
+          "episodes": [
+            20
+          ],
+          "description": "Robot (x, y): (-0.28, -0.67) m"
+        },
+        {
+          "label": "Configuration 2",
+          "episodes": [
+            8
+          ],
+          "description": "Robot (x, y): (-0.28, 0.67) m"
+        },
+        {
+          "label": "Configuration 3",
+          "episodes": [
+            30
+          ],
+          "description": "Robot (x, y): (-0.95, 0) m"
+        },
+        {
+          "label": "Configuration 4",
+          "episodes": [
+            48
+          ],
+          "description": "Robot (x, y): (0.39, 0) m"
+        }
+      ]
+    },
+    {
+      "id": "S-8",
+      "suite": "Spatial",
+      "instruction": "move forward and kick the ball",
+      "demos": 50,
+      "environmentId": "G1WholebodyBallKickTeleop-v0",
+      "annotations": "4 robot starting positions around the ball.",
+      "title": "Kick the ball.",
+      "variants": [
+        {
+          "label": "Configuration 1",
+          "episodes": [
+            27
+          ],
+          "description": "Robot (x, y): (-0.275, -0.675) m"
+        },
+        {
+          "label": "Configuration 2",
+          "episodes": [
+            22
+          ],
+          "description": "Robot (x, y): (-0.275, 0.675) m"
+        },
+        {
+          "label": "Configuration 3",
+          "episodes": [
+            8
+          ],
+          "description": "Robot (x, y): (-0.95, 0) m"
+        },
+        {
+          "label": "Configuration 4",
+          "episodes": [
+            33
+          ],
+          "description": "Robot (x, y): (0.4, 0) m"
+        }
+      ]
+    },
+    {
+      "id": "S-9",
+      "suite": "Spatial",
+      "instruction": "move forward to the table and press the button",
+      "demos": 50,
+      "environmentId": "G1WholebodyTableButtonPressTeleop-v0",
+      "annotations": "5 starting positions for the button.",
+      "title": "Press the button on the table.",
+      "variants": [
+        {
+          "label": "Configuration 1",
+          "episodes": [
+            3
+          ],
+          "description": "Button (x, y): (-0.05, -0.32) m"
+        },
+        {
+          "label": "Configuration 2",
+          "episodes": [
+            9
+          ],
+          "description": "Button (x, y): (-0.05, 0) m"
+        },
+        {
+          "label": "Configuration 3",
+          "episodes": [
+            6
+          ],
+          "description": "Button (x, y): (-0.275, -0.3) m"
+        },
+        {
+          "label": "Configuration 4",
+          "episodes": [
+            0
+          ],
+          "description": "Button (x, y): (-0.275, 0.3) m"
+        },
+        {
+          "label": "Configuration 5",
+          "episodes": [
+            32
+          ],
+          "description": "Button (x, y): (-0.275, 0) m"
+        }
+      ]
+    },
+    {
+      "id": "S-10",
+      "suite": "Spatial",
+      "instruction": "pick up the basket on the ground",
+      "demos": 50,
+      "environmentId": "G1WholebodyGroundBasketPickTeleop-v0",
+      "annotations": "Three pickup locations: ground, low table and high table.",
+      "alternateInstructions": [
+        "pick up the basket on the high table",
+        "pick up the basket on the low table"
+      ],
+      "title": "Pick up the basket from the ground.",
+      "variants": [
+        {
+          "label": "Ground",
+          "episodes": [
+            0
+          ]
+        },
+        {
+          "label": "High table",
+          "episodes": [
+            2
+          ],
+          "instruction": "pick up the basket on the high table"
+        },
+        {
+          "label": "Low table",
+          "episodes": [
+            28
+          ],
+          "instruction": "pick up the basket on the low table"
+        }
+      ]
+    },
+    {
+      "id": "S-11",
+      "suite": "Spatial",
+      "instruction": "pick up the apple on the low table and place it in the basket",
+      "demos": 50,
+      "environmentId": "G1WholebodyTableAppleToBasketTeleop-v0",
+      "annotations": "6 starting layouts for the apple and basket.",
+      "title": "Put the tabletop apple into the basket.",
+      "variants": [
+        {
+          "label": "Configuration 1",
+          "episodes": [
+            29
+          ],
+          "description": "Apple (x, y): (-0.05, -0.3) m · Basket (x, y): (-0.275, 0.06) m"
+        },
+        {
+          "label": "Configuration 2",
+          "episodes": [
+            39
+          ],
+          "description": "Apple (x, y): (-0.05, 0) m · Basket (x, y): (-0.275, -0.22) m"
+        },
+        {
+          "label": "Configuration 3",
+          "episodes": [
+            23
+          ],
+          "description": "Apple (x, y): (-0.275, -0.24) m · Basket (x, y): (-0.05, 0.18) m"
+        },
+        {
+          "label": "Configuration 4",
+          "episodes": [
+            0
+          ],
+          "description": "Apple (x, y): (-0.275, -0.24) m · Basket (x, y): (-0.05, 0.2) m"
+        },
+        {
+          "label": "Configuration 5",
+          "episodes": [
+            7
+          ],
+          "description": "Apple (x, y): (-0.275, 0.24) m · Basket (x, y): (-0.05, -0.18) m"
+        },
+        {
+          "label": "Configuration 6",
+          "episodes": [
+            49
+          ],
+          "description": "Apple (x, y): (-0.275, 0) m · Basket (x, y): (-0.05, 0.22) m"
+        }
+      ]
+    },
+    {
+      "id": "S-12",
+      "suite": "Spatial",
+      "instruction": "pick up the plate on the high table and place it in the shelf",
+      "demos": 50,
+      "environmentId": "G1WholebodyTablePlateToShelfTeleop-v0",
+      "annotations": "5 starting positions for the plate.",
+      "title": "Put the tabletop plate into the shelf.",
+      "variants": [
+        {
+          "label": "Configuration 1",
+          "episodes": [
+            38
+          ],
+          "description": "Plate (x, y): (-0.05, -0.3) m"
+        },
+        {
+          "label": "Configuration 2",
+          "episodes": [
+            23
+          ],
+          "description": "Plate (x, y): (-0.05, 0) m"
+        },
+        {
+          "label": "Configuration 3",
+          "episodes": [
+            24
+          ],
+          "description": "Plate (x, y): (-0.275, -0.24) m"
+        },
+        {
+          "label": "Configuration 4",
+          "episodes": [
+            0
+          ],
+          "description": "Plate (x, y): (-0.275, 0.24) m"
+        },
+        {
+          "label": "Configuration 5",
+          "episodes": [
+            6
+          ],
+          "description": "Plate (x, y): (-0.275, 0) m"
+        }
+      ]
+    },
+    {
+      "id": "S-13",
+      "suite": "Spatial",
+      "instruction": "pick up the milk carton on the high table and place it in the trash can",
+      "demos": 50,
+      "environmentId": "G1WholebodyTableMilkToTrashCanTeleop-v0",
+      "annotations": "5 starting layouts for the milk carton and trash can.",
+      "title": "Put the tabletop milk carton into the trash can.",
+      "variants": [
+        {
+          "label": "Configuration 1",
+          "episodes": [
+            47
+          ],
+          "description": "Milk carton (x, y): (-0.05, -0.3) m · Trash can (x, y): (-0.52, -0.18) m"
+        },
+        {
+          "label": "Configuration 2",
+          "episodes": [
+            55
+          ],
+          "description": "Milk carton (x, y): (-0.05, 0) m · Trash can (x, y): (-0.52, 0) m"
+        },
+        {
+          "label": "Configuration 3",
+          "episodes": [
+            20
+          ],
+          "description": "Milk carton (x, y): (-0.275, -0.24) m · Trash can (x, y): (-0.52, -0.28) m"
+        },
+        {
+          "label": "Configuration 4",
+          "episodes": [
+            12
+          ],
+          "description": "Milk carton (x, y): (-0.275, 0.24) m · Trash can (x, y): (-0.52, 0.28) m"
+        },
+        {
+          "label": "Configuration 5",
+          "episodes": [
+            37
+          ],
+          "description": "Milk carton (x, y): (-0.275, 0) m · Trash can (x, y): (-0.52, 0.18) m"
+        }
+      ]
+    },
+    {
+      "id": "S-14",
+      "suite": "Spatial",
+      "instruction": "pick up the bread on the high table and place it in the tray",
+      "demos": 50,
+      "environmentId": "G1WholebodyTableBreadToTrayTeleop-v0",
+      "annotations": "5 starting layouts for the bread and tray.",
+      "title": "Put the tabletop bread into the tray.",
+      "variants": [
+        {
+          "label": "Configuration 1",
+          "episodes": [
+            3
+          ],
+          "description": "Bread (x, y): (-0.05, -0.3) m · Tray (x, y): (-0.275, 0.06) m"
+        },
+        {
+          "label": "Configuration 2",
+          "episodes": [
+            39
+          ],
+          "description": "Bread (x, y): (-0.05, 0) m · Tray (x, y): (-0.275, -0.22) m"
+        },
+        {
+          "label": "Configuration 3",
+          "episodes": [
+            31
+          ],
+          "description": "Bread (x, y): (-0.275, -0.24) m · Tray (x, y): (-0.05, 0.18) m"
+        },
+        {
+          "label": "Configuration 4",
+          "episodes": [
+            0
+          ],
+          "description": "Bread (x, y): (-0.275, 0.24) m · Tray (x, y): (-0.05, -0.18) m"
+        },
+        {
+          "label": "Configuration 5",
+          "episodes": [
+            17
+          ],
+          "description": "Bread (x, y): (-0.275, 0) m · Tray (x, y): (-0.05, 0.22) m"
+        }
+      ]
+    },
+    {
+      "id": "S-15",
+      "suite": "Spatial",
+      "instruction": "pick up the bottle on the ground and place it on the table",
+      "demos": 50,
+      "environmentId": "G1WholebodyGroundBottleToTableTeleop-v0",
+      "annotations": "3 starting positions for the bottle.",
+      "title": "Move the bottle from the ground onto the table.",
+      "variants": [
+        {
+          "label": "Configuration 1",
+          "episodes": [
+            28
+          ],
+          "description": "Bottle (x, y): (-0.52, -0.34) m"
+        },
+        {
+          "label": "Configuration 2",
+          "episodes": [
+            26
+          ],
+          "description": "Bottle (x, y): (-0.52, 0.12) m"
+        },
+        {
+          "label": "Configuration 3",
+          "episodes": [
+            0
+          ],
+          "description": "Bottle (x, y): (-0.62, 0) m"
+        }
+      ]
+    },
+    {
+      "id": "S-16",
+      "suite": "Spatial",
+      "instruction": "pick up the box on the ground and place it on the table",
+      "demos": 50,
+      "environmentId": "G1WholebodyGroundBoxToTableTeleop-v0",
+      "annotations": "5 starting positions for the box.",
+      "alternateInstructions": [
+        "pick up the box on the ground and place it on the low table"
+      ],
+      "title": "Move the box from the ground onto the table.",
+      "variants": [
+        {
+          "label": "Configuration 1",
+          "episodes": [
+            29
+          ],
+          "description": "Box (x, y): (-0.52, -0.34) m",
+          "instruction": "pick up the box on the ground and place it on the low table"
+        },
+        {
+          "label": "Configuration 2",
+          "episodes": [
+            42
+          ],
+          "description": "Box (x, y): (-0.52, 0.12) m",
+          "instruction": "pick up the box on the ground and place it on the low table"
+        },
+        {
+          "label": "Configuration 3",
+          "episodes": [
+            12
+          ],
+          "description": "Box (x, y): (-0.62, -0.24) m",
+          "instruction": "pick up the box on the ground and place it on the low table"
+        },
+        {
+          "label": "Configuration 4",
+          "episodes": [
+            3
+          ],
+          "description": "Box (x, y): (-0.62, 0.24) m",
+          "instruction": "pick up the box on the ground and place it on the low table"
+        },
+        {
+          "label": "Configuration 5",
+          "episodes": [
+            0
+          ],
+          "description": "Box (x, y): (-0.62, 0) m",
+          "instruction": "pick up the box on the ground and place it on the low table"
+        }
+      ]
+    },
+    {
+      "id": "S-17",
+      "suite": "Spatial",
+      "instruction": "push the chair to the front of the table",
+      "demos": 50,
+      "environmentId": "G1WholebodyChairPushToTableTeleop-v0",
+      "annotations": "3 robot starting positions around the chair.",
+      "title": "Push the chair toward the table.",
+      "variants": [
+        {
+          "label": "Configuration 1",
+          "episodes": [
+            2
+          ],
+          "description": "Robot (x, y): (-0.28, -0.67) m"
+        },
+        {
+          "label": "Configuration 2",
+          "episodes": [
+            22
+          ],
+          "description": "Robot (x, y): (-0.28, 0.67) m"
+        },
+        {
+          "label": "Configuration 3",
+          "episodes": [
+            18
+          ],
+          "description": "Robot (x, y): (-0.95, 0) m"
+        }
+      ]
+    },
+    {
+      "id": "S-18",
+      "suite": "Spatial",
+      "instruction": "push the dolly forward until most of its footprint is under the high table",
+      "demos": 50,
+      "environmentId": "G1WholebodyDollyPushToTableTeleop-v0",
+      "annotations": "3 robot starting positions around the dolly.",
+      "title": "Push the dolly toward the table.",
+      "variants": [
+        {
+          "label": "Configuration 1",
+          "episodes": [
+            36
+          ],
+          "description": "Robot (x, y): (-1.15, 0) m"
+        },
+        {
+          "label": "Configuration 2",
+          "episodes": [
+            38
+          ],
+          "description": "Robot (x, y): (0.25, -1.4) m"
+        },
+        {
+          "label": "Configuration 3",
+          "episodes": [
+            10
+          ],
+          "description": "Robot (x, y): (0.25, 1.4) m"
+        }
+      ]
+    },
+    {
+      "id": "S-19",
+      "suite": "Spatial",
+      "instruction": "tip the pen holder and pour the eraser onto the table",
+      "demos": 50,
+      "environmentId": "G1WholebodyTableEraserOutOfPenHolderTeleop-v0",
+      "annotations": "5 starting layouts for the eraser and pen holder.",
+      "title": "Pour the eraser out of the pen holder.",
+      "variants": [
+        {
+          "label": "Configuration 1",
+          "episodes": [
+            0
+          ],
+          "description": "Eraser (x, y): (-0.05, -0.18) m · Pen holder (x, y): (-0.275, 0.24) m"
+        },
+        {
+          "label": "Configuration 2",
+          "episodes": [
+            48
+          ],
+          "description": "Eraser (x, y): (-0.05, 0.18) m · Pen holder (x, y): (-0.275, -0.24) m"
+        },
+        {
+          "label": "Configuration 3",
+          "episodes": [
+            2
+          ],
+          "description": "Eraser (x, y): (-0.05, 0.22) m · Pen holder (x, y): (-0.275, 0) m"
+        },
+        {
+          "label": "Configuration 4",
+          "episodes": [
+            20
+          ],
+          "description": "Eraser (x, y): (-0.275, -0.22) m · Pen holder (x, y): (-0.05, 0) m"
+        },
+        {
+          "label": "Configuration 5",
+          "episodes": [
+            26
+          ],
+          "description": "Eraser (x, y): (-0.275, 0.06) m · Pen holder (x, y): (-0.05, -0.3) m"
+        }
+      ]
+    },
+    {
+      "id": "S-20",
+      "suite": "Spatial",
+      "instruction": "pick up the basket on the ground and place it on the table",
+      "demos": 50,
+      "environmentId": "G1WholebodyGroundBasketToTableTeleop-v0",
+      "annotations": "5 starting positions for the basket.",
+      "alternateInstructions": [
+        "pick up the basket on the ground and place it on the low table"
+      ],
+      "title": "Move the basket from the ground onto the table.",
+      "variants": [
+        {
+          "label": "Configuration 1",
+          "episodes": [
+            35
+          ],
+          "description": "Basket (x, y): (-0.52, -0.34) m",
+          "instruction": "pick up the basket on the ground and place it on the low table"
+        },
+        {
+          "label": "Configuration 2",
+          "episodes": [
+            42
+          ],
+          "description": "Basket (x, y): (-0.52, 0.12) m",
+          "instruction": "pick up the basket on the ground and place it on the low table"
+        },
+        {
+          "label": "Configuration 3",
+          "episodes": [
+            17
+          ],
+          "description": "Basket (x, y): (-0.62, -0.24) m",
+          "instruction": "pick up the basket on the ground and place it on the low table"
+        },
+        {
+          "label": "Configuration 4",
+          "episodes": [
+            3
+          ],
+          "description": "Basket (x, y): (-0.62, 0.24) m",
+          "instruction": "pick up the basket on the ground and place it on the low table"
+        },
+        {
+          "label": "Configuration 5",
+          "episodes": [
+            0
+          ],
+          "description": "Basket (x, y): (-0.62, 0) m",
+          "instruction": "pick up the basket on the ground and place it on the low table"
+        }
+      ]
+    },
+    {
+      "id": "O-1",
+      "suite": "Object",
+      "instruction": "pick up the apple from the table with one hand",
+      "demos": 50,
+      "environmentId": "G1WholebodyTableSmallObjectPickTeleop-v0",
+      "annotations": "Apple, banana, or cake.",
+      "alternateInstructions": [
+        "pick up the banana from the table with one hand",
+        "pick up the cake from the table with one hand"
+      ],
+      "title": "Pick up a selected small table object with one hand.",
+      "variants": [
+        {
+          "label": "Apple",
+          "episodes": [
+            21
+          ]
+        },
+        {
+          "label": "Banana",
+          "episodes": [
+            17
+          ],
+          "instruction": "pick up the banana from the table with one hand"
+        },
+        {
+          "label": "Cake",
+          "episodes": [
+            4
+          ],
+          "instruction": "pick up the cake from the table with one hand"
+        }
+      ]
+    },
+    {
+      "id": "O-2",
+      "suite": "Object",
+      "instruction": "grasp the plate with both hands and lift it from the table",
+      "demos": 50,
+      "environmentId": "G1WholebodyTableLargeObjectPickTeleop-v0",
+      "annotations": "Plate or tray.",
+      "alternateInstructions": [
+        "grasp the tray with both hands and lift it from the table"
+      ],
+      "title": "Pick up a selected large table object with both hands.",
+      "variants": [
+        {
+          "label": "Plate",
+          "episodes": [
+            16
+          ]
+        },
+        {
+          "label": "Tray",
+          "episodes": [
+            49
+          ],
+          "instruction": "grasp the tray with both hands and lift it from the table"
+        }
+      ]
+    },
+    {
+      "id": "O-3",
+      "suite": "Object",
+      "instruction": "grasp the apple from above with one hand and lift it",
+      "demos": 50,
+      "environmentId": "G1WholebodyTableObjectPickTeleop-v0",
+      "annotations": "Apple, banana, plate, or tray.",
+      "alternateInstructions": [
+        "grasp opposite sides of the plate with both hands and lift it",
+        "grasp opposite sides of the tray with both hands and lift it",
+        "grasp the banana around its side with one hand and lift it"
+      ],
+      "title": "Pick up a selected table object using its instructed grasp.",
+      "variants": [
+        {
+          "label": "Apple",
+          "episodes": [
+            49
+          ]
+        },
+        {
+          "label": "Banana",
+          "episodes": [
+            54
+          ],
+          "instruction": "grasp the banana around its side with one hand and lift it"
+        },
+        {
+          "label": "Plate",
+          "episodes": [
+            31
+          ],
+          "instruction": "grasp opposite sides of the plate with both hands and lift it"
+        },
+        {
+          "label": "Tray",
+          "episodes": [
+            0
+          ],
+          "instruction": "grasp opposite sides of the tray with both hands and lift it"
+        }
+      ]
+    },
+    {
+      "id": "O-4",
+      "suite": "Object",
+      "instruction": "pick up the basket from the ground with one hand",
+      "demos": 50,
+      "environmentId": "G1WholebodyGroundSmallObjectPickTeleop-v0",
+      "annotations": "Basket or bottle.",
+      "alternateInstructions": [
+        "pick up the bottle from the ground with one hand"
+      ],
+      "title": "Pick up a selected ground object with one hand.",
+      "variants": [
+        {
+          "label": "Basket",
+          "episodes": [
+            3
+          ]
+        },
+        {
+          "label": "Bottle",
+          "episodes": [
+            24
+          ],
+          "instruction": "pick up the bottle from the ground with one hand"
+        }
+      ]
+    },
+    {
+      "id": "O-5",
+      "suite": "Object",
+      "instruction": "grasp the box with both hands and lift it from the ground",
+      "demos": 50,
+      "environmentId": "G1WholebodyGroundLargeObjectPickTeleop-v0",
+      "annotations": "Box or storage box.",
+      "alternateInstructions": [
+        "grasp the storage box with both hands and lift it from the ground"
+      ],
+      "title": "Pick up a selected large ground object with both hands.",
+      "variants": [
+        {
+          "label": "Box",
+          "episodes": [
+            7
+          ]
+        },
+        {
+          "label": "Storage box",
+          "episodes": [
+            2
+          ],
+          "instruction": "grasp the storage box with both hands and lift it from the ground"
+        }
+      ]
+    },
+    {
+      "id": "O-6",
+      "suite": "Object",
+      "instruction": "grasp the basket handle with one hand and lift it",
+      "demos": 50,
+      "environmentId": "G1WholebodyGroundObjectPickTeleop-v0",
+      "annotations": "Basket, bottle, box, or storage box.",
+      "alternateInstructions": [
+        "grasp the bottle around its side with one hand and lift it",
+        "grasp the box with both hands and lift it from the ground",
+        "grasp the storage box with both hands and lift it from the ground"
+      ],
+      "title": "Pick up a selected ground object using its instructed grasp.",
+      "variants": [
+        {
+          "label": "Basket",
+          "episodes": [
+            1
+          ]
+        },
+        {
+          "label": "Bottle",
+          "episodes": [
+            0
+          ],
+          "instruction": "grasp the bottle around its side with one hand and lift it"
+        },
+        {
+          "label": "Box",
+          "episodes": [
+            2
+          ],
+          "instruction": "grasp the box with both hands and lift it from the ground"
+        },
+        {
+          "label": "Storage box",
+          "episodes": [
+            27
+          ],
+          "instruction": "grasp the storage box with both hands and lift it from the ground"
+        }
+      ]
+    },
+    {
+      "id": "O-7",
+      "suite": "Object",
+      "instruction": "put the apple into the basket with one hand",
+      "demos": 50,
+      "environmentId": "G1WholebodyTableSmallObjectToBasketTeleop-v0",
+      "annotations": "Apple, banana, or cake.",
+      "alternateInstructions": [
+        "put the banana into the basket with one hand",
+        "put the cake into the basket with one hand"
+      ],
+      "title": "Put a selected small table object into a basket with one hand.",
+      "variants": [
+        {
+          "label": "Apple",
+          "episodes": [
+            27
+          ]
+        },
+        {
+          "label": "Banana",
+          "episodes": [
+            31
+          ],
+          "instruction": "put the banana into the basket with one hand"
+        },
+        {
+          "label": "Cake",
+          "episodes": [
+            5
+          ],
+          "instruction": "put the cake into the basket with one hand"
+        }
+      ]
+    },
+    {
+      "id": "O-8",
+      "suite": "Object",
+      "instruction": "put the plate upright and fully inside the cabinet with both hands",
+      "demos": 50,
+      "environmentId": "G1WholebodyTableLargeObjectToCabinetTeleop-v0",
+      "annotations": "Plate or tray.",
+      "alternateInstructions": [
+        "put the tray upright and fully inside the cabinet with both hands"
+      ],
+      "title": "Put a selected large table object fully inside a cabinet with both hands.",
+      "variants": [
+        {
+          "label": "Plate",
+          "episodes": [
+            47
+          ]
+        },
+        {
+          "label": "Tray",
+          "episodes": [
+            6
+          ],
+          "instruction": "put the tray upright and fully inside the cabinet with both hands"
+        }
+      ]
+    },
+    {
+      "id": "O-9",
+      "suite": "Object",
+      "instruction": "throw the bread from the table into the trash can",
+      "demos": 50,
+      "environmentId": "G1WholebodyTableObjectToTrashCanTeleop-v0",
+      "annotations": "Bread, cake, or milk carton.",
+      "alternateInstructions": [
+        "throw the cake from the table into the trash can",
+        "throw the milk carton from the table into the trash can"
+      ],
+      "title": "Throw a selected table object into a trash can.",
+      "variants": [
+        {
+          "label": "Bread",
+          "episodes": [
+            16
+          ]
+        },
+        {
+          "label": "Cake",
+          "episodes": [
+            35
+          ],
+          "instruction": "throw the cake from the table into the trash can"
+        },
+        {
+          "label": "Milk",
+          "episodes": [
+            12
+          ],
+          "instruction": "throw the milk carton from the table into the trash can"
+        }
+      ]
+    },
+    {
+      "id": "O-10",
+      "suite": "Object",
+      "instruction": "put the bread into the tray",
+      "demos": 50,
+      "environmentId": "G1WholebodyFoodToTrayTeleop-v0",
+      "annotations": "Bread or cake.",
+      "alternateInstructions": [
+        "put the cake into the tray"
+      ],
+      "title": "Put a selected food item into a tray.",
+      "variants": [
+        {
+          "label": "Bread",
+          "episodes": [
+            21
+          ]
+        },
+        {
+          "label": "Cake",
+          "episodes": [
+            26
+          ],
+          "instruction": "put the cake into the tray"
+        }
+      ]
+    },
+    {
+      "id": "M-1",
+      "suite": "Movement",
+      "instruction": "move forward to the table and pick up the apple",
+      "demos": 50,
+      "environmentId": "G1WholebodyTableApplePickTeleop-v0",
+      "annotations": "Approach and grasp an apple",
+      "title": "Walk to the interaction location, then pick an apple from the table."
+    },
+    {
+      "id": "M-2",
+      "suite": "Movement",
+      "instruction": "move forward to the table and pick up the large plate with both hands",
+      "demos": 50,
+      "environmentId": "G1WholebodyTablePlatePickTeleop-v0",
+      "annotations": "Approach and grasp a plate with both hands",
+      "title": "Walk to the interaction location, then pick a plate from the table with both hands."
+    },
+    {
+      "id": "M-3",
+      "suite": "Movement",
+      "instruction": "walk to the chair and push it forward",
+      "demos": 50,
+      "environmentId": "G1WholebodyChairPushTeleop-v0",
+      "annotations": "Approach and push a chair",
+      "title": "Walk to the interaction location, then push the chair."
+    },
+    {
+      "id": "M-4",
+      "suite": "Movement",
+      "instruction": "walk to the dolly and push it forward",
+      "demos": 50,
+      "environmentId": "G1WholebodyDollyPushTeleop-v0",
+      "annotations": "Approach and push a dolly",
+      "title": "Walk to the interaction location, then push the dolly."
+    },
+    {
+      "id": "M-5",
+      "suite": "Movement",
+      "instruction": "walk to the chair and sit down",
+      "demos": 50,
+      "environmentId": "G1WholebodyChairSitTeleop-v0",
+      "annotations": "Approach a chair and sit",
+      "title": "Walk to the interaction location, then sit on the chair."
+    },
+    {
+      "id": "M-6",
+      "suite": "Movement",
+      "instruction": "move forward to the table and press the button",
+      "demos": 50,
+      "environmentId": "G1WholebodyTableButtonPressTeleop-v0",
+      "annotations": "Approach and press a button",
+      "title": "Walk to the interaction location, then press the button on the table."
+    },
+    {
+      "id": "M-7",
+      "suite": "Movement",
+      "instruction": "pick up the bottle on the ground",
+      "demos": 50,
+      "environmentId": "G1WholebodyGroundBottlePickTeleop-v0",
+      "annotations": "Approach and pick up a bottle",
+      "title": "Walk to the interaction location, then pick up the bottle from the ground."
+    },
+    {
+      "id": "M-8",
+      "suite": "Movement",
+      "instruction": "pick up the box on the ground",
+      "demos": 50,
+      "environmentId": "G1WholebodyGroundBoxPickTeleop-v0",
+      "annotations": "Approach and lift a box",
+      "title": "Walk to the interaction location, then pick up the box from the ground."
+    },
+    {
+      "id": "M-9",
+      "suite": "Movement",
+      "instruction": "move forward and kick the ball",
+      "demos": 50,
+      "environmentId": "G1WholebodyBallKickTeleop-v0",
+      "annotations": "Approach and kick a ball",
+      "title": "Walk to the interaction location, then kick the ball."
+    },
+    {
+      "id": "M-10",
+      "suite": "Movement",
+      "instruction": "pick up the basket on the ground",
+      "demos": 50,
+      "environmentId": "G1WholebodyGroundBasketPickTeleop-v0",
+      "annotations": "Approach and lift a basket",
+      "title": "Walk to the interaction location, then pick up the basket from the ground."
+    },
+    {
+      "id": "G-1",
+      "suite": "Goal",
+      "instruction": "put the apple in the basket",
+      "demos": 50,
+      "environmentId": "G1WholebodyGoalApplePlacementTeleop-v0",
+      "annotations": "Basket, box, or tray.",
+      "alternateInstructions": [
+        "put the apple in the box",
+        "put the apple on the tray"
+      ],
+      "title": "Place an apple in the instructed receptacle.",
+      "variants": [
+        {
+          "label": "Basket",
+          "episodes": [
+            45
+          ]
+        },
+        {
+          "label": "Box",
+          "episodes": [
+            28
+          ],
+          "instruction": "put the apple in the box"
+        },
+        {
+          "label": "Tray",
+          "episodes": [
+            11
+          ],
+          "instruction": "put the apple on the tray"
+        }
+      ]
+    },
+    {
+      "id": "G-2",
+      "suite": "Goal",
+      "instruction": "put the plate in the box",
+      "demos": 50,
+      "environmentId": "G1WholebodyGoalPlatePlacementTeleop-v0",
+      "annotations": "Basket, box, or cabinet compartment.",
+      "alternateInstructions": [
+        "put the plate fully inside the cabinet compartment",
+        "put the plate in the basket"
+      ],
+      "title": "Place a plate in the instructed receptacle.",
+      "variants": [
+        {
+          "label": "Basket",
+          "episodes": [
+            6
+          ],
+          "instruction": "put the plate in the basket"
+        },
+        {
+          "label": "Box",
+          "episodes": [
+            49
+          ]
+        },
+        {
+          "label": "Cabinet",
+          "episodes": [
+            46
+          ],
+          "instruction": "put the plate fully inside the cabinet compartment"
+        }
+      ]
+    },
+    {
+      "id": "G-3",
+      "suite": "Goal",
+      "instruction": "put the bread in the basket",
+      "demos": 50,
+      "environmentId": "G1WholebodyGoalBreadPlacementTeleop-v0",
+      "annotations": "Basket, trash can, or tray.",
+      "alternateInstructions": [
+        "put the bread in the trash can",
+        "put the bread on the tray"
+      ],
+      "title": "Place bread in the instructed receptacle.",
+      "variants": [
+        {
+          "label": "Basket",
+          "episodes": [
+            30
+          ]
+        },
+        {
+          "label": "Trash can",
+          "episodes": [
+            23
+          ],
+          "instruction": "put the bread in the trash can"
+        },
+        {
+          "label": "Tray",
+          "episodes": [
+            13
+          ],
+          "instruction": "put the bread on the tray"
+        }
+      ]
+    },
+    {
+      "id": "G-4",
+      "suite": "Goal",
+      "instruction": "put the milk carton in the basket",
+      "demos": 50,
+      "environmentId": "G1WholebodyGoalMilkPlacementTeleop-v0",
+      "annotations": "Basket, box, or trash can.",
+      "alternateInstructions": [
+        "put the milk carton in the box",
+        "put the milk carton in the trash can"
+      ],
+      "title": "Place a milk carton in the instructed receptacle.",
+      "variants": [
+        {
+          "label": "Basket",
+          "episodes": [
+            14
+          ]
+        },
+        {
+          "label": "Box",
+          "episodes": [
+            53
+          ],
+          "instruction": "put the milk carton in the box"
+        },
+        {
+          "label": "Trash can",
+          "episodes": [
+            47
+          ],
+          "instruction": "put the milk carton in the trash can"
+        }
+      ]
+    },
+    {
+      "id": "G-5",
+      "suite": "Goal",
+      "instruction": "put the apple in the basket",
+      "demos": 50,
+      "environmentId": "G1WholebodyGoalObjectToBasketTeleop-v0",
+      "annotations": "Apple, banana, or bread.",
+      "alternateInstructions": [
+        "put the banana in the basket",
+        "put the bread in the basket"
+      ],
+      "title": "Put the instructed object into the basket.",
+      "variants": [
+        {
+          "label": "Apple",
+          "episodes": [
+            4
+          ]
+        },
+        {
+          "label": "Banana",
+          "episodes": [
+            28
+          ],
+          "instruction": "put the banana in the basket"
+        },
+        {
+          "label": "Bread",
+          "episodes": [
+            38
+          ],
+          "instruction": "put the bread in the basket"
+        }
+      ]
+    },
+    {
+      "id": "G-6",
+      "suite": "Goal",
+      "instruction": "put the book fully inside the cabinet compartment",
+      "demos": 50,
+      "environmentId": "G1WholebodyGoalBookPlacementTeleop-v0",
+      "annotations": "Cabinet compartment or lower shelf.",
+      "alternateInstructions": [
+        "put the book upright in the lower shelf"
+      ],
+      "title": "Place a book at the instructed destination.",
+      "variants": [
+        {
+          "label": "Cabinet",
+          "episodes": [
+            47
+          ]
+        },
+        {
+          "label": "Shelf",
+          "episodes": [
+            16
+          ],
+          "instruction": "put the book upright in the lower shelf"
+        }
+      ]
+    },
+    {
+      "id": "G-7",
+      "suite": "Goal",
+      "instruction": "pick up the bottle from the ground and put it fully inside the cabinet compartment",
+      "demos": 50,
+      "environmentId": "G1WholebodyGoalGroundBottlePlacementTeleop-v0",
+      "annotations": "Cabinet compartment or table.",
+      "alternateInstructions": [
+        "pick up the bottle from the ground and put it on the table"
+      ],
+      "title": "Move a bottle from the ground to the instructed surface.",
+      "variants": [
+        {
+          "label": "Cabinet",
+          "episodes": [
+            36
+          ]
+        },
+        {
+          "label": "Table",
+          "episodes": [
+            43
+          ],
+          "instruction": "pick up the bottle from the ground and put it on the table"
+        }
+      ]
+    },
+    {
+      "id": "G-8",
+      "suite": "Goal",
+      "instruction": "tip the pen holder and pour the eraser onto the table",
+      "demos": 50,
+      "environmentId": "G1WholebodyGoalEraserPourTeleop-v0",
+      "annotations": "Cabinet compartment or table.",
+      "alternateInstructions": [
+        "tip the pen holder and pour the eraser fully inside the cabinet compartment"
+      ],
+      "title": "Pour an eraser from a pen holder onto the instructed surface.",
+      "variants": [
+        {
+          "label": "Cabinet",
+          "episodes": [
+            32
+          ],
+          "instruction": "tip the pen holder and pour the eraser fully inside the cabinet compartment"
+        },
+        {
+          "label": "Table",
+          "episodes": [
+            36
+          ]
+        }
+      ]
+    },
+    {
+      "id": "G-9",
+      "suite": "Goal",
+      "instruction": "put the book into the storage box",
+      "demos": 50,
+      "environmentId": "G1WholebodyGoalStorageBoxPlacementTeleop-v0",
+      "annotations": "Book, bottle on the ground, or plate.",
+      "alternateInstructions": [
+        "pick up the bottle from the ground and put it into the storage box",
+        "put the plate into the storage box"
+      ],
+      "title": "Put the instructed object into the storage box.",
+      "variants": [
+        {
+          "label": "Book",
+          "episodes": [
+            18
+          ]
+        },
+        {
+          "label": "Ground bottle",
+          "episodes": [
+            7
+          ],
+          "instruction": "pick up the bottle from the ground and put it into the storage box"
+        },
+        {
+          "label": "Plate",
+          "episodes": [
+            35
+          ],
+          "instruction": "put the plate into the storage box"
+        }
+      ]
+    },
+    {
+      "id": "G-10",
+      "suite": "Goal",
+      "instruction": "pick up the football from the table and put it fully inside the cabinet compartment",
+      "demos": 50,
+      "environmentId": "G1WholebodyGoalFootballPlacementTeleop-v0",
+      "annotations": "Cabinet compartment or ground.",
+      "alternateInstructions": [
+        "pick up the football from the table and put it on the ground"
+      ],
+      "title": "Place a football at the instructed destination.",
+      "variants": [
+        {
+          "label": "Cabinet",
+          "episodes": [
+            46
+          ]
+        },
+        {
+          "label": "Ground",
+          "episodes": [
+            31
+          ],
+          "instruction": "pick up the football from the table and put it on the ground"
+        }
+      ]
+    },
+    {
+      "id": "L-1",
+      "suite": "Long-Horizon",
+      "instruction": "open the drawer and put the apple from the table into the drawer",
+      "demos": 50,
+      "environmentId": "G1WholebodyLongTableAppleToDrawerTeleop-v0",
+      "annotations": "Drawer access and placement",
+      "title": "Put the tabletop apple into the drawer."
+    },
+    {
+      "id": "L-2",
+      "suite": "Long-Horizon",
+      "instruction": "open the drawer and put the plate from the table into the drawer",
+      "demos": 50,
+      "environmentId": "G1WholebodyLongTablePlateToDrawerTeleop-v0",
+      "annotations": "Drawer access and placement",
+      "title": "Put the tabletop plate into the drawer."
+    },
+    {
+      "id": "L-3",
+      "suite": "Long-Horizon",
+      "instruction": "put the bread and the cake onto the tray",
+      "demos": 50,
+      "environmentId": "G1WholebodyLongBreadCakeToTrayTeleop-v0",
+      "annotations": "Multi-object placement",
+      "title": "Put the bread and cake onto the tray."
+    },
+    {
+      "id": "L-4",
+      "suite": "Long-Horizon",
+      "instruction": "put the bread into the tray, then lift the tray",
+      "demos": 50,
+      "environmentId": "G1WholebodyLongBreadToTrayAndLiftTeleop-v0",
+      "annotations": "Tray loading and lifting",
+      "title": "Put the bread into the tray, then lift the tray."
+    },
+    {
+      "id": "L-5",
+      "suite": "Long-Horizon",
+      "instruction": "put the cake into the plate, then lift the plate",
+      "demos": 50,
+      "environmentId": "G1WholebodyLongCakeToPlateAndLiftTeleop-v0",
+      "annotations": "Plate loading and lifting",
+      "title": "Put the cake into the plate, then lift the plate."
+    },
+    {
+      "id": "L-6",
+      "suite": "Long-Horizon",
+      "instruction": "pick up the box from the ground, put it on the dolly, and push the dolly forward",
+      "demos": 50,
+      "environmentId": "G1WholebodyLongGroundBoxToDollyAndPushTeleop-v0",
+      "annotations": "Lifting, loading, and pushing",
+      "title": "Pick up the ground box, put it on the dolly, then push the dolly forward."
+    },
+    {
+      "id": "L-7",
+      "suite": "Long-Horizon",
+      "instruction": "push the chair forward and then sit on it",
+      "demos": 50,
+      "environmentId": "G1WholebodyLongChairPushAndSitTeleop-v0",
+      "annotations": "Pushing and posture transition",
+      "title": "Push the chair, then sit down."
+    },
+    {
+      "id": "L-8",
+      "suite": "Long-Horizon",
+      "instruction": "move the football from the table to the ground and kick it forward",
+      "demos": 50,
+      "environmentId": "G1WholebodyLongTableFootballToGroundAndKickTeleop-v0",
+      "annotations": "Hand–foot coordination",
+      "title": "Move the tabletop football onto the ground, then kick it."
+    },
+    {
+      "id": "L-9",
+      "suite": "Long-Horizon",
+      "instruction": "put the basket from the ground onto the table, then put the apple on the table into the basket",
+      "demos": 50,
+      "environmentId": "G1WholebodyLongGroundBasketToTableAppleToBasketTeleop-v0",
+      "annotations": "Container setup and placement",
+      "title": "Move the basket from the ground onto the table, then put the tabletop apple into it."
+    },
+    {
+      "id": "L-10",
+      "suite": "Long-Horizon",
+      "instruction": "put the bottle from the ground into the box on the table, then lift the box",
+      "demos": 50,
+      "environmentId": "G1WholebodyLongGroundBoxToTableBottleToBoxTeleop-v0",
+      "annotations": "Object loading and lifting",
+      "title": "Put the ground bottle into the box on the low table, then lift the box."
+    },
+    {
+      "id": "L-11",
+      "suite": "Long-Horizon",
+      "instruction": "put the apple and the banana into the basket",
+      "demos": 50,
+      "environmentId": "G1WholebodyLongAppleBananaToBasketTeleop-v0",
+      "annotations": "Multi-object placement",
+      "title": "Put the apple and banana into the basket."
+    },
+    {
+      "id": "L-12",
+      "suite": "Long-Horizon",
+      "instruction": "take the apple from the basket onto the high table, then put the banana in the trash can",
+      "demos": 50,
+      "environmentId": "G1WholebodyLongBasketAppleToTableBananaToTrashCanTeleop-v0",
+      "annotations": "Sequential sorting",
+      "title": "Move the apple from the basket onto the table, then throw the banana into the trash can."
+    },
+    {
+      "id": "L-13",
+      "suite": "Long-Horizon",
+      "instruction": "pour two peanuts from the cup onto the plate",
+      "demos": 50,
+      "environmentId": "G1WholebodyLongPeanutsFromCupToPlateTeleop-v0",
+      "annotations": "Small-object pouring",
+      "title": "Pour both peanuts from the jar into the plate."
+    },
+    {
+      "id": "L-14",
+      "suite": "Long-Horizon",
+      "instruction": "take the cake from the storage box onto the table, then put the bread on the tray",
+      "demos": 50,
+      "environmentId": "G1WholebodyLongStorageBoxCakeToTableBreadToTrayTeleop-v0",
+      "annotations": "Sequential sorting",
+      "title": "Move the cake from the storage box onto the table, then put the bread into the tray."
+    },
+    {
+      "id": "L-15",
+      "suite": "Long-Horizon",
+      "instruction": "put the apple into the basket, then put the basket on the ground",
+      "demos": 50,
+      "environmentId": "G1WholebodyLongAppleToBasketThenBasketToGroundTeleop-v0",
+      "annotations": "Containment during transport",
+      "title": "Put the apple into the basket, then lift the basket and place it on the ground with the apple inside."
+    },
+    {
+      "id": "L-16",
+      "suite": "Long-Horizon",
+      "instruction": "put the apple from the high table into the drawer on the low table",
+      "demos": 50,
+      "environmentId": "G1WholebodyLongHighTableAppleToLowTableDrawerTeleop-v0",
+      "annotations": "Cross-height drawer placement",
+      "title": "Move the apple from the high table into the low-table drawer."
+    },
+    {
+      "id": "L-17",
+      "suite": "Long-Horizon",
+      "instruction": "put the plate from the low table into the drawer on the high table",
+      "demos": 50,
+      "environmentId": "G1WholebodyLongLowTablePlateToHighTableDrawerTeleop-v0",
+      "annotations": "Cross-height drawer placement",
+      "title": "Move the plate from the low table into the high-table drawer."
+    },
+    {
+      "id": "L-18",
+      "suite": "Long-Horizon",
+      "instruction": "move the box away, then push the chair to the front of the table",
+      "demos": 50,
+      "environmentId": "G1WholebodyLongMoveBoxThenChairToTableTeleop-v0",
+      "annotations": "Obstacle relocation and pushing",
+      "title": "Move the box away, then push the chair toward the table."
+    },
+    {
+      "id": "L-19",
+      "suite": "Long-Horizon",
+      "instruction": "pick up the book on the high table and place it upright in the shelf",
+      "demos": 50,
+      "environmentId": "G1WholebodyTableBookToShelfTeleop-v0",
+      "annotations": "Upright book placement",
+      "title": "Move the tabletop book into the bookshelf."
+    },
+    {
+      "id": "L-20",
+      "suite": "Long-Horizon",
+      "instruction": "take the book from the shelf and put it into the drawer on the table",
+      "demos": 50,
+      "environmentId": "G1WholebodyLongShelfBookToTableDrawerTeleop-v0",
+      "annotations": "Shelf-to-drawer transfer",
+      "title": "Move the book from the shelf into the tabletop drawer."
+    },
+    {
+      "id": "C-1",
+      "suite": "Conditional",
+      "instruction": "if the drawer is closed, open it and put the plate inside; if it is open, put the plate inside directly",
+      "demos": 50,
+      "environmentId": "G1WholebodyConditionPlateToDrawerTeleop-v0",
+      "annotations": "Drawer initially open or closed.",
+      "title": "If the drawer is closed, open it and put the plate inside; if it is open, put the plate inside directly.",
+      "variants": [
+        {
+          "label": "Closed",
+          "episodes": [
+            18
+          ]
+        },
+        {
+          "label": "Open",
+          "episodes": [
+            29
+          ]
+        }
+      ]
+    },
+    {
+      "id": "C-2",
+      "suite": "Conditional",
+      "instruction": "if the drawer is closed, open it and put the apple inside; if it is open, put the apple inside directly",
+      "demos": 50,
+      "environmentId": "G1WholebodyConditionAppleToDrawerTeleop-v0",
+      "annotations": "Drawer initially open or closed.",
+      "title": "If the drawer is closed, open it and put the apple inside; if it is open, put the apple inside directly.",
+      "variants": [
+        {
+          "label": "Closed",
+          "episodes": [
+            41
+          ]
+        },
+        {
+          "label": "Open",
+          "episodes": [
+            17
+          ]
+        }
+      ]
+    },
+    {
+      "id": "C-3",
+      "suite": "Conditional",
+      "instruction": "put the bottle into the storage box that is empty",
+      "demos": 50,
+      "environmentId": "G1WholebodyConditionBottleToEmptyBoxTeleop-v0",
+      "annotations": "The empty storage box is on the left or right.",
+      "title": "Put the bottle into the storage box that is empty.",
+      "variants": [
+        {
+          "label": "Left empty",
+          "episodes": [
+            46
+          ]
+        },
+        {
+          "label": "Right empty",
+          "episodes": [
+            32
+          ]
+        }
+      ]
+    },
+    {
+      "id": "C-4",
+      "suite": "Conditional",
+      "instruction": "put the apple into the basket that has no other fruit",
+      "demos": 50,
+      "environmentId": "G1WholebodyConditionAppleToFruitFreeBasketTeleop-v0",
+      "annotations": "The fruit-free basket is on the left or right.",
+      "title": "Put the apple into the basket that has no other fruit.",
+      "variants": [
+        {
+          "label": "Left clear",
+          "episodes": [
+            38
+          ]
+        },
+        {
+          "label": "Right clear",
+          "episodes": [
+            5
+          ]
+        }
+      ]
+    },
+    {
+      "id": "C-5",
+      "suite": "Conditional",
+      "instruction": "if the chair is not in front of the table, push it there and sit down; if it is already there, sit down directly",
+      "demos": 50,
+      "environmentId": "G1WholebodyConditionChairToTableAndSitTeleop-v0",
+      "annotations": "The chair starts at the table or away from it.",
+      "title": "If the chair is not in front of the table, push it there and sit down; if it is already there, sit down directly.",
+      "variants": [
+        {
+          "label": "At table",
+          "episodes": [
+            39
+          ]
+        },
+        {
+          "label": "Away from table",
+          "episodes": [
+            25
+          ]
+        }
+      ]
+    },
+    {
+      "id": "C-6",
+      "suite": "Conditional",
+      "instruction": "if the basket is on the ground, put it on the table and then put the apple inside; if it is on the table, put the apple inside directly",
+      "demos": 50,
+      "environmentId": "G1WholebodyConditionBasketToTableAppleToBasketTeleop-v0",
+      "annotations": "The basket starts on the ground or on the table.",
+      "title": "If the basket is on the ground, put it on the table and then put the apple inside; if it is on the table, put the apple inside directly.",
+      "variants": [
+        {
+          "label": "Ground",
+          "episodes": [
+            18
+          ]
+        },
+        {
+          "label": "On table",
+          "episodes": [
+            3
+          ]
+        }
+      ]
+    },
+    {
+      "id": "C-7",
+      "suite": "Conditional",
+      "instruction": "pour both peanuts from the cup into the empty receptacle: use the plate when the cake is on the tray, or use the tray when the cake is on the plate",
+      "demos": 50,
+      "environmentId": "G1WholebodyConditionPeanutsToEmptyPlateOrTrayTeleop-v0",
+      "annotations": "The cake occupies either the plate or the tray.",
+      "title": "Pour both peanuts from the cup into the empty receptacle: use the plate when the cake is on the tray, or use the tray when the cake is on the plate.",
+      "variants": [
+        {
+          "label": "Plate empty",
+          "episodes": [
+            2
+          ]
+        },
+        {
+          "label": "Tray empty",
+          "episodes": [
+            35
+          ]
+        }
+      ]
+    },
+    {
+      "id": "C-8",
+      "suite": "Conditional",
+      "instruction": "put the bread into the empty receptacle: use the plate when the cake is on the tray, or use the tray when the cake is on the plate",
+      "demos": 50,
+      "environmentId": "G1WholebodyConditionBreadToPlateOrTrayTeleop-v0",
+      "annotations": "The cake occupies either the plate or the tray.",
+      "title": "Put the bread into the empty receptacle: use the plate when the cake is on the tray, or use the tray when the cake is on the plate.",
+      "variants": [
+        {
+          "label": "Plate empty",
+          "episodes": [
+            10
+          ]
+        },
+        {
+          "label": "Plate occupied",
+          "episodes": [
+            33
+          ]
+        }
+      ]
+    },
+    {
+      "id": "C-9",
+      "suite": "Conditional",
+      "instruction": "push the chair toward the table; the dolly may be blocking the path",
+      "demos": 50,
+      "environmentId": "G1WholebodyConditionClearChairAndPushDollyTeleop-v0",
+      "annotations": "The dolly blocks the chair’s path or leaves it clear.",
+      "title": "Push the chair toward the table; the dolly may be blocking the path.",
+      "variants": [
+        {
+          "label": "Block",
+          "episodes": [
+            38
+          ]
+        },
+        {
+          "label": "Clear",
+          "episodes": [
+            15
+          ]
+        }
+      ]
+    },
+    {
+      "id": "C-10",
+      "suite": "Conditional",
+      "instruction": "put the table book in shelf layer 2 when that layer contains a book; put it in shelf layer 3 when that layer contains a book",
+      "demos": 50,
+      "environmentId": "G1WholebodyConditionBookToOccupiedShelfLayerTeleop-v0",
+      "annotations": "An existing book occupies the lower or upper target shelf.",
+      "title": "Put the table book in shelf layer 2 when that layer contains a book; put it in shelf layer 3 when that layer contains a book.",
+      "variants": [
+        {
+          "label": "Lower occupied",
+          "episodes": [
+            6
+          ]
+        },
+        {
+          "label": "Upper occupied",
+          "episodes": [
+            45
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+"""Long-horizon HUMANO task registrations."""
+
+from .g1_wholebody_long_tasks_teleop import (
+    G1WholebodyLongChairPushAndSitTaskTeleop,
+    G1WholebodyLongAppleBananaToBasketTaskTeleop,
+    G1WholebodyLongAppleToBasketThenBasketToGroundTaskTeleop,
+    G1WholebodyLongBasketAppleToTableBananaToTrashCanTaskTeleop,
+    G1WholebodyLongBreadCakeToTrayTaskTeleop,
+    G1WholebodyLongGroundBasketToTableAppleToBasketTaskTeleop,
+    G1WholebodyLongGroundBoxToTableBottleToBoxTaskTeleop,
+    G1WholebodyLongGroundBoxToDollyAndPushTaskTeleop,
+    G1WholebodyLongHighTableAppleToLowTableDrawerTaskTeleop,
+    G1WholebodyLongLowTablePlateToHighTableDrawerTaskTeleop,
+    G1WholebodyLongMoveBoxThenChairToTableTaskTeleop,
+    G1WholebodyLongPeanutsFromCupToPlateTaskTeleop,
+    G1WholebodyLongTableAppleToDrawerTaskTeleop,
+    G1WholebodyLongTableFootballToGroundAndKickTaskTeleop,
+    G1WholebodyLongTablePencilEraserToPencilCaseTaskTeleop,
+    G1WholebodyLongTablePencilPenToPenHolderTaskTeleop,
+    G1WholebodyLongTablePlateToDrawerTaskTeleop,
+    G1WholebodyLongStorageBoxCakeToTableBreadToTrayTaskTeleop,
+)
+from .g1_wholebody_long_transfer_tasks_teleop import (
+    G1WholebodyLongBreadToTrayAndLiftTaskTeleop,
+    G1WholebodyLongCakeToPlateAndLiftTaskTeleop,
+    G1WholebodyLongShelfBookToTableDrawerTaskTeleop,
+    G1WholebodyLongTrayBreadToPlateTaskTeleop,
+)
+
+__all__ = [
+    "G1WholebodyLongAppleBananaToBasketTaskTeleop",
+    "G1WholebodyLongAppleToBasketThenBasketToGroundTaskTeleop",
+    "G1WholebodyLongBasketAppleToTableBananaToTrashCanTaskTeleop",
+    "G1WholebodyLongBreadCakeToTrayTaskTeleop",
+    "G1WholebodyLongBreadToTrayAndLiftTaskTeleop",
+    "G1WholebodyLongCakeToPlateAndLiftTaskTeleop",
+    "G1WholebodyLongChairPushAndSitTaskTeleop",
+    "G1WholebodyLongGroundBasketToTableAppleToBasketTaskTeleop",
+    "G1WholebodyLongGroundBoxToTableBottleToBoxTaskTeleop",
+    "G1WholebodyLongGroundBoxToDollyAndPushTaskTeleop",
+    "G1WholebodyLongHighTableAppleToLowTableDrawerTaskTeleop",
+    "G1WholebodyLongLowTablePlateToHighTableDrawerTaskTeleop",
+    "G1WholebodyLongMoveBoxThenChairToTableTaskTeleop",
+    "G1WholebodyLongPeanutsFromCupToPlateTaskTeleop",
+    "G1WholebodyLongTableAppleToDrawerTaskTeleop",
+    "G1WholebodyLongTableFootballToGroundAndKickTaskTeleop",
+    "G1WholebodyLongTablePencilEraserToPencilCaseTaskTeleop",
+    "G1WholebodyLongTablePencilPenToPenHolderTaskTeleop",
+    "G1WholebodyLongTablePlateToDrawerTaskTeleop",
+    "G1WholebodyLongStorageBoxCakeToTableBreadToTrayTaskTeleop",
+    "G1WholebodyLongShelfBookToTableDrawerTaskTeleop",
+    "G1WholebodyLongTrayBreadToPlateTaskTeleop",
+]

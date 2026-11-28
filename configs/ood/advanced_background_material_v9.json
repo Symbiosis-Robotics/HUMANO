@@ -1,0 +1,32 @@
+{
+  "schema": "humano.advanced-background-material.v1",
+  "protocol": "advanced_background_material_v9",
+  "changed_conditions": ["background_g1", "background_g3"],
+  "assignment": "family=(source_episode_index+sorted_task_index)%4; instance=(source_episode_index//4+sorted_task_index)%family_size",
+  "family_order": ["Plastic", "Metal", "Leather", "Glass"],
+  "physics_changed": false,
+  "preview_scope": "two_tasks_static_initial_frames_not_policy_success",
+  "glass_scope": "reflective_mirrors_not_transparent_glass",
+  "excluded_render_defects": ["Polycarbonate_Light_Blue", "Polyethylene_Sky_Blue", "Styrofoam_no_SSS", "Glass_Glazing_Spandrel_White", "Glass_Glazing_Spandrel_Cool_Gray"],
+  "table_materials": {
+    "train": [
+      {"type": "usd_preview_surface", "family": "SolidColor", "name": "LegacySolidColorMatteBrown", "diffuse_color": [0.24, 0.13, 0.07], "roughness": 0.82, "metallic": 0.0}
+    ],
+    "test": [
+      {"type": "usd_preview_surface", "family": "Plastic", "name": "MattePlasticIvory", "diffuse_color": [0.72, 0.70, 0.63], "roughness": 0.82, "metallic": 0.0},
+      {"type": "usd_preview_surface", "family": "Plastic", "name": "MattePlasticCharcoal", "diffuse_color": [0.18, 0.20, 0.23], "roughness": 0.82, "metallic": 0.0},
+      {"type": "usd_preview_surface", "family": "Plastic", "name": "GlossyCyanPlasticG3", "diffuse_color": [0.02, 0.62, 0.72], "roughness": 0.18, "metallic": 0.0},
+      {"family": "Metal", "name": "Aluminum_Brushed", "path": "data/resources/materials/vMaterials_2/Metal/Aluminum_Brushed.mdl"},
+      {"family": "Metal", "name": "Iron_Brushed", "path": "data/resources/materials/vMaterials_2/Metal/Iron_Brushed.mdl"},
+      {"family": "Metal", "name": "Gold_Brushed_Light_Brushing", "path": "data/resources/materials/vMaterials_2/Metal/Gold_Brushed.mdl"},
+      {"family": "Metal", "name": "Bronze_Yellow_Rough_Worn", "path": "data/resources/materials/vMaterials_2/Metal/Bronze.mdl"},
+      {"type": "usd_preview_surface", "family": "Metal", "name": "PolishedSteelG3", "diffuse_color": [0.72, 0.74, 0.78], "roughness": 0.12, "metallic": 1.0},
+      {"family": "Leather", "name": "Suede_Leather_Beige", "path": "data/resources/materials/vMaterials_2/Leather/Suede_Leather.mdl"},
+      {"family": "Leather", "name": "Aniline_Leather_Cognac_Red", "path": "data/resources/materials/vMaterials_2/Leather/Aniline_Leather.mdl"},
+      {"family": "Leather", "name": "Suede_Leather_Turquoise", "path": "data/resources/materials/vMaterials_2/Leather/Suede_Leather.mdl"},
+      {"family": "Leather", "name": "Aniline_Leather_Shiny_Brown", "path": "data/resources/materials/vMaterials_2/Leather/Aniline_Leather.mdl"},
+      {"family": "Glass", "name": "Mirror", "path": "data/resources/materials/vMaterials_2/Glass/Mirror.mdl"},
+      {"family": "Glass", "name": "Mirror_Cool_Tint", "path": "data/resources/materials/vMaterials_2/Glass/Mirror.mdl"}
+    ]
+  }
+}

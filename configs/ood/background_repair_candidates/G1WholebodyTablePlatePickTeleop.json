@@ -1,0 +1,674 @@
+{
+  "algorithm": {
+    "free_space_grid_m": 0.5,
+    "immutable_obstacle_policy": "reject_candidate",
+    "max_candidates": 20,
+    "min_candidates": 5,
+    "name": "successful_trajectory_union_aabb_with_walls_v2",
+    "seed": 112233,
+    "trajectory_margin_m": 0.5
+  },
+  "candidates": [
+    {
+      "covers_all_demonstrations": true,
+      "hidden_prim_paths": [],
+      "immutable_obstacle_collision_free": true,
+      "immutable_obstacle_count": 12,
+      "placement": {
+        "anchor_prim_path": null,
+        "hidden_item_count": 0,
+        "hidden_overlap_area_m2": 0,
+        "scene_uid": "molmo_ithor:FloorPlan13_physics/scene_extent_room",
+        "score": 5.000553277763834,
+        "semantic_penalty": 0.0,
+        "strategy": "free_floor_insert_task_table",
+        "task_anchor_center_xy": [
+          0.3,
+          0.0
+        ],
+        "translation_xy": [
+          0.05525204385163884,
+          -2.220446049250313e-16
+        ],
+        "yaw_deg": 180.0,
+        "yaw_rad": 3.141592653589793
+      },
+      "rank": 1,
+      "scene_revision": "bd41a4803ad555ea",
+      "scene_uid": "molmo_ithor:FloorPlan13_physics/scene_extent_room"
+    },
+    {
+      "covers_all_demonstrations": true,
+      "hidden_prim_paths": [],
+      "immutable_obstacle_collision_free": true,
+      "immutable_obstacle_count": 13,
+      "placement": {
+        "anchor_prim_path": null,
+        "hidden_item_count": 0,
+        "hidden_overlap_area_m2": 0,
+        "scene_uid": "molmo_ithor:FloorPlan19_physics/room_4095c3288771da5a94fdbaf82a73c55d_1_1_0",
+        "score": 5.00076089279625,
+        "semantic_penalty": 0.0,
+        "strategy": "free_floor_insert_task_table",
+        "task_anchor_center_xy": [
+          0.3,
+          0.0
+        ],
+        "translation_xy": [
+          0.07600494385163814,
+          0.0
+        ],
+        "yaw_deg": 90.0,
+        "yaw_rad": 1.5707963267948966
+      },
+      "rank": 2,
+      "scene_revision": "27f8a52b4b199b86",
+      "scene_uid": "molmo_ithor:FloorPlan19_physics/room_4095c3288771da5a94fdbaf82a73c55d_1_1_0"
+    },
+    {
+      "covers_all_demonstrations": true,
+      "hidden_prim_paths": [],
+      "immutable_obstacle_collision_free": true,
+      "immutable_obstacle_count": 9,
+      "placement": {
+        "anchor_prim_path": null,
+        "hidden_item_count": 0,
+        "hidden_overlap_area_m2": 0,
+        "scene_uid": "molmo_ithor:FloorPlan4_physics/wall_dce3dd8d8e4da8bbffd280245489cfc4_1_1_0",
+        "score": 5.001348482277658,
+        "semantic_penalty": 0.0,
+        "strategy": "free_floor_insert_task_table",
+        "task_anchor_center_xy": [
+          0.3,
+          0.0
+        ],
+        "translation_xy": [
+          -0.11834290065166786,
+          -0.06448361858228602
+        ],
+        "yaw_deg": 0.0,
+        "yaw_rad": 0.0
+      },
+      "rank": 3,
+      "scene_revision": "6932a0771350e414",
+      "scene_uid": "molmo_ithor:FloorPlan4_physics/wall_dce3dd8d8e4da8bbffd280245489cfc4_1_1_0"
+    },
+    {
+      "covers_all_demonstrations": true,
+      "hidden_prim_paths": [],
+      "immutable_obstacle_collision_free": true,
+      "immutable_obstacle_count": 7,
+      "placement": {
+        "anchor_prim_path": null,
+        "hidden_item_count": 0,
+        "hidden_overlap_area_m2": 0,
+        "scene_uid": "molmo_ithor:FloorPlan3_physics/wall_d2c53a1511f7a24b9a6fb2a62a15f183_1_1_0",
+        "score": 5.001366876005323,
+        "semantic_penalty": 0.0,
+        "strategy": "free_floor_insert_task_table",
+        "task_anchor_center_xy": [
+          0.3,
+          0.0
+        ],
+        "translation_xy": [
+          -0.13666897807418077,
+          0.0
+        ],
+        "yaw_deg": 90.0,
+        "yaw_rad": 1.5707963267948966
+      },
+      "rank": 4,
+      "scene_revision": "1618a2747619b8d0",
+      "scene_uid": "molmo_ithor:FloorPlan3_physics/wall_d2c53a1511f7a24b9a6fb2a62a15f183_1_1_0"
+    },
+    {
+      "covers_all_demonstrations": true,
+      "hidden_prim_paths": [],
+      "immutable_obstacle_collision_free": true,
+      "immutable_obstacle_count": 6,
+      "placement": {
+        "anchor_prim_path": null,
+        "hidden_item_count": 0,
+        "hidden_overlap_area_m2": 0,
+        "scene_uid": "molmo_ithor:FloorPlan23_physics/walls_887eb8c0a85b01236e73eb4a29720320_1_1_0",
+        "score": 5.001366880444808,
+        "semantic_penalty": 0.0,
+        "strategy": "free_floor_insert_task_table",
+        "task_anchor_center_xy": [
+          0.3,
+          0.0
+        ],
+        "translation_xy": [
+          -0.13666897807418077,
+          0.0
+        ],
+        "yaw_deg": 0.0,
+        "yaw_rad": 0.0
+      },
+      "rank": 5,
+      "scene_revision": "c7e38b72040103da",
+      "scene_uid": "molmo_ithor:FloorPlan23_physics/walls_887eb8c0a85b01236e73eb4a29720320_1_1_0"
+    },
+    {
+      "covers_all_demonstrations": true,
+      "hidden_prim_paths": [],
+      "immutable_obstacle_collision_free": true,
+      "immutable_obstacle_count": 9,
+      "placement": {
+        "anchor_prim_path": null,
+        "hidden_item_count": 0,
+        "hidden_overlap_area_m2": 0,
+        "scene_uid": "molmo_ithor:FloorPlan26_physics/room_0fd3bd05ec84d79eb5567809b0287b2a_1_1_0",
+        "score": 5.002412949415458,
+        "semantic_penalty": 0.0,
+        "strategy": "free_floor_insert_task_table",
+        "task_anchor_center_xy": [
+          0.3,
+          0.0
+        ],
+        "translation_xy": [
+          -0.13666897807418077,
+          0.19878133500000017
+        ],
+        "yaw_deg": -90.0,
+        "yaw_rad": -1.5707963267948966
+      },
+      "rank": 6,
+      "scene_revision": "4e885c525f8a064c",
+      "scene_uid": "molmo_ithor:FloorPlan26_physics/room_0fd3bd05ec84d79eb5567809b0287b2a_1_1_0"
+    },
+    {
+      "covers_all_demonstrations": true,
+      "hidden_prim_paths": [],
+      "immutable_obstacle_collision_free": true,
+      "immutable_obstacle_count": 13,
+      "placement": {
+        "anchor_prim_path": null,
+        "hidden_item_count": 0,
+        "hidden_overlap_area_m2": 0,
+        "scene_uid": "molmo_ithor:FloorPlan28_physics/room_dd8812844478d9671d4cdeadc0be8501_1_1_0",
+        "score": 5.002709624694566,
+        "semantic_penalty": 0.0,
+        "strategy": "free_floor_insert_task_table",
+        "task_anchor_center_xy": [
+          0.3,
+          0.0
+        ],
+        "translation_xy": [
+          0.1969720438516387,
+          -0.18607116499999998
+        ],
+        "yaw_deg": 0.0,
+        "yaw_rad": 0.0
+      },
+      "rank": 7,
+      "scene_revision": "610424f13af7d92b",
+      "scene_uid": "molmo_ithor:FloorPlan28_physics/room_dd8812844478d9671d4cdeadc0be8501_1_1_0"
+    },
+    {
+      "covers_all_demonstrations": true,
+      "hidden_prim_paths": [],
+      "immutable_obstacle_collision_free": true,
+      "immutable_obstacle_count": 8,
+      "placement": {
+        "anchor_prim_path": null,
+        "hidden_item_count": 0,
+        "hidden_overlap_area_m2": 0,
+        "scene_uid": "molmo_ithor:FloorPlan21_physics/room_649527f1e61f398911bcbffb4b910169_1_1_0",
+        "score": 5.004522362578797,
+        "semantic_penalty": 0.0,
+        "strategy": "free_floor_insert_task_table",
+        "task_anchor_center_xy": [
+          0.3,
+          0.0
+        ],
+        "translation_xy": [
+          -0.13666897807418077,
+          0.4310864850000006
+        ],
+        "yaw_deg": 90.0,
+        "yaw_rad": 1.5707963267948966
+      },
+      "rank": 8,
+      "scene_revision": "794a5030e7c1b0b5",
+      "scene_uid": "molmo_ithor:FloorPlan21_physics/room_649527f1e61f398911bcbffb4b910169_1_1_0"
+    },
+    {
+      "covers_all_demonstrations": true,
+      "hidden_prim_paths": [],
+      "immutable_obstacle_collision_free": true,
+      "immutable_obstacle_count": 15,
+      "placement": {
+        "anchor_prim_path": null,
+        "hidden_item_count": 0,
+        "hidden_overlap_area_m2": 0,
+        "scene_uid": "molmo_ithor:FloorPlan15_physics/room_586f04c2dfe270f16d42b2e6d3891a44_1_1_0",
+        "score": 5.004806622841345,
+        "semantic_penalty": 0.0,
+        "strategy": "free_floor_insert_task_table",
+        "task_anchor_center_xy": [
+          0.3,
+          0.0
+        ],
+        "translation_xy": [
+          0.4805935438516389,
+          0.0
+        ],
+        "yaw_deg": -90.0,
+        "yaw_rad": -1.5707963267948966
+      },
+      "rank": 9,
+      "scene_revision": "4f6833f3a559c437",
+      "scene_uid": "molmo_ithor:FloorPlan15_physics/room_586f04c2dfe270f16d42b2e6d3891a44_1_1_0"
+    },
+    {
+      "covers_all_demonstrations": true,
+      "hidden_prim_paths": [],
+      "immutable_obstacle_collision_free": true,
+      "immutable_obstacle_count": 26,
+      "placement": {
+        "anchor_prim_path": null,
+        "hidden_item_count": 0,
+        "hidden_overlap_area_m2": 0,
+        "scene_uid": "molmo_ithor:FloorPlan18_physics/baseboard_829f5a78f12d7d84d3439b7908c7455a_1_1_0",
+        "score": 5.005135244838438,
+        "semantic_penalty": 0.0,
+        "strategy": "free_floor_insert_task_table",
+        "task_anchor_center_xy": [
+          0.3,
+          0.0
+        ],
+        "translation_xy": [
+          -0.13666897807418077,
+          -0.4949986173162819
+        ],
+        "yaw_deg": -90.0,
+        "yaw_rad": -1.5707963267948966
+      },
+      "rank": 10,
+      "scene_revision": "1579afdea626c942",
+      "scene_uid": "molmo_ithor:FloorPlan18_physics/baseboard_829f5a78f12d7d84d3439b7908c7455a_1_1_0"
+    },
+    {
+      "covers_all_demonstrations": true,
+      "hidden_prim_paths": [],
+      "immutable_obstacle_collision_free": true,
+      "immutable_obstacle_count": 36,
+      "placement": {
+        "anchor_prim_path": null,
+        "hidden_item_count": 0,
+        "hidden_overlap_area_m2": 0,
+        "scene_uid": "molmo_ithor:FloorPlan20_physics/scene_extent_room",
+        "score": 5.005767133295005,
+        "semantic_penalty": 0.0,
+        "strategy": "free_floor_insert_task_table",
+        "task_anchor_center_xy": [
+          0.3,
+          0.0
+        ],
+        "translation_xy": [
+          0.5766620438516383,
+          0.0
+        ],
+        "yaw_deg": 90.0,
+        "yaw_rad": 1.5707963267948966
+      },
+      "rank": 11,
+      "scene_revision": "114bd262ffbe018e",
+      "scene_uid": "molmo_ithor:FloorPlan20_physics/scene_extent_room"
+    },
+    {
+      "covers_all_demonstrations": true,
+      "hidden_prim_paths": [],
+      "immutable_obstacle_collision_free": true,
+      "immutable_obstacle_count": 12,
+      "placement": {
+        "anchor_prim_path": null,
+        "hidden_item_count": 0,
+        "hidden_overlap_area_m2": 0,
+        "scene_uid": "molmo_ithor:FloorPlan29_physics/scene_extent_room",
+        "score": 5.0083798795356875,
+        "semantic_penalty": 0.0,
+        "strategy": "free_floor_insert_task_table",
+        "task_anchor_center_xy": [
+          0.3,
+          0.0
+        ],
+        "translation_xy": [
+          0.38784204385163856,
+          0.7428263349999997
+        ],
+        "yaw_deg": 90.0,
+        "yaw_rad": 1.5707963267948966
+      },
+      "rank": 12,
+      "scene_revision": "88cd56f5d9350c46",
+      "scene_uid": "molmo_ithor:FloorPlan29_physics/scene_extent_room"
+    },
+    {
+      "covers_all_demonstrations": true,
+      "hidden_prim_paths": [],
+      "immutable_obstacle_collision_free": true,
+      "immutable_obstacle_count": 14,
+      "placement": {
+        "anchor_prim_path": null,
+        "hidden_item_count": 0,
+        "hidden_overlap_area_m2": 0,
+        "scene_uid": "molmo_ithor:FloorPlan10_physics/scene_extent_room",
+        "score": 5.010638325638723,
+        "semantic_penalty": 0.0,
+        "strategy": "free_floor_insert_task_table",
+        "task_anchor_center_xy": [
+          0.3,
+          0.0
+        ],
+        "translation_xy": [
+          -0.13666897807418077,
+          1.0550063349999999
+        ],
+        "yaw_deg": 90.0,
+        "yaw_rad": 1.5707963267948966
+      },
+      "rank": 13,
+      "scene_revision": "f0887fae52785e97",
+      "scene_uid": "molmo_ithor:FloorPlan10_physics/scene_extent_room"
+    },
+    {
+      "covers_all_demonstrations": true,
+      "hidden_prim_paths": [],
+      "immutable_obstacle_collision_free": true,
+      "immutable_obstacle_count": 15,
+      "placement": {
+        "anchor_prim_path": null,
+        "hidden_item_count": 0,
+        "hidden_overlap_area_m2": 0,
+        "scene_uid": "molmo_ithor:FloorPlan17_physics/scene_extent_room",
+        "score": 5.012128149281224,
+        "semantic_penalty": 0.0,
+        "strategy": "free_floor_insert_task_table",
+        "task_anchor_center_xy": [
+          0.3,
+          0.0
+        ],
+        "translation_xy": [
+          -0.13666897807418077,
+          1.205001335
+        ],
+        "yaw_deg": 180.0,
+        "yaw_rad": 3.141592653589793
+      },
+      "rank": 14,
+      "scene_revision": "12574ea34348797b",
+      "scene_uid": "molmo_ithor:FloorPlan17_physics/scene_extent_room"
+    },
+    {
+      "covers_all_demonstrations": true,
+      "hidden_prim_paths": [],
+      "immutable_obstacle_collision_free": true,
+      "immutable_obstacle_count": 11,
+      "placement": {
+        "anchor_prim_path": null,
+        "hidden_item_count": 0,
+        "hidden_overlap_area_m2": 0,
+        "scene_uid": "molmo_ithor:FloorPlan8_physics/scene_extent_room",
+        "score": 5.015012909986915,
+        "semantic_penalty": 0.0,
+        "strategy": "free_floor_insert_task_table",
+        "task_anchor_center_xy": [
+          0.3,
+          0.0
+        ],
+        "translation_xy": [
+          -0.13666897807418077,
+          -1.4949986649999998
+        ],
+        "yaw_deg": 0.0,
+        "yaw_rad": 0.0
+      },
+      "rank": 15,
+      "scene_revision": "50399dd53cc8a886",
+      "scene_uid": "molmo_ithor:FloorPlan8_physics/scene_extent_room"
+    },
+    {
+      "covers_all_demonstrations": true,
+      "hidden_prim_paths": [],
+      "immutable_obstacle_collision_free": true,
+      "immutable_obstacle_count": 16,
+      "placement": {
+        "anchor_prim_path": null,
+        "hidden_item_count": 0,
+        "hidden_overlap_area_m2": 0,
+        "scene_uid": "molmo_ithor:FloorPlan2_physics/scene_extent_room",
+        "score": 5.016108981880951,
+        "semantic_penalty": 0.0,
+        "strategy": "free_floor_insert_task_table",
+        "task_anchor_center_xy": [
+          0.3,
+          0.0
+        ],
+        "translation_xy": [
+          -0.13666897807418077,
+          1.6050013350000003
+        ],
+        "yaw_deg": 180.0,
+        "yaw_rad": 3.141592653589793
+      },
+      "rank": 16,
+      "scene_revision": "cb87db8a05c9438e",
+      "scene_uid": "molmo_ithor:FloorPlan2_physics/scene_extent_room"
+    },
+    {
+      "covers_all_demonstrations": true,
+      "hidden_prim_paths": [
+        "/World/Geometry/oven_212e9830f07e1d122a734360f95f0ab6_1_1_0"
+      ],
+      "immutable_obstacle_collision_free": true,
+      "immutable_obstacle_count": 0,
+      "placement": {
+        "anchor_prim_path": null,
+        "hidden_item_count": 1,
+        "hidden_overlap_area_m2": 8.421116533756642e-05,
+        "scene_uid": "molmo_ithor:FloorPlan12_physics/room_cc4a237385247848fbd79fdecfa9fef4_1_1_0",
+        "score": 1005.0184149474925,
+        "semantic_penalty": 0.0,
+        "strategy": "free_floor_insert_task_table",
+        "task_anchor_center_xy": [
+          0.3,
+          0.0
+        ],
+        "translation_xy": [
+          0.9993220438516384,
+          0.0
+        ],
+        "yaw_deg": -90.0,
+        "yaw_rad": -1.5707963267948966
+      },
+      "rank": 17,
+      "scene_revision": "766a954b648ef2ba",
+      "scene_uid": "molmo_ithor:FloorPlan12_physics/room_cc4a237385247848fbd79fdecfa9fef4_1_1_0"
+    },
+    {
+      "covers_all_demonstrations": true,
+      "hidden_prim_paths": [
+        "/World/Geometry/standardcounterheightwidth_50dbbcf9c0f3ed35c015fcf8cb77460d_1_1_0"
+      ],
+      "immutable_obstacle_collision_free": true,
+      "immutable_obstacle_count": 17,
+      "placement": {
+        "anchor_prim_path": null,
+        "hidden_item_count": 1,
+        "hidden_overlap_area_m2": 0.049625356765526825,
+        "scene_uid": "molmo_ithor:FloorPlan7_physics/scene_extent_room",
+        "score": 1009.9921561795971,
+        "semantic_penalty": 0.0,
+        "strategy": "free_floor_insert_task_table",
+        "task_anchor_center_xy": [
+          0.3,
+          0.0
+        ],
+        "translation_xy": [
+          0.951657043851639,
+          2.8049963349999993
+        ],
+        "yaw_deg": 90.0,
+        "yaw_rad": 1.5707963267948966
+      },
+      "rank": 18,
+      "scene_revision": "72e90e049f0ee72a",
+      "scene_uid": "molmo_ithor:FloorPlan7_physics/scene_extent_room"
+    },
+    {
+      "covers_all_demonstrations": true,
+      "hidden_prim_paths": [
+        "/World/Geometry/cabinet_359984ac3ecec09f25e04f4fbe7db9e9_1_1_0"
+      ],
+      "immutable_obstacle_collision_free": true,
+      "immutable_obstacle_count": 16,
+      "placement": {
+        "anchor_prim_path": null,
+        "hidden_item_count": 1,
+        "hidden_overlap_area_m2": 0.075740211172631,
+        "scene_uid": "molmo_ithor:FloorPlan16_physics/room_1ce0b8c388c5d34b0b0369182041ee46_1_1_0",
+        "score": 1012.5774921889785,
+        "semantic_penalty": 0.0,
+        "strategy": "free_floor_insert_task_table",
+        "task_anchor_center_xy": [
+          0.3,
+          0.0
+        ],
+        "translation_xy": [
+          -0.13666897807418077,
+          0.31904359000000015
+        ],
+        "yaw_deg": 90.0,
+        "yaw_rad": 1.5707963267948966
+      },
+      "rank": 19,
+      "scene_revision": "fd19c3ef329d815d",
+      "scene_uid": "molmo_ithor:FloorPlan16_physics/room_1ce0b8c388c5d34b0b0369182041ee46_1_1_0"
+    },
+    {
+      "covers_all_demonstrations": true,
+      "hidden_prim_paths": [
+        "/World/Geometry/standardcounterheightwidth_4222f2308b444751400244386df869e4_1_1_0"
+      ],
+      "immutable_obstacle_collision_free": true,
+      "immutable_obstacle_count": 26,
+      "placement": {
+        "anchor_prim_path": null,
+        "hidden_item_count": 1,
+        "hidden_overlap_area_m2": 0.3839926773279999,
+        "scene_uid": "molmo_ithor:FloorPlan14_physics/scene_extent_room",
+        "score": 1043.412031258205,
+        "semantic_penalty": 0.0,
+        "strategy": "free_floor_insert_task_table",
+        "task_anchor_center_xy": [
+          0.3,
+          0.0
+        ],
+        "translation_xy": [
+          -0.988422956148362,
+          -0.8074986650000002
+        ],
+        "yaw_deg": -90.0,
+        "yaw_rad": -1.5707963267948966
+      },
+      "rank": 20,
+      "scene_revision": "9e00f5f6fbb5dff0",
+      "scene_uid": "molmo_ithor:FloorPlan14_physics/scene_extent_room"
+    }
+  ],
+  "code_revision": "0ce8b7b9d3f91207508bc88a1b9eb5b61d2353c2",
+  "content_hash": "8585cc007af1b73ece3fa26898c50a815fa73fc0acb53be2ef27573638c50809",
+  "env_id": "humano/G1WholebodyTablePlatePickTeleop-v0",
+  "hand_type": "dex3",
+  "layout_key": "basic/G1WholebodyTablePlatePickTeleop/dex3",
+  "protected_bounds": {
+    "max_xy": [
+      1.425,
+      0.894998665
+    ],
+    "min_xy": [
+      -1.6983379561483616,
+      -0.894998665
+    ]
+  },
+  "room_type_policy": {
+    "allowed_room_types": [
+      "kitchen"
+    ],
+    "config_path": "configs/task_scene_room_types.json",
+    "config_sha256": "4456cc9ae4b2a742f607f1819e3af60bad36b6116c1bc5e558ca94a59a5ec0e5",
+    "fallback": [],
+    "primary": "kitchen",
+    "reason": "\u9910\u5177\u4efb\u52a1\u660e\u786e\u5c5e\u4e8e\u53a8\u623f\u3002",
+    "suite": "basic",
+    "task": "G1WholebodyTablePlatePickTeleop"
+  },
+  "scene_index": {
+    "path": "data/resources/scenes/molmo_ithor_ithor120_background/scene_index_v2.json",
+    "sha256": "8801b97465796d6f37b8d1ac8ff78dc2677b8e37d7868ce7424f19aca0eb25c0"
+  },
+  "schema": "humano.eval-scene-candidates.v2",
+  "source": {
+    "dataset": "data/releases/20260821_floorplan_id_ood/train/basic/G1WholebodyTablePlatePickTeleop",
+    "episode_indices": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36,
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44,
+      45,
+      46,
+      47,
+      48,
+      49,
+      50,
+      51,
+      52,
+      53,
+      54
+    ],
+    "sha256": "3947d4d942ce9feea6a4cb9d0f58108ee1bddecb69382fb40e4c04b7cfb4acd1"
+  }
+}

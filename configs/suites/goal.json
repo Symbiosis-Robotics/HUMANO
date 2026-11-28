@@ -1,0 +1,49 @@
+{
+  "tasks": [
+    "G1WholebodyGoalApplePlacementTeleop",
+    "G1WholebodyGoalPlatePlacementTeleop",
+    "G1WholebodyGoalBreadPlacementTeleop",
+    "G1WholebodyGoalMilkPlacementTeleop",
+    "G1WholebodyGoalObjectToBasketTeleop",
+    "G1WholebodyGoalBookPlacementTeleop",
+    "G1WholebodyGoalGroundBottlePlacementTeleop",
+    "G1WholebodyGoalEraserPourTeleop",
+    "G1WholebodyGoalStorageBoxPlacementTeleop",
+    "G1WholebodyGoalFootballPlacementTeleop"
+  ],
+  "evaluation_time_budget": {
+    "schema_version": 2,
+    "tasks": {
+      "G1WholebodyGoalApplePlacementTeleop": {
+        "max_steps_200hz": 4210
+      },
+      "G1WholebodyGoalPlatePlacementTeleop": {
+        "max_steps_200hz": 6600
+      },
+      "G1WholebodyGoalBreadPlacementTeleop": {
+        "max_steps_200hz": 6780
+      },
+      "G1WholebodyGoalMilkPlacementTeleop": {
+        "max_steps_200hz": 5970
+      },
+      "G1WholebodyGoalObjectToBasketTeleop": {
+        "max_steps_200hz": 7690
+      },
+      "G1WholebodyGoalBookPlacementTeleop": {
+        "max_steps_200hz": 9910
+      },
+      "G1WholebodyGoalGroundBottlePlacementTeleop": {
+        "max_steps_200hz": 6320
+      },
+      "G1WholebodyGoalEraserPourTeleop": {
+        "max_steps_200hz": 6050
+      },
+      "G1WholebodyGoalStorageBoxPlacementTeleop": {
+        "max_steps_200hz": 10860
+      },
+      "G1WholebodyGoalFootballPlacementTeleop": {
+        "max_steps_200hz": 7280
+      }
+    }
+  }
+}

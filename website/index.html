@@ -1,0 +1,156 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#f2f2f0">
+<meta name="description" content="HUMANO: A benchmark for generalist humanoid loco-manipulation, structured capability evaluation, and controlled out-of-distribution robustness.">
+<title>HUMANO — Generalist Humanoid Loco-Manipulation Benchmark</title>
+<link rel="icon" href="resources/branding/favicon/favicon.ico" sizes="16x16 32x32 48x48">
+<link rel="icon" href="resources/branding/favicon.svg" type="image/svg+xml" sizes="any">
+<link rel="apple-touch-icon" href="resources/branding/favicon/apple-touch-icon.png">
+<link rel="stylesheet" href="./src/styles.css">
+
+<script type="module" src="./src/app.js"></script>
+</head>
+<body data-page="home" id="top">
+<header class="site-header"><div class="nav-shell">
+<a class="wordmark" href="#top" aria-label="HUMANO home"><img src="resources/branding/icon-webpage.png" alt="" width="34" height="34"><span>HUMANO<span class="wordmark-dot">.</span></span></a>
+<nav class="main-nav" aria-label="Primary navigation"><a href="#overview">Overview</a><a href="#tasks">Tasks</a><a href="#pipeline">Pipeline</a><a href="#humano-plus">HUMANO-Plus</a><a href="#leaderboard">Results</a></nav>
+<a class="nav-cta" href="tasks.html">Explore tasks <span aria-hidden="true">↗</span></a>
+<button class="mobile-menu" type="button" id="mobile-menu" aria-label="Open navigation" aria-expanded="false"><span></span><span></span><span></span></button>
+</div></header>
+<main>
+<section class="hero section-shell" id="hero" aria-labelledby="hero-heading">
+<div class="hero-editorial"><p class="eyebrow"><span class="eyebrow-line"></span> RESEARCH BENCHMARK / HUMANOID ROBOTICS</p>
+<h1 id="hero-heading"><img class="hero-logo" src="resources/branding/logo.svg" width="1986" height="592" alt="HUMANO"></h1>
+<p class="hero-title">A Large-Scale Benchmark for Generalist Humanoid Loco-Manipulation</p>
+<!-- TODO(HUMANO) [DECISION]: Review the hero opening question. -->
+<p class="hero-copy">What does it take for one humanoid policy to move, manipulate, adapt, and reason across diverse real-world-like tasks?</p>
+<div class="resource-buttons" id="hero-resources" aria-label="Research resources"></div>
+<div class="hero-index"><span>100 TASKS</span><span class="mini-divider"></span><span>8 CAPABILITY SUITES</span><span class="mini-divider"></span><span>7 OOD FACTORS</span></div>
+</div>
+<div class="hero-showcase"><div class="showcase-header"><span>SELECTED WHOLE-BODY DEMONSTRATIONS</span><span class="live-line"><span></span> VIDEO ATLAS</span></div><div class="hero-mosaic" id="hero-mosaic"></div></div>
+</section>
+<section class="overview section-shell" id="overview" aria-labelledby="overview-title">
+<div class="section-top"><p class="eyebrow">01 / BENCHMARK OVERVIEW</p><div class="section-heading-grid"><h2 id="overview-title">From isolated skills to<br><em>generalist capability.</em></h2><p>HUMANO organizes whole-body competence into interpretable tasks and controlled evaluation conditions, enabling systematic comparisons across generalist humanoid policies.</p></div></div>
+<!-- TODO(HUMANO) [DECISION]: Review the overview headline. -->
+<div class="feature-grid">
+<article class="feature-card"><div class="feature-top"><span>01</span><span class="icon-slot" data-icon="network"></span></div><div class="feature-viz suite-viz" role="group" aria-label="Eight HUMANO task suites">
+  <div class="suite-viz-item">
+    <img src="resources/illustrations/task-suites/basic.svg" alt=""><span>Basic</span><small>10</small>
+  </div>
+  <div class="suite-viz-item">
+    <img src="resources/illustrations/task-suites/advanced.svg" alt=""><span>Advanced</span><small>10</small>
+  </div>
+  <div class="suite-viz-item">
+    <img src="resources/illustrations/task-suites/spatial.svg" alt=""><span>Spatial</span><small>20</small>
+  </div>
+  <div class="suite-viz-item">
+    <img src="resources/illustrations/task-suites/object.svg" alt=""><span>Object</span><small>10</small>
+  </div>
+  <div class="suite-viz-item">
+    <img src="resources/illustrations/task-suites/movement.svg" alt=""><span>Movement</span><small>10</small>
+  </div>
+  <div class="suite-viz-item">
+    <img src="resources/illustrations/task-suites/goal.svg" alt=""><span>Goal</span><small>10</small>
+  </div>
+  <div class="suite-viz-item">
+    <img src="resources/illustrations/task-suites/long-horizon.svg" alt=""><span>Long-Horizon</span><small>20</small>
+  </div>
+  <div class="suite-viz-item">
+    <img src="resources/illustrations/task-suites/conditional.svg" alt=""><span>Conditional</span><small>10</small>
+  </div>
+</div><h3>Task Suite Design</h3><p>HUMANO organizes 100 tasks into eight complementary suites that evaluate fundamental whole-body skills, goal-directed loco-manipulation, generalization, temporal skill composition, and state-dependent decision making.</p></article>
+<article class="feature-card"><div class="feature-top"><span>02</span><span class="icon-slot" data-icon="scan-eye"></span></div><div class="feature-viz ood-orbit">
+<svg viewBox="0 0 300 118" role="img" aria-label="One in-distribution task setting surrounded by seven out-of-distribution factors">
+  <g class="orbit-lines"><ellipse cx="150" cy="61" rx="94" ry="39"/><ellipse cx="150" cy="61" rx="59" ry="24"/></g>
+  <circle class="orbit-core" cx="150" cy="61" r="14"/>
+  <text class="orbit-id" x="150" y="65">ID</text>
+  <g transform="translate(150 22)"><circle r="15" class="orbit-mask"/><image href="resources/illustrations/ood-settings/distractor.svg" x="-13" y="-13" width="26" height="26"/></g>
+  <g transform="translate(223 37)"><circle r="15" class="orbit-mask"/><image href="resources/illustrations/ood-settings/lighting.svg" x="-13" y="-13" width="26" height="26"/></g>
+  <g transform="translate(242 70)"><circle r="15" class="orbit-mask"/><image href="resources/illustrations/ood-settings/background.svg" x="-13" y="-13" width="26" height="26"/></g>
+  <g transform="translate(191 96)"><circle r="15" class="orbit-mask"/><image href="resources/illustrations/ood-settings/camera-viewpoint.svg" x="-13" y="-13" width="26" height="26"/></g>
+  <g transform="translate(109 96)"><circle r="15" class="orbit-mask"/><image href="resources/illustrations/ood-settings/language.svg" x="-13" y="-13" width="26" height="26"/></g>
+  <g transform="translate(58 70)"><circle r="15" class="orbit-mask"/><image href="resources/illustrations/ood-settings/sensor-noise.svg" x="-13" y="-13" width="26" height="26"/></g>
+  <g transform="translate(77 37)"><circle r="15" class="orbit-mask"/><image href="resources/illustrations/ood-settings/robot-initial-state.svg" x="-13" y="-13" width="26" height="26"/></g>
+  <text class="orbit-caption" x="293" y="13">7 OOD factors</text>
+</svg>
+</div><h3>Generalization Settings</h3><p>Beyond the variations built into the task suites, HUMANO-Plus evaluates generalization under seven controlled distribution shifts spanning distractors, lighting, backgrounds, camera viewpoints, language, sensor noise, and the robot’s initial state.</p></article>
+<article class="feature-card"><div class="feature-top"><span>03</span><span class="icon-slot" data-icon="workflow"></span></div><div class="feature-viz sonic-viz" role="img"
+     aria-label="Policies predict a 64-dimensional SONIC motion token. The SONIC decoder converts it into G1 body joint commands.">
+
+  <div class="sonic-viz-block sonic-policies">
+    <small>POLICIES</small>
+    <strong>ACT · π0.5</strong>
+    <strong>GR00T · Ψ0</strong>
+  </div>
+
+  <span class="sonic-viz-arrow">→</span>
+
+  <div class="sonic-viz-block sonic-latent">
+    <small>SONIC TOKEN</small>
+
+    <div class="sonic-token-bars" aria-hidden="true">
+      <i></i><i></i><i></i><i></i>
+      <i></i><i></i><i></i><i></i>
+    </div>
+
+    <strong>64-D Latent</strong>
+  </div>
+
+  <span class="sonic-viz-arrow">→</span>
+
+  <div class="sonic-viz-block sonic-execution">
+    <small>SONIC</small>
+    <strong>Decoder</strong>
+    <span>↓</span>
+    <strong>G1 body</strong>
+  </div>
+
+</div><h3>Unified Policy Interface</h3><p>Policies from different model families predict actions in the same motion-latent space. A shared SONIC controller decodes these predictions into whole-body robot motion, enabling consistent evaluation across policies.</p></article>
+</div>
+<div class="metrics-grid" aria-label="Benchmark scale"><div><strong>90</strong><span>Indoor Scenes</span></div><div><strong>2K+</strong><span>Object Assets</span></div><div><strong>5,000</strong><span>Training Demos</span></div><div><strong>50</strong><span>Demos per Task</span></div></div>
+<div class="scene-gallery" role="group" aria-label="Most frequent training scene in each room category">
+<figure><img src="resources/images/scenes/FloorPlan10.jpg" alt="Interior of kitchen" loading="lazy"><figcaption><strong>Kitchen</strong></figcaption></figure>
+<figure><img src="resources/images/scenes/FloorPlan218.jpg" alt="Interior of living room" loading="lazy"><figcaption><strong>Living Room</strong></figcaption></figure>
+<figure><img src="resources/images/scenes/FloorPlan325.jpg" alt="Interior of bedroom" loading="lazy"><figcaption><strong>Bedroom</strong></figcaption></figure>
+</div>
+</section>
+<section class="tasks-preview section-shell" id="tasks" aria-labelledby="tasks-title"><div class="section-top"><p class="eyebrow">02 / TASK EXPLORER</p><div class="section-heading-grid"><h2 id="tasks-title">Eight suites.<br><em>One capability map.</em></h2><p>Explore the structure behind HUMANO's 100 tasks. Each suite captures a distinct source of difficulty in humanoid loco-manipulation.</p></div></div><div class="suite-grid" id="suite-grid"></div><div class="tasks-preview-bottom"><div><span class="kicker-small">FULL TASK CATALOG</span><p>Search by task, skill, environment ID, or instruction. Inspect variants without manually segmenting video timelines.</p></div><a class="arrow-link" href="tasks.html">Explore all 100 tasks <span>↗</span></a></div></section>
+<section class="pipeline-section section-shell" id="pipeline" aria-labelledby="pipeline-title"><div class="section-top"><p class="eyebrow">03 / DATA PIPELINE</p><div class="section-heading-grid"><h2 id="pipeline-title">Demonstration Collection<br><em>and Rendering</em></h2><p>Human teleoperation generates robot demonstrations in simulation. Saved states are replayed offline to render egocentric images and assemble multimodal training trajectories.</p></div></div>
+<div class="pipeline-card"><div class="pipeline-label"><span>01 / DEMONSTRATION COLLECTION & RENDERING</span><span>REPRESENTATIVE SONIC PATH</span></div><div class="flow-main">
+<div class="flow-node"><span class="flow-icon" data-icon="person-standing"></span><b>PICO VR</b><small>Human teleoperation</small></div><div class="flow-arrow" aria-hidden="true">→</div><div class="flow-node"><span class="flow-icon" data-icon="waypoints"></span><b>SONIC</b><small>Encode motion; decode to body commands</small><span class="micro-pill">64-D MOTION LATENT</span></div><div class="flow-arrow" aria-hidden="true">→</div><div class="flow-node"><span class="flow-icon" data-icon="bot"></span><b>MuJoCo</b><small>Physics execution; save robot and object states</small></div><div class="flow-arrow" aria-hidden="true">→</div><div class="flow-node"><span class="flow-icon" data-icon="monitor-play"></span><b>Isaac Sim</b><small>Replay saved states offline; render egocentric RGB</small></div><div class="flow-arrow" aria-hidden="true">→</div><div class="flow-node flow-node-last"><span class="flow-icon" data-icon="database"></span><b>HUMANO Data</b><small>Images · State · Actions · Language</small></div>
+</div><div class="flow-footnotes"><span><span class="footnote-dot"></span> Hand commands are collected separately from SONIC body-motion control.</span><span><span class="footnote-dot"></span> Isaac Sim rendering is an offline replay step, not part of the live MuJoCo control loop.</span><span><span class="footnote-dot"></span> HUMANO also supports demonstration collection with the AMO and TWIST2 whole-body controllers.</span></div>
+<div class="pipeline-stills" role="group" aria-label="Operator pose reference and demonstration replay">
+  <figure>
+    <img src="resources/images/pipeline/pico-operator.png" width="519" height="693" alt="A standing PICO operator holds the right controller in front of the torso." loading="lazy">
+    <figcaption>PICO operator · Pose reference</figcaption>
+  </figure>
+  <figure>
+    <img src="resources/images/pipeline/mujoco_third.png" width="960" height="640" alt="In MuJoCo, the robot holds a plate over an open drawer." loading="lazy">
+    <figcaption>MuJoCo · Recorded state</figcaption>
+  </figure>
+  <figure>
+    <img src="resources/images/pipeline/isaac_third.png" width="960" height="640" alt="In the rendered kitchen, the same robot holds the plate above the drawer." loading="lazy">
+    <figcaption>Isaac Sim · Rendered state</figcaption>
+  </figure>
+</div>
+<p class="pipeline-stills-caption">The two simulations show the same moment in task L-2, placing a plate into a drawer. Both use the same third-person camera (episode 24, frame 1654).</p>
+<div class="flow-divider"></div><div class="pipeline-label"><span>02 / UNIFIED POLICY EXECUTION</span><span>SHARED EVALUATION PATH</span></div><p class="pipeline-execution-note">In the v1 benchmark, the policy predicts a 78-dimensional action for the body and both hands.</p>
+<div class="policy-strip">
+  <span>Robot Observation + Language</span><b aria-hidden="true">→</b><span>High-Level Policy</span><b aria-hidden="true">→</b>
+  <ul class="policy-branches">
+    <li>64-D SONIC motion token → SONIC decoder → Body joints</li>
+    <li>Left and right hand commands (7-D each) → Hand joints</li>
+  </ul>
+</div></div>
+</section>
+<section class="ood-section" id="humano-plus" aria-labelledby="ood-title"><div class="section-shell"><div class="section-top"><p class="eyebrow">04 / HUMANO-PLUS</p><div class="section-heading-grid"><h2 id="ood-title">Robustness beyond<br><em>familiar conditions.</em></h2><p>Explore seven distribution shifts through one example task. Select a factor to compare the standard setting with its OOD counterpart.</p></div></div>
+<div class="ood-console"><div class="ood-factor-list" id="ood-tabs" role="tablist" aria-label="OOD factor"></div><div class="ood-content"><div class="ood-content-head"><div class="ood-current"><img alt="" id="ood-illustration" src="resources/illustrations/ood-settings/distractor.png"><div><span class="kicker-small" id="ood-number">01 / 07</span><h3 id="ood-factor-title">Distractor</h3></div></div><span class="quiet-note" id="ood-camera-note">SCENE COMPARISON</span></div><label class="ood-option" id="ood-option" hidden><span></span><select></select></label><div class="pair-grid" id="ood-pair"></div><div class="ood-facts" id="ood-facts"></div><div class="ood-bottom-line"><span>Standard protocol: trained on ID demonstrations, evaluated on held-out OOD conditions.</span><a href="#leaderboard">View baseline results ↗</a></div></div></div>
+</div></section>
+<section class="results-section section-shell" id="leaderboard" aria-labelledby="results-title"><div class="section-top"><p class="eyebrow">05 / BENCHMARK RESULTS</p><div class="section-heading-grid"><h2 id="results-title">How policies<br><em>measure up.</em></h2><p>Compare representative baselines on multi-task competence and controlled OOD robustness. No additional sorting or visual clutter.</p></div></div><div class="leaderboard-shell"><div class="leaderboard-head"><div class="tabs"><button class="tab active" data-results-tab="id" aria-pressed="true">HUMANO (ID)</button><button class="tab" data-results-tab="ood" aria-pressed="false">HUMANO-Plus (OOD)</button></div><span class="metric-note">SUCCESS RATE (%)</span></div><div class="result-scroll"><table id="leaderboard-table" aria-label="Baseline evaluation results"></table></div><p class="result-note">Provisional manuscript results, with 25 rollouts per task per setting. Evaluation on the updated v1.0 data is pending.</p></div></section>
+</main>
+<footer class="site-footer" id="footer"><div class="section-shell"><div class="footer-top"><a href="#top" class="wordmark wordmark-footer"><img src="resources/branding/logo.svg" width="144" height="43" alt="HUMANO"></a><div class="footer-links"><a href="#overview">Overview</a><a href="tasks.html">Tasks</a><a href="#humano-plus">HUMANO-Plus</a><a href="#leaderboard">Results</a><a href="documentation.html">Documentation</a></div></div><div class="footer-grid"><div><span class="kicker-small">ACKNOWLEDGEMENTS</span><p>HUMANO uses iTHOR scenes from <a href="https://github.com/allenai/ai2thor" target="_blank" rel="noopener noreferrer">AI2-THOR</a>, distributed through <a href="https://github.com/allenai/molmospaces" target="_blank" rel="noopener noreferrer">MolmoSpaces</a>. We thank the creators of these scenes and the contributors to <a href="https://synthesis.extwin.com" target="_blank" rel="noopener noreferrer">Extwin Synthesis</a>, MolmoSpaces, and <a href="https://objaverse.allenai.org/" target="_blank" rel="noopener noreferrer">Objaverse</a> for the object assets used in the benchmark. <a href="THIRD_PARTY_NOTICES.md">Asset credits and licenses</a>.</p></div><div><span class="kicker-small">CITATION</span><p class="footer-cite">BibTeX will be available with the official paper release.</p><button class="copy-citation" id="copy-citation" type="button" disabled>Copy BibTeX · Pending</button></div></div><div class="footer-bottom"><span>© 2026 HUMANO Research Project</span><a href="#top">Back to top ↑</a></div></div></footer>
+</body>
+</html>

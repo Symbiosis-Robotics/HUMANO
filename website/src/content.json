@@ -1,0 +1,294 @@
+{
+  "resourceLinks": {
+    "paper": "",
+    "code": "https://github.com/Symbiosis-Robotics/HUMANO",
+    "huggingface": "https://huggingface.co/datasets/Symbiosis-Robotics/HUMANO",
+    "modelscope": "https://www.modelscope.cn/datasets/SymbiosisRobotics/HUMANO",
+    "documentation": ""
+  },
+  "citationBibtex": "",
+  "suites": [
+    {
+      "name": "Basic",
+      "no": "01",
+      "count": 10,
+      "icon": "hand",
+      "summary": "Foundational whole-body interactions."
+    },
+    {
+      "name": "Advanced",
+      "no": "02",
+      "count": 10,
+      "icon": "package",
+      "summary": "Goal-directed loco-manipulation."
+    },
+    {
+      "name": "Spatial",
+      "no": "03",
+      "count": 20,
+      "icon": "move",
+      "summary": "Changes in spatial configurations."
+    },
+    {
+      "name": "Object",
+      "no": "04",
+      "count": 10,
+      "icon": "shapes",
+      "summary": "Generalization across object categories."
+    },
+    {
+      "name": "Movement",
+      "no": "05",
+      "count": 10,
+      "icon": "footprints",
+      "summary": "Approach and whole-body movement."
+    },
+    {
+      "name": "Goal",
+      "no": "06",
+      "count": 10,
+      "icon": "target",
+      "summary": "Instruction-conditioned goals."
+    },
+    {
+      "name": "Long-Horizon",
+      "no": "07",
+      "count": 20,
+      "icon": "list-ordered",
+      "summary": "Ordered multi-stage behaviors."
+    },
+    {
+      "name": "Conditional",
+      "no": "08",
+      "count": 10,
+      "icon": "git-branch",
+      "summary": "State-dependent action selection."
+    }
+  ],
+  "hero": [
+    {
+      "id": "B-8",
+      "title": "Box Lifting",
+      "suite": "Basic",
+      "video": "resources/videos/tasks/B-8/episode-000005-right.mp4",
+      "poster": ""
+    },
+    {
+      "id": "L-9",
+      "title": "Basket and Apple",
+      "suite": "Long-Horizon",
+      "video": "resources/videos/tasks/L-9/episode-000007-left.mp4",
+      "poster": ""
+    },
+    {
+      "id": "O-2",
+      "title": "Bimanual Object Grasping",
+      "suite": "Object",
+      "video": "resources/videos/tasks/O-2/episode-000049-ego-trim.mp4",
+      "poster": ""
+    },
+    {
+      "id": "C-2",
+      "title": "Conditional Drawer",
+      "suite": "Conditional",
+      "video": "resources/videos/tasks/C-2/closed-open-ego-trim2.mp4",
+      "poster": ""
+    }
+  ],
+  "taskMedia": {
+    "B-8": {
+      "video": "resources/videos/tasks/B-8/episode-000005-right.mp4"
+    },
+    "L-9": {
+      "video": "resources/videos/tasks/L-9/episode-000007-left.mp4"
+    },
+    "O-2": {
+      "video": "resources/videos/tasks/O-2/episode-000049-ego-trim.mp4"
+    },
+    "C-2": {
+      "video": "resources/videos/tasks/C-2/closed-open-ego-trim2.mp4"
+    }
+  },
+  "ood": [
+    {
+      "key": "distractor",
+      "name": "Distractor",
+      "mode": "scene",
+      "change": "Five task-irrelevant objects are added to the scene.",
+      "fixed": "Task objective, relevant objects, and robot initialization.",
+      "evaluates": "Robustness to visual and physical clutter.",
+      "media": {
+        "id": "resources/ood/A-1/background-id-full.mp4",
+        "ood": "resources/ood/A-1/distractors-thor.mp4",
+        "type": "video"
+      },
+      "task": "A-1 · Apple into basket",
+      "note": "SCENE COMPARISON"
+    },
+    {
+      "key": "lighting",
+      "name": "Lighting",
+      "mode": "scene",
+      "change": "The lighting changes around the workspace.",
+      "fixed": "Scene geometry, object states, and task objective.",
+      "evaluates": "Robustness to illumination variation.",
+      "media": {
+        "id": "resources/ood/A-1/camera_original.mp4",
+        "type": "video"
+      },
+      "options": [
+        {
+          "label": "Variant 1",
+          "ood": "resources/ood/A-1/lighting_single_light.mp4"
+        },
+        {
+          "label": "Variant 2",
+          "ood": "resources/ood/A-1/lighting_rgb_cyan.mp4"
+        },
+        {
+          "label": "Variant 3",
+          "ood": "resources/ood/A-1/lighting_size_huge.mp4"
+        }
+      ],
+      "task": "A-1 · Apple into basket",
+      "note": "SCENE COMPARISON"
+    },
+    {
+      "key": "background",
+      "name": "Background",
+      "mode": "scene",
+      "change": "The same task is replayed in a held-out room with the test table material.",
+      "fixed": "Task semantics, relevant objects, and success criterion; room layout need not match.",
+      "evaluates": "Transfer to unfamiliar room geometry and appearance.",
+      "media": {
+        "id": "resources/ood/A-1/background-id-full.mp4",
+        "type": "video"
+      },
+      "options": [
+        {
+          "label": "Scene 1",
+          "ood": "resources/ood/A-1/background-ood-full.mp4"
+        },
+        {
+          "label": "Scene 2",
+          "ood": "resources/ood/A-1/background-ood-fp21.mp4"
+        },
+        {
+          "label": "Scene 3",
+          "ood": "resources/ood/A-1/background-ood-fp28.mp4"
+        }
+      ],
+      "task": "A-1 · Apple into basket",
+      "note": "TASK-MATCHED / HELD-OUT FLOORPLANS"
+    },
+    {
+      "key": "camera",
+      "name": "Camera Viewpoint",
+      "mode": "egocentric",
+      "change": "The head camera observes the same action from a different viewpoint.",
+      "fixed": "Physical layout, robot state, camera intrinsics.",
+      "evaluates": "Robustness to changes in egocentric observations.",
+      "media": {
+        "id": "resources/ood/A-1/camera_original.mp4",
+        "type": "video"
+      },
+      "options": [
+        {
+          "label": "Variant 1",
+          "ood": "resources/ood/A-1/camera_yaw_plus10.mp4"
+        },
+        {
+          "label": "Variant 2",
+          "ood": "resources/ood/A-1/camera_translation_x_plus5cm.mp4"
+        },
+        {
+          "label": "Variant 3",
+          "ood": "resources/ood/A-1/camera_yaw_plus10_translation_x_plus5cm.mp4"
+        }
+      ],
+      "task": "A-1 · Apple into basket",
+      "note": "EGOCENTRIC RGB"
+    },
+    {
+      "key": "language",
+      "name": "Language",
+      "mode": "language",
+      "change": "The canonical instruction is replaced by a semantically equivalent held-out variant.",
+      "fixed": "Task objective, entities, scene state, and success condition.",
+      "evaluates": "Robustness to linguistic variation.",
+      "media": {
+        "idText": "pick up the apple on the low table and place it in the basket"
+      },
+      "options": [
+        {
+          "label": "Variant 1",
+          "oodText": "The robot uses its right hand to pick up the apple from the low table and place it inside the basket."
+        },
+        {
+          "label": "Variant 2",
+          "oodText": "An apple and a basket rest on the low table, and the robot moves the apple into the basket with its right hand."
+        },
+        {
+          "label": "Variant 3",
+          "oodText": "Pick up the apple from the low table and put it in the basket on that table."
+        }
+      ],
+      "task": "A-1 · Apple into basket",
+      "note": "CANONICAL / HELD-OUT INSTRUCTION"
+    },
+    {
+      "key": "sensor",
+      "name": "Sensor Noise",
+      "mode": "egocentric",
+      "change": "The head-camera images are blurred to different degrees.",
+      "fixed": "Underlying simulator state and non-RGB observations.",
+      "evaluates": "Robustness to visual sensing degradation.",
+      "media": {
+        "id": "resources/ood/A-1/background-id-full.mp4",
+        "type": "video"
+      },
+      "options": [
+        {
+          "label": "Variant 1",
+          "ood": "resources/ood/A-1/full-blur-1.mp4"
+        },
+        {
+          "label": "Variant 2",
+          "ood": "resources/ood/A-1/full-blur-5.mp4"
+        },
+        {
+          "label": "Variant 3",
+          "ood": "resources/ood/A-1/full-blur-10.mp4"
+        }
+      ],
+      "task": "A-1 · Apple into basket",
+      "note": "EGOCENTRIC RGB"
+    },
+    {
+      "key": "robot",
+      "name": "Robot Initial State",
+      "mode": "scene",
+      "change": "The base starts 10 cm farther along the y-axis and rotates by 10° in yaw.",
+      "fixed": "Task objects and non-root joint states.",
+      "evaluates": "Robustness to initial robot pose variation.",
+      "media": {
+        "type": "image"
+      },
+      "options": [
+        {
+          "label": "Exocentric",
+          "id": "resources/ood/A-1/robot_initial_id_top.png",
+          "ood": "resources/ood/A-1/robot_initial_ood_top.png"
+        },
+        {
+          "label": "Egocentric",
+          "id": "resources/ood/A-1/robot_initial_id_ego.png",
+          "ood": "resources/ood/A-1/robot_initial_ood_ego.png"
+        }
+      ],
+      "task": "A-1 · Apple into basket",
+      "note": "INITIAL POSE"
+    }
+  ],
+  "source": "HUMANO current implementation / user-provided source; provisional manuscript Tables 2 and 3 for baseline result fixtures."
+}

@@ -1,0 +1,247 @@
+{
+  "candidate_coverage": {
+    "G1WholebodyBallKickTeleop.json:0": {
+      "eval": 6,
+      "train": 14
+    },
+    "G1WholebodyChairPushTeleop.json:0": {
+      "eval": 7,
+      "train": 13
+    },
+    "G1WholebodyChairPushToTableTeleop.json:0": {
+      "eval": 9,
+      "train": 11
+    },
+    "G1WholebodyChairSitTeleop.json:0": {
+      "eval": 9,
+      "train": 11
+    },
+    "G1WholebodyDollyPushTeleop.json:0": {
+      "eval": 8,
+      "train": 12
+    },
+    "G1WholebodyDollyPushToTableTeleop.json:0": {
+      "eval": 9,
+      "train": 11
+    },
+    "G1WholebodyDrawerOpenTeleop.json:0": {
+      "eval": 8,
+      "train": 12
+    },
+    "G1WholebodyGroundBasketPickTeleop.json:0": {
+      "eval": 8,
+      "train": 12
+    },
+    "G1WholebodyGroundBasketToTableTeleop.json:0": {
+      "eval": 9,
+      "train": 11
+    },
+    "G1WholebodyGroundBottlePickTeleop.json:0": {
+      "eval": 7,
+      "train": 13
+    },
+    "G1WholebodyGroundBottleToTableTeleop.json:6c44852efcfd287aaac30c01fb3dc081d01de199e5bd22606725900305fd285e": {
+      "eval": 8,
+      "train": 12
+    },
+    "G1WholebodyGroundBottleToTableTeleop.json:7bf79a48c9bb940d70cfaf9677543d562c038b3d895c4453204a54c12938644a": {
+      "eval": 8,
+      "train": 12
+    },
+    "G1WholebodyGroundBottleToTableTeleop.json:86e839e3db482c7a33dd06f523e9315a72a17c4e6798e1d62efbe72aa0c7c402": {
+      "eval": 8,
+      "train": 12
+    },
+    "G1WholebodyGroundBoxPickTeleop.json:0": {
+      "eval": 6,
+      "train": 14
+    },
+    "G1WholebodyGroundBoxToTableTeleop.json:0": {
+      "eval": 8,
+      "train": 12
+    },
+    "G1WholebodyTableApplePickTeleop.json:0": {
+      "eval": 8,
+      "train": 12
+    },
+    "G1WholebodyTableAppleToBasketTeleop.json:0": {
+      "eval": 8,
+      "train": 12
+    },
+    "G1WholebodyTableBookPickTeleop.json:0": {
+      "eval": 8,
+      "train": 12
+    },
+    "G1WholebodyTableBreadToTrayTeleop.json:0": {
+      "eval": 8,
+      "train": 12
+    },
+    "G1WholebodyTableButtonPressTeleop.json:0": {
+      "eval": 8,
+      "train": 12
+    },
+    "G1WholebodyTableEraserOutOfPenHolderTeleop.json:0": {
+      "eval": 7,
+      "train": 13
+    },
+    "G1WholebodyTableMilkToTrashCanTeleop.json:0": {
+      "eval": 8,
+      "train": 12
+    },
+    "G1WholebodyTablePlatePickTeleop.json:0": {
+      "eval": 8,
+      "train": 12
+    },
+    "G1WholebodyTablePlateToShelfTeleop.json:0": {
+      "eval": 7,
+      "train": 13
+    }
+  },
+  "compatible_with": {
+    "content_hash": "b23492f8993d1270544d608aca55540f2c56c09d9fc0ec1acf9896144b1e0eb7",
+    "preserved_eval_floor_plan_count": 28,
+    "preserved_train_floor_plan_count": 51,
+    "schema": "humano.global-floorplan-split-100.v1"
+  },
+  "content_hash": "cf5634be54f44839a37c40fe4be3db46c10a064a73902a533f02f295aa17d26d",
+  "eval_floor_plans": [
+    "FloorPlan6",
+    "FloorPlan13",
+    "FloorPlan14",
+    "FloorPlan15",
+    "FloorPlan16",
+    "FloorPlan18",
+    "FloorPlan20",
+    "FloorPlan21",
+    "FloorPlan27",
+    "FloorPlan28",
+    "FloorPlan201",
+    "FloorPlan210",
+    "FloorPlan211",
+    "FloorPlan214",
+    "FloorPlan216",
+    "FloorPlan217",
+    "FloorPlan219",
+    "FloorPlan220",
+    "FloorPlan225",
+    "FloorPlan229",
+    "FloorPlan302",
+    "FloorPlan305",
+    "FloorPlan309",
+    "FloorPlan311",
+    "FloorPlan314",
+    "FloorPlan317",
+    "FloorPlan318",
+    "FloorPlan319",
+    "FloorPlan322",
+    "FloorPlan327"
+  ],
+  "excluded_floor_plans": [],
+  "excluded_room_types": [
+    "bathroom"
+  ],
+  "existing_training_successes": {
+    "retained_in_train_split": 0,
+    "total": 0
+  },
+  "minimum_candidate_coverage": {
+    "eval": 6,
+    "required": 5,
+    "train": 11
+  },
+  "room_type_counts": {
+    "bedroom": {
+      "eval": 10,
+      "excluded": 0,
+      "source": 30,
+      "train": 20
+    },
+    "kitchen": {
+      "eval": 10,
+      "excluded": 0,
+      "source": 30,
+      "train": 20
+    },
+    "living_room": {
+      "eval": 10,
+      "excluded": 0,
+      "source": 30,
+      "train": 20
+    }
+  },
+  "scene_index": {
+    "floor_plan_count": 90,
+    "path": "../../data/resources/scenes/molmo_ithor_ithor120_background/scene_catalog.json",
+    "scene_uid_count": 93,
+    "schema": "simple.scene-index.v2",
+    "sha256": "fc1fcdbb60b7c7066fa437575f7018c6283a07f1f43a3ed65bbd028925856bab"
+  },
+  "scene_index_floor_plan_count": 90,
+  "scene_index_sha256": "fc1fcdbb60b7c7066fa437575f7018c6283a07f1f43a3ed65bbd028925856bab",
+  "schema": "humano.global-floorplan-split-90.v2",
+  "seed": 112233,
+  "selected_floor_plan_count": 90,
+  "source_floor_plan_count": 90,
+  "train_floor_plans": [
+    "FloorPlan1",
+    "FloorPlan2",
+    "FloorPlan3",
+    "FloorPlan4",
+    "FloorPlan5",
+    "FloorPlan7",
+    "FloorPlan8",
+    "FloorPlan9",
+    "FloorPlan10",
+    "FloorPlan11",
+    "FloorPlan12",
+    "FloorPlan17",
+    "FloorPlan19",
+    "FloorPlan22",
+    "FloorPlan23",
+    "FloorPlan24",
+    "FloorPlan25",
+    "FloorPlan26",
+    "FloorPlan29",
+    "FloorPlan30",
+    "FloorPlan202",
+    "FloorPlan203",
+    "FloorPlan204",
+    "FloorPlan205",
+    "FloorPlan206",
+    "FloorPlan207",
+    "FloorPlan208",
+    "FloorPlan209",
+    "FloorPlan212",
+    "FloorPlan213",
+    "FloorPlan215",
+    "FloorPlan218",
+    "FloorPlan221",
+    "FloorPlan222",
+    "FloorPlan223",
+    "FloorPlan224",
+    "FloorPlan226",
+    "FloorPlan227",
+    "FloorPlan228",
+    "FloorPlan230",
+    "FloorPlan301",
+    "FloorPlan303",
+    "FloorPlan304",
+    "FloorPlan306",
+    "FloorPlan307",
+    "FloorPlan308",
+    "FloorPlan310",
+    "FloorPlan312",
+    "FloorPlan313",
+    "FloorPlan315",
+    "FloorPlan316",
+    "FloorPlan320",
+    "FloorPlan321",
+    "FloorPlan323",
+    "FloorPlan324",
+    "FloorPlan325",
+    "FloorPlan326",
+    "FloorPlan328",
+    "FloorPlan329",
+    "FloorPlan330"
+  ]
+}

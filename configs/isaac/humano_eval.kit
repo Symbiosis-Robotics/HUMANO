@@ -1,0 +1,35 @@
+[package]
+title = "HUMANO Evaluation"
+version = "1.0.0"
+description = "Isaac 4.5 rendering and scene interfaces for MuJoCo/SONIC evaluation."
+
+[dependencies]
+"isaacsim.core.api" = {}
+"isaacsim.core.nodes" = {}
+"isaacsim.core.throttling" = {}
+"isaacsim.sensors.camera" = {}
+"isaacsim.util.debug_draw" = {}
+"omni.isaac.core" = {}
+"omni.isaac.sensor" = {}
+"omni.kit.loop-isaac" = {}
+"omni.kit.material.library" = {}
+"omni.kit.primitive.mesh" = {}
+"omni.kit.viewport.window" = {}
+"omni.hydra.rtx" = {}
+"omni.physx.stageupdate" = {}
+"omni.physx.tensors" = {}
+"omni.replicator.core" = {}
+"omni.syntheticdata" = {}
+
+[settings]
+app.name = "HUMANO Evaluation"
+app.settings.persistent = false
+app.vulkan = true
+renderer.gpuEnumeration.glInterop.enabled = false
+exts."omni.kit.renderer.core".present.enabled = false
+omni.replicator.asyncRendering = false
+rtx-transient.dlssg.enabled = false
+rtx.hydra.mdlMaterialWarmup = true
+rtx.post.dlss.execMode = 0
+exts."omni.usd".locking.onClose = false
+physics.autoPopupSimulationOutputWindow = false

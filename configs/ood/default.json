@@ -1,0 +1,159 @@
+{
+  "schema": "humano.ood-defaults.v1",
+  "distractor": {
+    "count_range": [
+      1,
+      5
+    ],
+    "max_attempts": 250,
+    "layout_attempts": 4,
+    "exclude_categories": [
+      "white_cabinet",
+      "shelf",
+      "chair",
+      "ball",
+      "football"
+    ],
+    "category_uniform": true,
+    "placement_regions": {},
+    "require_visible": true,
+    "min_projected_pixels": 20,
+    "min_projected_short_pixels": 3
+  },
+  "lighting": {
+    "rgb": {
+      "amount_range": [
+        0.65,
+        0.85
+      ],
+      "color_mode": "rgb",
+      "rgb_scope": "all"
+    },
+    "local": {
+      "power_compensation": false
+    },
+    "size": {
+      "radius_ranges": {
+        "low": [
+          0.03,
+          0.06
+        ],
+        "high": [
+          0.16,
+          0.24
+        ]
+      }
+    }
+  },
+  "camera": {
+    "translation_m": [
+      -0.01,
+      0.01
+    ],
+    "roll_deg": [
+      -1.5,
+      1.5
+    ],
+    "pitch_deg": [
+      -15,
+      5
+    ],
+    "yaw_deg": [
+      -10,
+      10
+    ],
+    "preview_deg": [
+      10,
+      20
+    ]
+  },
+  "language": {
+    "file": "configs/ood/language.json",
+    "train_source": "class.description",
+    "test_sources": [
+      "T1",
+      "T2",
+      "T3"
+    ]
+  },
+  "sensor_noise": {
+    "gaussian_range": [
+      0,
+      20
+    ],
+    "blur_range": [
+      1,
+      10
+    ],
+    "fixed_gaussian": [
+      5,
+      10,
+      20
+    ],
+    "fixed_blur": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "subtypes": [
+      "blur"
+    ],
+    "blur_levels": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "gaussian_protocol": "humano_extension"
+  },
+  "robot_initial": {
+    "radius_m": 0.1,
+    "yaw_deg": 10,
+    "max_attempts": 100,
+    "task_overrides": {},
+    "max_support_gap_m": 0.04
+  },
+  "background": {
+    "floorplan_split": "configs/floorplan_splits/global_floorplan_split_111_v3.json",
+    "view": "standard_no_bathroom",
+    "room_types": [
+      "Kitchen",
+      "LivingRoom",
+      "Bedroom"
+    ],
+    "train_counts": [
+      20,
+      20,
+      20
+    ],
+    "scene_ood_counts": [
+      10,
+      10,
+      10
+    ],
+    "table_materials": {
+      "train": [
+        {"type": "usd_preview_surface", "family": "SolidColor", "name": "LegacySolidColorMatteBrown", "diffuse_color": [0.24, 0.13, 0.07], "roughness": 0.82, "metallic": 0.0}
+      ],
+      "test": [
+        {"type": "usd_preview_surface", "family": "Plastic", "name": "MattePlasticIvory", "diffuse_color": [0.72, 0.70, 0.63], "roughness": 0.82, "metallic": 0.0},
+        {"type": "usd_preview_surface", "family": "Plastic", "name": "MattePlasticCharcoal", "diffuse_color": [0.18, 0.20, 0.23], "roughness": 0.82, "metallic": 0.0},
+        {"path": "data/resources/materials/vMaterials_2/Metal/Aluminum_Brushed.mdl", "name": "Aluminum_Brushed"},
+        {"path": "data/resources/materials/vMaterials_2/Metal/Iron_Brushed.mdl", "name": "Iron_Brushed"}
+      ]
+    }
+  }
+}

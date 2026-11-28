@@ -1,0 +1,102 @@
+robotwin2_example/
+tmp/
+
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv*
+
+/data/
+cache
+*.mp4
+ml-egodex_dataset/ # soft link to the egodex dataset
+wandb/
+runs/
+checkpoints/
+/log/
+playgrounds/
+TODO.md
+*.zip
+
+runs_old/
+tmp_dir/
+.runs*
+
+.env
+.env.local
+.env.sh
+
+_lerobot_build
+.cache
+# MuJoCo writes this fixed log name relative to the working directory.
+MUJOCO_LOG.TXT
+.data
+.logs
+
+*.local.yaml
+
+
+vq/
+extern/vq_bet_official/
+src/fast/egodex-*
+*.pkl
+!src/fast/egodex-rel-50w-1x48-v2048-s100
+src/fast/pi
+
+.deepspeed_env
+*.bak
+#uv.lock
+.vscode/
+.direnv/
+src/gr00t/.venv/
+props/
+textures/
+test.py
+*.npy
+
+# large binaries intentionally kept out of version control (submodule-flattened content)
+third_party/gear_sonic_deploy/planner/target_vel/V2/planner_sonic.onnx
+third_party/gear_sonic_deploy/planner/target_vel/V2/planner_planner_sonic.trt
+third_party/gear_sonic_deploy/policy/release/model_encoder.onnx
+
+src/h_rdt/datasets/pretrain/egodex_large_values.txt
+src/h_rdt/datasets/robotwin2/lang_embeddings/
+
+# for model testing
+.omc/
+.claude/
+.codex/
+.agents/
+test_asset/init_assets/
+test_asset/downloads/
+test_asset/assets/
+test_molmospaces/
+test_asset/assets_simplified_x10/
+debug/
+local*
+/patches/
+/tests/
+
+# macOS AppleDouble metadata
+._*
+
+# Local BEV/support cache generation and verification scripts; publish data only.
+/dev/build_full_scene_occupancy_index.py
+/dev/build_scene_occupancy_index.py
+/dev/build_training_eval_bev_cache.py
+/dev/verify_training_eval_bev_cache.py
+/dev/build_scene_navigation_index.py
+/dev/preprocess_ithor_raised_floors.py
+/dev/build_scene_support_cache.py
+
+# Versioned development-record video.
+!/docs/dev/resources/inspire-dfq-open-to-closed.mp4
+
+# Vendor hardware installer excluded from the public release.
+/third_party/gear_sonic_deploy/thirdparty/roboticsservice_1.0.0.0_arm64.deb

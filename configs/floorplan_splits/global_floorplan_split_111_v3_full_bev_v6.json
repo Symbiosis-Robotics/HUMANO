@@ -1,0 +1,203 @@
+{
+  "assignments": {
+    "eval_floor_plans": [
+      "FloorPlan6",
+      "FloorPlan13",
+      "FloorPlan14",
+      "FloorPlan15",
+      "FloorPlan16",
+      "FloorPlan18",
+      "FloorPlan20",
+      "FloorPlan21",
+      "FloorPlan27",
+      "FloorPlan28",
+      "FloorPlan201",
+      "FloorPlan210",
+      "FloorPlan211",
+      "FloorPlan214",
+      "FloorPlan216",
+      "FloorPlan217",
+      "FloorPlan219",
+      "FloorPlan220",
+      "FloorPlan225",
+      "FloorPlan229",
+      "FloorPlan302",
+      "FloorPlan305",
+      "FloorPlan309",
+      "FloorPlan311",
+      "FloorPlan314",
+      "FloorPlan317",
+      "FloorPlan318",
+      "FloorPlan319",
+      "FloorPlan322",
+      "FloorPlan327",
+      "FloorPlan401",
+      "FloorPlan403",
+      "FloorPlan406",
+      "FloorPlan410",
+      "FloorPlan415",
+      "FloorPlan417",
+      "FloorPlan430"
+    ],
+    "train_floor_plans": [
+      "FloorPlan1",
+      "FloorPlan2",
+      "FloorPlan3",
+      "FloorPlan4",
+      "FloorPlan5",
+      "FloorPlan7",
+      "FloorPlan8",
+      "FloorPlan9",
+      "FloorPlan10",
+      "FloorPlan11",
+      "FloorPlan12",
+      "FloorPlan17",
+      "FloorPlan19",
+      "FloorPlan22",
+      "FloorPlan23",
+      "FloorPlan24",
+      "FloorPlan25",
+      "FloorPlan26",
+      "FloorPlan29",
+      "FloorPlan30",
+      "FloorPlan202",
+      "FloorPlan203",
+      "FloorPlan204",
+      "FloorPlan205",
+      "FloorPlan206",
+      "FloorPlan207",
+      "FloorPlan208",
+      "FloorPlan209",
+      "FloorPlan212",
+      "FloorPlan213",
+      "FloorPlan215",
+      "FloorPlan218",
+      "FloorPlan221",
+      "FloorPlan222",
+      "FloorPlan223",
+      "FloorPlan224",
+      "FloorPlan226",
+      "FloorPlan227",
+      "FloorPlan228",
+      "FloorPlan230",
+      "FloorPlan301",
+      "FloorPlan303",
+      "FloorPlan304",
+      "FloorPlan306",
+      "FloorPlan307",
+      "FloorPlan308",
+      "FloorPlan310",
+      "FloorPlan312",
+      "FloorPlan313",
+      "FloorPlan315",
+      "FloorPlan316",
+      "FloorPlan320",
+      "FloorPlan321",
+      "FloorPlan323",
+      "FloorPlan324",
+      "FloorPlan325",
+      "FloorPlan326",
+      "FloorPlan328",
+      "FloorPlan329",
+      "FloorPlan330",
+      "FloorPlan402",
+      "FloorPlan404",
+      "FloorPlan405",
+      "FloorPlan407",
+      "FloorPlan408",
+      "FloorPlan409",
+      "FloorPlan413",
+      "FloorPlan414",
+      "FloorPlan416",
+      "FloorPlan419",
+      "FloorPlan420",
+      "FloorPlan422",
+      "FloorPlan423",
+      "FloorPlan429"
+    ]
+  },
+  "content_hash": "29c5bf74ad0ed69e0fe1a9091b2f4022ac0d39fe955fc04a0e83cd47b18d5e2c",
+  "provenance": {
+    "advanced_split": {
+      "content_hash": "a6c539d3e2f7db00ac5132d903c2e8eafd7abdeff678b58e78c87ef95070aa1c",
+      "scene_index_sha256": "8801b97465796d6f37b8d1ac8ff78dc2677b8e37d7868ce7424f19aca0eb25c0",
+      "schema": "humano.global-floorplan-split-90.v2"
+    },
+    "legacy_basic_split": {
+      "content_hash": "b23492f8993d1270544d608aca55540f2c56c09d9fc0ec1acf9896144b1e0eb7",
+      "scene_index_sha256": "b7ea4ec35e85ae6ba3a6c6ec4915bbac79fea3c90c6e42e13335a2ad4ee3e2ce",
+      "schema": "humano.global-floorplan-split-100.v1"
+    }
+  },
+  "room_type_counts": {
+    "bathroom": {
+      "eval": 7,
+      "source": 21,
+      "train": 14
+    },
+    "bedroom": {
+      "eval": 10,
+      "source": 30,
+      "train": 20
+    },
+    "kitchen": {
+      "eval": 10,
+      "source": 30,
+      "train": 20
+    },
+    "living_room": {
+      "eval": 10,
+      "source": 30,
+      "train": 20
+    }
+  },
+  "scene_index": {
+    "floor_plan_count": 111,
+    "path": "../../data/resources/scenes/molmo_ithor_ithor120_background/scene_index_v2_full_bev_v6.json",
+    "scene_uid_count": 114,
+    "schema": "simple.scene-index.v2",
+    "sha256": "b6eaed780f8e44e71343ee9b359d5ce5a0a206f2ca82d72f8df93e7ddcd1f293"
+  },
+  "schema": "humano.global-floorplan-split.v3",
+  "views": {
+    "legacy_basic": {
+      "excluded_floor_plans": [
+        "FloorPlan3",
+        "FloorPlan4",
+        "FloorPlan11",
+        "FloorPlan18",
+        "FloorPlan23",
+        "FloorPlan204",
+        "FloorPlan205",
+        "FloorPlan210",
+        "FloorPlan218",
+        "FloorPlan312",
+        "FloorPlan323"
+      ],
+      "expected_counts": {
+        "eval": 35,
+        "train": 65
+      },
+      "include_room_types": [
+        "bathroom",
+        "bedroom",
+        "kitchen",
+        "living_room"
+      ],
+      "usage": "Historical Basic train/eval protocol"
+    },
+    "standard_no_bathroom": {
+      "excluded_floor_plans": [],
+      "expected_counts": {
+        "eval": 30,
+        "train": 60
+      },
+      "include_room_types": [
+        "bedroom",
+        "kitchen",
+        "living_room"
+      ],
+      "usage": "Advanced and future suite train/eval protocol"
+    }
+  }
+}

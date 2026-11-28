@@ -1,0 +1,7 @@
+{
+  "baseline": "pi05",
+  "policy_type": "pi05",
+  "observation_schema": "humano.lerobot.v1",
+  "action_shape": [40, 78],
+  "requires_task": true
+}

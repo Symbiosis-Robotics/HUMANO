@@ -1,0 +1,49 @@
+{
+  "tasks": [
+    "G1WholebodyConditionPlateToDrawerTeleop",
+    "G1WholebodyConditionAppleToDrawerTeleop",
+    "G1WholebodyConditionBottleToEmptyBoxTeleop",
+    "G1WholebodyConditionAppleToFruitFreeBasketTeleop",
+    "G1WholebodyConditionChairToTableAndSitTeleop",
+    "G1WholebodyConditionBasketToTableAppleToBasketTeleop",
+    "G1WholebodyConditionPeanutsToEmptyPlateOrTrayTeleop",
+    "G1WholebodyConditionBreadToPlateOrTrayTeleop",
+    "G1WholebodyConditionClearChairAndPushDollyTeleop",
+    "G1WholebodyConditionBookToOccupiedShelfLayerTeleop"
+  ],
+  "evaluation_time_budget": {
+    "schema_version": 2,
+    "tasks": {
+      "G1WholebodyConditionPlateToDrawerTeleop": {
+        "max_steps_200hz": 7930
+      },
+      "G1WholebodyConditionAppleToDrawerTeleop": {
+        "max_steps_200hz": 9210
+      },
+      "G1WholebodyConditionBottleToEmptyBoxTeleop": {
+        "max_steps_200hz": 6190
+      },
+      "G1WholebodyConditionAppleToFruitFreeBasketTeleop": {
+        "max_steps_200hz": 4830
+      },
+      "G1WholebodyConditionChairToTableAndSitTeleop": {
+        "max_steps_200hz": 6000
+      },
+      "G1WholebodyConditionBasketToTableAppleToBasketTeleop": {
+        "max_steps_200hz": 6880
+      },
+      "G1WholebodyConditionPeanutsToEmptyPlateOrTrayTeleop": {
+        "max_steps_200hz": 3190
+      },
+      "G1WholebodyConditionBreadToPlateOrTrayTeleop": {
+        "max_steps_200hz": 4690
+      },
+      "G1WholebodyConditionClearChairAndPushDollyTeleop": {
+        "max_steps_200hz": 9420
+      },
+      "G1WholebodyConditionBookToOccupiedShelfLayerTeleop": {
+        "max_steps_200hz": 6180
+      }
+    }
+  }
+}

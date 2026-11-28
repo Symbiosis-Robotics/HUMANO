@@ -1,0 +1,1503 @@
+{
+  "B-8": [
+    {
+      "label": "Demonstration",
+      "firstPerson": "resources/videos/tasks/B-8/episode-000005-ego.mp4",
+      "thirdPerson": "resources/videos/tasks/B-8/episode-000005-right.mp4",
+      "episode": 5
+    }
+  ],
+  "L-9": [
+    {
+      "label": "Demonstration",
+      "firstPerson": "resources/videos/tasks/L-9/episode-000007-ego-from2s.mp4",
+      "thirdPerson": "resources/videos/tasks/L-9/episode-000007-left-from2s.mp4",
+      "episode": 7
+    }
+  ],
+  "B-9": [
+    {
+      "label": "Demonstration",
+      "firstPerson": "resources/videos/tasks/B-9/episode-000024-ego.mp4",
+      "thirdPerson": "resources/videos/tasks/B-9/episode-000024-left.mp4",
+      "episode": 24
+    }
+  ],
+  "B-5": [
+    {
+      "label": "Demonstration",
+      "firstPerson": "resources/videos/tasks/B-5/episode-000038-ego.mp4",
+      "thirdPerson": "resources/videos/tasks/B-5/episode-000038-right.mp4",
+      "episode": 38
+    }
+  ],
+  "B-6": [
+    {
+      "label": "Demonstration",
+      "firstPerson": "resources/videos/tasks/B-6/episode-000006-ego.mp4",
+      "thirdPerson": "resources/videos/tasks/B-6/episode-000006-left.mp4",
+      "episode": 6
+    }
+  ],
+  "C-2": [
+    {
+      "label": "Closed",
+      "firstPerson": "resources/videos/tasks/C-2/episode-000041-ego-from2s.mp4",
+      "thirdPerson": "resources/videos/tasks/C-2/episode-000041-right-from2s.mp4",
+      "episode": 41
+    },
+    {
+      "label": "Open",
+      "firstPerson": "resources/videos/tasks/C-2/episode-000017-ego-from2s.mp4",
+      "thirdPerson": "resources/videos/tasks/C-2/episode-000017-right-from2s.mp4",
+      "episode": 17
+    }
+  ],
+  "C-5": [
+    {
+      "label": "At table",
+      "firstPerson": "resources/videos/tasks/C-5/episode-000039-ego-from2s.mp4",
+      "thirdPerson": "resources/videos/tasks/C-5/episode-000039-right-from2s.mp4",
+      "episode": 39
+    },
+    {
+      "label": "Away from table",
+      "firstPerson": "resources/videos/tasks/C-5/episode-000025-ego-from2s.mp4",
+      "thirdPerson": "resources/videos/tasks/C-5/episode-000025-right-from2s.mp4",
+      "episode": 25
+    }
+  ],
+  "G-6": [
+    {
+      "label": "Cabinet",
+      "firstPerson": "resources/videos/tasks/G-6/episode-000047-ego-from2s.mp4",
+      "thirdPerson": "resources/videos/tasks/G-6/episode-000047-left-from2s.mp4",
+      "episode": 47
+    },
+    {
+      "label": "Shelf",
+      "firstPerson": "resources/videos/tasks/G-6/episode-000016-ego-from2s.mp4",
+      "thirdPerson": "resources/videos/tasks/G-6/episode-000016-right-from2s.mp4",
+      "episode": 16,
+      "instruction": "put the book upright in the lower shelf"
+    }
+  ],
+  "G-5": [
+    {
+      "label": "Apple",
+      "firstPerson": "resources/videos/tasks/G-5/episode-000004-ego-from2s.mp4",
+      "thirdPerson": "resources/videos/tasks/G-5/episode-000004-left-from2s.mp4",
+      "episode": 4
+    },
+    {
+      "label": "Banana",
+      "firstPerson": "resources/videos/tasks/G-5/episode-000028-ego-from2s.mp4",
+      "thirdPerson": "resources/videos/tasks/G-5/episode-000028-left-from2s.mp4",
+      "episode": 28,
+      "instruction": "put the banana in the basket"
+    },
+    {
+      "label": "Bread",
+      "firstPerson": "resources/videos/tasks/G-5/episode-000038-ego-from2s.mp4",
+      "thirdPerson": "resources/videos/tasks/G-5/episode-000038-right-from2s.mp4",
+      "episode": 38,
+      "instruction": "put the bread in the basket"
+    }
+  ],
+  "L-4": [
+    {
+      "label": "Demonstration",
+      "firstPerson": "resources/videos/tasks/L-4/episode-000021-ego-from2s.mp4",
+      "thirdPerson": "resources/videos/tasks/L-4/episode-000021-right-from2s.mp4",
+      "episode": 21
+    }
+  ],
+  "L-7": [
+    {
+      "label": "Demonstration",
+      "firstPerson": "resources/videos/tasks/L-7/episode-000019-ego-from2s.mp4",
+      "thirdPerson": "resources/videos/tasks/L-7/episode-000019-left-from2s.mp4",
+      "episode": 19
+    }
+  ],
+  "L-6": [
+    {
+      "label": "Demonstration",
+      "firstPerson": "resources/videos/tasks/L-6/episode-000051-ego-from2s.mp4",
+      "thirdPerson": "resources/videos/tasks/L-6/episode-000051-right-from2s.mp4",
+      "episode": 51
+    }
+  ],
+  "M-8": [
+    {
+      "label": "Demonstration",
+      "firstPerson": "resources/videos/tasks/M-8/episode-000040-ego-from2s.mp4",
+      "thirdPerson": "resources/videos/tasks/M-8/episode-000040-right-from2s.mp4",
+      "episode": 40
+    }
+  ],
+  "M-1": [
+    {
+      "label": "Demonstration",
+      "firstPerson": "resources/videos/tasks/M-1/episode-000028-ego-from2s.mp4",
+      "thirdPerson": "resources/videos/tasks/M-1/episode-000028-left-from2s.mp4",
+      "episode": 28
+    }
+  ],
+  "M-6": [
+    {
+      "label": "Demonstration",
+      "firstPerson": "resources/videos/tasks/M-6/episode-000037-ego-from2s.mp4",
+      "thirdPerson": "resources/videos/tasks/M-6/episode-000037-left-from2s.mp4",
+      "episode": 37
+    }
+  ],
+  "O-2": [
+    {
+      "label": "Plate",
+      "firstPerson": "resources/videos/tasks/O-2/episode-000016-ego-from2s.mp4",
+      "thirdPerson": "resources/videos/tasks/O-2/episode-000016-right-from2s.mp4",
+      "episode": 16
+    },
+    {
+      "label": "Tray",
+      "firstPerson": "resources/videos/tasks/O-2/episode-000049-ego-from2s.mp4",
+      "thirdPerson": "resources/videos/tasks/O-2/episode-000049-right-from2s.mp4",
+      "episode": 49,
+      "instruction": "grasp the tray with both hands and lift it from the table"
+    }
+  ],
+  "O-3": [
+    {
+      "label": "Apple",
+      "firstPerson": "resources/videos/tasks/O-3/episode-000049-ego-from2s.mp4",
+      "thirdPerson": "resources/videos/tasks/O-3/episode-000049-right-from2s.mp4",
+      "episode": 49
+    },
+    {
+      "label": "Banana",
+      "firstPerson": "resources/videos/tasks/O-3/episode-000054-ego-from2s.mp4",
+      "thirdPerson": "resources/videos/tasks/O-3/episode-000054-left-from2s.mp4",
+      "episode": 54,
+      "instruction": "grasp the banana around its side with one hand and lift it"
+    },
+    {
+      "label": "Plate",
+      "firstPerson": "resources/videos/tasks/O-3/episode-000031-ego-from2s.mp4",
+      "thirdPerson": "resources/videos/tasks/O-3/episode-000031-right-from2s.mp4",
+      "episode": 31,
+      "instruction": "grasp opposite sides of the plate with both hands and lift it"
+    },
+    {
+      "label": "Tray",
+      "firstPerson": "resources/videos/tasks/O-3/episode-000000-ego-from2s.mp4",
+      "thirdPerson": "resources/videos/tasks/O-3/episode-000000-left-from2s.mp4",
+      "episode": 0,
+      "instruction": "grasp opposite sides of the tray with both hands and lift it"
+    }
+  ],
+  "S-7": [
+    {
+      "label": "Configuration 1",
+      "firstPerson": "resources/videos/tasks/S-7/episode-000020-ego-from2s.mp4",
+      "thirdPerson": "resources/videos/tasks/S-7/episode-000020-left-from2s.mp4",
+      "episode": 20
+    },
+    {
+      "label": "Configuration 2",
+      "firstPerson": "resources/videos/tasks/S-7/episode-000030-ego-from2s.mp4",
+      "thirdPerson": "resources/videos/tasks/S-7/episode-000030-right-from2s.mp4",
+      "episode": 30
+    },
+    {
+      "label": "Configuration 3",
+      "firstPerson": "resources/videos/tasks/S-7/episode-000048-ego-from2s.mp4",
+      "thirdPerson": "resources/videos/tasks/S-7/episode-000048-left-from2s.mp4",
+      "episode": 48
+    },
+    {
+      "episode": 8,
+      "label": "Configuration 2",
+      "firstPerson": "resources/videos/tasks/S-7/v1-episode-000008-ego-from2s.mp4",
+      "thirdPerson": "resources/videos/tasks/S-7/v1-episode-000008-oblique-from2s.mp4"
+    }
+  ],
+  "S-13": [
+    {
+      "label": "Configuration 1",
+      "firstPerson": "resources/videos/tasks/S-13/episode-000047-ego-from2s.mp4",
+      "thirdPerson": "resources/videos/tasks/S-13/episode-000047-right-from2s.mp4",
+      "episode": 47
+    },
+    {
+      "label": "Configuration 2",
+      "firstPerson": "resources/videos/tasks/S-13/episode-000020-ego-from2s.mp4",
+      "thirdPerson": "resources/videos/tasks/S-13/episode-000020-left-from2s.mp4",
+      "episode": 20
+    },
+    {
+      "label": "Configuration 3",
+      "firstPerson": "resources/videos/tasks/S-13/episode-000055-ego-from2s.mp4",
+      "thirdPerson": "resources/videos/tasks/S-13/episode-000055-right-from2s.mp4",
+      "episode": 55
+    },
+    {
+      "label": "Configuration 4",
+      "firstPerson": "resources/videos/tasks/S-13/episode-000037-ego-from2s.mp4",
+      "thirdPerson": "resources/videos/tasks/S-13/episode-000037-right-from2s.mp4",
+      "episode": 37
+    },
+    {
+      "label": "Configuration 5",
+      "firstPerson": "resources/videos/tasks/S-13/episode-000012-ego-from2s.mp4",
+      "thirdPerson": "resources/videos/tasks/S-13/episode-000012-right-from2s.mp4",
+      "episode": 12
+    }
+  ],
+  "G-4": [
+    {
+      "label": "Basket",
+      "firstPerson": "resources/videos/tasks/G-4/episode-000014-ego-from2s.mp4",
+      "thirdPerson": "resources/videos/tasks/G-4/episode-000014-right-from2s.mp4",
+      "episode": 14
+    },
+    {
+      "label": "Box",
+      "firstPerson": "resources/videos/tasks/G-4/episode-000053-ego-from2s.mp4",
+      "thirdPerson": "resources/videos/tasks/G-4/episode-000053-right-from2s.mp4",
+      "episode": 53,
+      "instruction": "put the milk carton in the box"
+    },
+    {
+      "episode": 47,
+      "label": "Trash can",
+      "instruction": "put the milk carton in the trash can",
+      "firstPerson": "resources/videos/tasks/G-4/v1-episode-000047-ego-from2s.mp4",
+      "thirdPerson": "resources/videos/tasks/G-4/v1-episode-000047-oblique-from2s.mp4"
+    }
+  ],
+  "A-8": [
+    {
+      "label": "Demonstration",
+      "firstPerson": "resources/videos/tasks/A-8/episode-000000-ego.mp4",
+      "thirdPerson": "resources/videos/tasks/A-8/episode-000000-right.mp4",
+      "episode": 0
+    }
+  ],
+  "A-9": [
+    {
+      "label": "Demonstration",
+      "firstPerson": "resources/videos/tasks/A-9/episode-000000-ego.mp4",
+      "thirdPerson": "resources/videos/tasks/A-9/episode-000000-left.mp4",
+      "episode": 0
+    }
+  ],
+  "A-5": [
+    {
+      "label": "Demonstration",
+      "firstPerson": "resources/videos/tasks/A-5/episode-000000-ego.mp4",
+      "thirdPerson": "resources/videos/tasks/A-5/episode-000000-left.mp4",
+      "episode": 0
+    }
+  ],
+  "A-7": [
+    {
+      "label": "Demonstration",
+      "firstPerson": "resources/videos/tasks/A-7/episode-000000-ego.mp4",
+      "thirdPerson": "resources/videos/tasks/A-7/episode-000000-right.mp4",
+      "episode": 0
+    }
+  ],
+  "A-6": [
+    {
+      "label": "Demonstration",
+      "firstPerson": "resources/videos/tasks/A-6/episode-000000-ego.mp4",
+      "thirdPerson": "resources/videos/tasks/A-6/episode-000000-left.mp4",
+      "episode": 0
+    }
+  ],
+  "A-1": [
+    {
+      "label": "Demonstration",
+      "firstPerson": "resources/videos/tasks/A-1/episode-000000-ego.mp4",
+      "thirdPerson": "resources/videos/tasks/A-1/episode-000000-front.mp4",
+      "episode": 0
+    }
+  ],
+  "A-4": [
+    {
+      "label": "Demonstration",
+      "firstPerson": "resources/videos/tasks/A-4/episode-000000-ego.mp4",
+      "thirdPerson": "resources/videos/tasks/A-4/episode-000000-right.mp4",
+      "episode": 0
+    }
+  ],
+  "A-10": [
+    {
+      "label": "Demonstration",
+      "firstPerson": "resources/videos/tasks/A-10/episode-000000-ego.mp4",
+      "thirdPerson": "resources/videos/tasks/A-10/episode-000000-right.mp4",
+      "episode": 0
+    }
+  ],
+  "A-3": [
+    {
+      "label": "Demonstration",
+      "firstPerson": "resources/videos/tasks/A-3/episode-000000-ego.mp4",
+      "thirdPerson": "resources/videos/tasks/A-3/episode-000000-right.mp4",
+      "episode": 0
+    }
+  ],
+  "A-2": [
+    {
+      "label": "Demonstration",
+      "firstPerson": "resources/videos/tasks/A-2/episode-000000-ego.mp4",
+      "thirdPerson": "resources/videos/tasks/A-2/episode-000000-left.mp4",
+      "episode": 0
+    }
+  ],
+  "B-3": [
+    {
+      "label": "Demonstration",
+      "firstPerson": "resources/videos/tasks/B-3/episode-000000-ego.mp4",
+      "thirdPerson": "resources/videos/tasks/B-3/episode-000000-right.mp4",
+      "episode": 0
+    }
+  ],
+  "B-4": [
+    {
+      "label": "Demonstration",
+      "firstPerson": "resources/videos/tasks/B-4/episode-000000-ego.mp4",
+      "thirdPerson": "resources/videos/tasks/B-4/episode-000000-left.mp4",
+      "episode": 0
+    }
+  ],
+  "B-10": [
+    {
+      "label": "Demonstration",
+      "firstPerson": "resources/videos/tasks/B-10/episode-000000-ego.mp4",
+      "thirdPerson": "resources/videos/tasks/B-10/episode-000000-right.mp4",
+      "episode": 0
+    }
+  ],
+  "B-7": [
+    {
+      "label": "Demonstration",
+      "firstPerson": "resources/videos/tasks/B-7/episode-000000-ego.mp4",
+      "thirdPerson": "resources/videos/tasks/B-7/episode-000000-right.mp4",
+      "episode": 0
+    }
+  ],
+  "B-1": [
+    {
+      "label": "Demonstration",
+      "firstPerson": "resources/videos/tasks/B-1/episode-000000-ego.mp4",
+      "thirdPerson": "resources/videos/tasks/B-1/episode-000000-front.mp4",
+      "episode": 0
+    }
+  ],
+  "B-2": [
+    {
+      "label": "Demonstration",
+      "firstPerson": "resources/videos/tasks/B-2/episode-000000-ego.mp4",
+      "thirdPerson": "resources/videos/tasks/B-2/episode-000000-right.mp4",
+      "episode": 0
+    }
+  ],
+  "S-5": [
+    {
+      "label": "Demonstration",
+      "firstPerson": "resources/videos/tasks/S-5/episode-000000-ego-from2s.mp4",
+      "thirdPerson": "resources/videos/tasks/S-5/episode-000000-left-from2s.mp4",
+      "episode": 0
+    },
+    {
+      "episode": 40,
+      "label": "Configuration 1",
+      "firstPerson": "resources/videos/tasks/S-5/v1-episode-000040-ego-from2s.mp4",
+      "thirdPerson": "resources/videos/tasks/S-5/v1-episode-000040-oblique-from2s.mp4"
+    },
+    {
+      "episode": 1,
+      "label": "Configuration 2",
+      "firstPerson": "resources/videos/tasks/S-5/v1-episode-000001-ego-from2s.mp4",
+      "thirdPerson": "resources/videos/tasks/S-5/v1-episode-000001-oblique-from2s.mp4"
+    },
+    {
+      "episode": 20,
+      "label": "Configuration 4",
+      "firstPerson": "resources/videos/tasks/S-5/v1-episode-000020-ego-from2s.mp4",
+      "thirdPerson": "resources/videos/tasks/S-5/v1-episode-000020-oblique-from2s.mp4"
+    }
+  ],
+  "S-6": [
+    {
+      "label": "Demonstration",
+      "firstPerson": "resources/videos/tasks/S-6/episode-000000-ego-from2s.mp4",
+      "thirdPerson": "resources/videos/tasks/S-6/episode-000000-left-from2s.mp4",
+      "episode": 0
+    },
+    {
+      "episode": 18,
+      "label": "Configuration 2",
+      "firstPerson": "resources/videos/tasks/S-6/v1-episode-000018-ego-from2s.mp4",
+      "thirdPerson": "resources/videos/tasks/S-6/v1-episode-000018-oblique-from2s.mp4"
+    },
+    {
+      "episode": 17,
+      "label": "Configuration 3",
+      "firstPerson": "resources/videos/tasks/S-6/v1-episode-000017-ego-from2s.mp4",
+      "thirdPerson": "resources/videos/tasks/S-6/v1-episode-000017-oblique-from2s.mp4"
+    },
+    {
+      "episode": 35,
+      "label": "Configuration 4",
+      "firstPerson": "resources/videos/tasks/S-6/v1-episode-000035-ego-from2s.mp4",
+      "thirdPerson": "resources/videos/tasks/S-6/v1-episode-000035-oblique-from2s.mp4"
+    }
+  ],
+  "S-18": [
+    {
+      "label": "Demonstration",
+      "firstPerson": "resources/videos/tasks/S-18/episode-000000-ego-from2s.mp4",
+      "thirdPerson": "resources/videos/tasks/S-18/episode-000000-right-from2s.mp4",
+      "episode": 0
+    },
+    {
+      "episode": 36,
+      "label": "Configuration 1",
+      "firstPerson": "resources/videos/tasks/S-18/v1-episode-000036-ego-from2s.mp4",
+      "thirdPerson": "resources/videos/tasks/S-18/v1-episode-000036-oblique-from2s.mp4"
+    },
+    {
+      "episode": 38,
+      "label": "Configuration 2",
+      "firstPerson": "resources/videos/tasks/S-18/v1-episode-000038-ego-from2s.mp4",
+      "thirdPerson": "resources/videos/tasks/S-18/v1-episode-000038-oblique-from2s.mp4"
+    },
+    {
+      "episode": 10,
+      "label": "Configuration 3",
+      "firstPerson": "resources/videos/tasks/S-18/v1-episode-000010-ego-from2s.mp4",
+      "thirdPerson": "resources/videos/tasks/S-18/v1-episode-000010-oblique-from2s.mp4"
+    }
+  ],
+  "S-10": [
+    {
+      "label": "Demonstration",
+      "firstPerson": "resources/videos/tasks/S-10/episode-000000-ego-from2s.mp4",
+      "thirdPerson": "resources/videos/tasks/S-10/episode-000000-right-from2s.mp4",
+      "episode": 0
+    },
+    {
+      "episode": 2,
+      "label": "High table",
+      "instruction": "pick up the basket on the high table",
+      "firstPerson": "resources/videos/tasks/S-10/v1-episode-000002-ego-from2s.mp4",
+      "thirdPerson": "resources/videos/tasks/S-10/v1-episode-000002-oblique-from2s.mp4"
+    },
+    {
+      "episode": 28,
+      "label": "Low table",
+      "instruction": "pick up the basket on the low table",
+      "firstPerson": "resources/videos/tasks/S-10/v1-episode-000028-ego-from2s.mp4",
+      "thirdPerson": "resources/videos/tasks/S-10/v1-episode-000028-oblique-from2s.mp4"
+    }
+  ],
+  "S-20": [
+    {
+      "label": "Episode 0",
+      "firstPerson": "resources/videos/tasks/S-20/episode-000000-ego-from2s.mp4",
+      "thirdPerson": "resources/videos/tasks/S-20/episode-000000-left-from2s.mp4",
+      "episode": 0
+    },
+    {
+      "label": "Episode 17",
+      "firstPerson": "resources/videos/tasks/S-20/episode-000017-ego-from2s.mp4",
+      "thirdPerson": "resources/videos/tasks/S-20/episode-000017-left-from2s.mp4",
+      "episode": 17,
+      "instruction": "pick up the basket on the ground and place it on the low table"
+    },
+    {
+      "episode": 35,
+      "label": "Configuration 1",
+      "instruction": "pick up the basket on the ground and place it on the low table",
+      "firstPerson": "resources/videos/tasks/S-20/v1-episode-000035-ego-from2s.mp4",
+      "thirdPerson": "resources/videos/tasks/S-20/v1-episode-000035-oblique-from2s.mp4"
+    },
+    {
+      "episode": 42,
+      "label": "Configuration 2",
+      "instruction": "pick up the basket on the ground and place it on the low table",
+      "firstPerson": "resources/videos/tasks/S-20/v1-episode-000042-ego-from2s.mp4",
+      "thirdPerson": "resources/videos/tasks/S-20/v1-episode-000042-oblique-from2s.mp4"
+    },
+    {
+      "episode": 3,
+      "label": "Configuration 4",
+      "instruction": "pick up the basket on the ground and place it on the low table",
+      "firstPerson": "resources/videos/tasks/S-20/v1-episode-000003-ego-from2s.mp4",
+      "thirdPerson": "resources/videos/tasks/S-20/v1-episode-000003-oblique-from2s.mp4"
+    }
+  ],
+  "S-3": [
+    {
+      "label": "Demonstration",
+      "firstPerson": "resources/videos/tasks/S-3/episode-000000-ego-from2s.mp4",
+      "thirdPerson": "resources/videos/tasks/S-3/episode-000000-right-from2s.mp4",
+      "episode": 0
+    },
+    {
+      "episode": 14,
+      "label": "High table",
+      "instruction": "pick up the bottle on the high table",
+      "firstPerson": "resources/videos/tasks/S-3/v1-episode-000014-ego-from2s.mp4",
+      "thirdPerson": "resources/videos/tasks/S-3/v1-episode-000014-oblique-from2s.mp4"
+    },
+    {
+      "episode": 10,
+      "label": "Low table",
+      "instruction": "pick up the bottle on the low table",
+      "firstPerson": "resources/videos/tasks/S-3/v1-episode-000010-ego-from2s.mp4",
+      "thirdPerson": "resources/videos/tasks/S-3/v1-episode-000010-oblique-from2s.mp4"
+    }
+  ],
+  "S-15": [
+    {
+      "label": "Demonstration",
+      "firstPerson": "resources/videos/tasks/S-15/episode-000000-ego-from2s.mp4",
+      "thirdPerson": "resources/videos/tasks/S-15/episode-000000-right-from2s.mp4",
+      "episode": 0
+    },
+    {
+      "episode": 28,
+      "label": "Configuration 1",
+      "firstPerson": "resources/videos/tasks/S-15/v1-episode-000028-ego-from2s.mp4",
+      "thirdPerson": "resources/videos/tasks/S-15/v1-episode-000028-oblique-from2s.mp4"
+    },
+    {
+      "episode": 26,
+      "label": "Configuration 2",
+      "firstPerson": "resources/videos/tasks/S-15/v1-episode-000026-ego-from2s.mp4",
+      "thirdPerson": "resources/videos/tasks/S-15/v1-episode-000026-oblique-from2s.mp4"
+    }
+  ],
+  "S-4": [
+    {
+      "label": "Demonstration",
+      "firstPerson": "resources/videos/tasks/S-4/episode-000000-ego-from2s.mp4",
+      "thirdPerson": "resources/videos/tasks/S-4/episode-000000-left-from2s.mp4",
+      "episode": 0
+    },
+    {
+      "episode": 26,
+      "label": "High table",
+      "instruction": "pick up the box on the high table",
+      "firstPerson": "resources/videos/tasks/S-4/v1-episode-000026-ego-from2s.mp4",
+      "thirdPerson": "resources/videos/tasks/S-4/v1-episode-000026-oblique-from2s.mp4"
+    },
+    {
+      "episode": 13,
+      "label": "Low table",
+      "instruction": "pick up the box on the low table",
+      "firstPerson": "resources/videos/tasks/S-4/v1-episode-000013-ego-from2s.mp4",
+      "thirdPerson": "resources/videos/tasks/S-4/v1-episode-000013-oblique-from2s.mp4"
+    }
+  ],
+  "S-16": [
+    {
+      "label": "Demonstration",
+      "firstPerson": "resources/videos/tasks/S-16/episode-000000-ego-from2s.mp4",
+      "thirdPerson": "resources/videos/tasks/S-16/episode-000000-right-from2s.mp4",
+      "episode": 0
+    },
+    {
+      "episode": 29,
+      "label": "Configuration 1",
+      "instruction": "pick up the box on the ground and place it on the low table",
+      "firstPerson": "resources/videos/tasks/S-16/v1-episode-000029-ego-from2s.mp4",
+      "thirdPerson": "resources/videos/tasks/S-16/v1-episode-000029-oblique-from2s.mp4"
+    },
+    {
+      "episode": 42,
+      "label": "Configuration 2",
+      "instruction": "pick up the box on the ground and place it on the low table",
+      "firstPerson": "resources/videos/tasks/S-16/v1-episode-000042-ego-from2s.mp4",
+      "thirdPerson": "resources/videos/tasks/S-16/v1-episode-000042-oblique-from2s.mp4"
+    },
+    {
+      "episode": 12,
+      "label": "Configuration 3",
+      "instruction": "pick up the box on the ground and place it on the low table",
+      "firstPerson": "resources/videos/tasks/S-16/v1-episode-000012-ego-from2s.mp4",
+      "thirdPerson": "resources/videos/tasks/S-16/v1-episode-000012-oblique-from2s.mp4"
+    },
+    {
+      "episode": 3,
+      "label": "Configuration 4",
+      "instruction": "pick up the box on the ground and place it on the low table",
+      "firstPerson": "resources/videos/tasks/S-16/v1-episode-000003-ego-from2s.mp4",
+      "thirdPerson": "resources/videos/tasks/S-16/v1-episode-000003-oblique-from2s.mp4"
+    }
+  ],
+  "S-1": [
+    {
+      "label": "Demonstration",
+      "firstPerson": "resources/videos/tasks/S-1/episode-000000-ego-from2s.mp4",
+      "thirdPerson": "resources/videos/tasks/S-1/episode-000000-front-from2s.mp4",
+      "episode": 0
+    },
+    {
+      "episode": 23,
+      "label": "Configuration 1",
+      "firstPerson": "resources/videos/tasks/S-1/v1-episode-000023-ego-from2s.mp4",
+      "thirdPerson": "resources/videos/tasks/S-1/v1-episode-000023-oblique-from2s.mp4"
+    },
+    {
+      "episode": 9,
+      "label": "Configuration 2",
+      "firstPerson": "resources/videos/tasks/S-1/v1-episode-000009-ego-from2s.mp4",
+      "thirdPerson": "resources/videos/tasks/S-1/v1-episode-000009-oblique-from2s.mp4"
+    },
+    {
+      "episode": 11,
+      "label": "Configuration 3",
+      "firstPerson": "resources/videos/tasks/S-1/v1-episode-000011-ego-from2s.mp4",
+      "thirdPerson": "resources/videos/tasks/S-1/v1-episode-000011-oblique-from2s.mp4"
+    },
+    {
+      "episode": 12,
+      "label": "Configuration 5",
+      "firstPerson": "resources/videos/tasks/S-1/v1-episode-000012-ego-from2s.mp4",
+      "thirdPerson": "resources/videos/tasks/S-1/v1-episode-000012-oblique-from2s.mp4"
+    }
+  ],
+  "S-11": [
+    {
+      "label": "Demonstration",
+      "firstPerson": "resources/videos/tasks/S-11/episode-000000-ego-from2s.mp4",
+      "thirdPerson": "resources/videos/tasks/S-11/episode-000000-front-from2s.mp4",
+      "episode": 0
+    },
+    {
+      "episode": 29,
+      "label": "Configuration 1",
+      "firstPerson": "resources/videos/tasks/S-11/v1-episode-000029-ego-from2s.mp4",
+      "thirdPerson": "resources/videos/tasks/S-11/v1-episode-000029-oblique-from2s.mp4"
+    },
+    {
+      "episode": 39,
+      "label": "Configuration 2",
+      "firstPerson": "resources/videos/tasks/S-11/v1-episode-000039-ego-from2s.mp4",
+      "thirdPerson": "resources/videos/tasks/S-11/v1-episode-000039-oblique-from2s.mp4"
+    },
+    {
+      "episode": 23,
+      "label": "Configuration 3",
+      "firstPerson": "resources/videos/tasks/S-11/v1-episode-000023-ego-from2s.mp4",
+      "thirdPerson": "resources/videos/tasks/S-11/v1-episode-000023-oblique-from2s.mp4"
+    },
+    {
+      "episode": 7,
+      "label": "Configuration 5",
+      "firstPerson": "resources/videos/tasks/S-11/v1-episode-000007-ego-from2s.mp4",
+      "thirdPerson": "resources/videos/tasks/S-11/v1-episode-000007-oblique-from2s.mp4"
+    },
+    {
+      "episode": 49,
+      "label": "Configuration 6",
+      "firstPerson": "resources/videos/tasks/S-11/v1-episode-000049-ego-from2s.mp4",
+      "thirdPerson": "resources/videos/tasks/S-11/v1-episode-000049-oblique-from2s.mp4"
+    }
+  ],
+  "S-14": [
+    {
+      "label": "Demonstration",
+      "firstPerson": "resources/videos/tasks/S-14/episode-000000-ego-from2s.mp4",
+      "thirdPerson": "resources/videos/tasks/S-14/episode-000000-right-from2s.mp4",
+      "episode": 0
+    },
+    {
+      "episode": 3,
+      "label": "Configuration 1",
+      "firstPerson": "resources/videos/tasks/S-14/v1-episode-000003-ego-from2s.mp4",
+      "thirdPerson": "resources/videos/tasks/S-14/v1-episode-000003-oblique-from2s.mp4"
+    },
+    {
+      "episode": 39,
+      "label": "Configuration 2",
+      "firstPerson": "resources/videos/tasks/S-14/v1-episode-000039-ego-from2s.mp4",
+      "thirdPerson": "resources/videos/tasks/S-14/v1-episode-000039-oblique-from2s.mp4"
+    },
+    {
+      "episode": 31,
+      "label": "Configuration 3",
+      "firstPerson": "resources/videos/tasks/S-14/v1-episode-000031-ego-from2s.mp4",
+      "thirdPerson": "resources/videos/tasks/S-14/v1-episode-000031-oblique-from2s.mp4"
+    },
+    {
+      "episode": 17,
+      "label": "Configuration 5",
+      "firstPerson": "resources/videos/tasks/S-14/v1-episode-000017-ego-from2s.mp4",
+      "thirdPerson": "resources/videos/tasks/S-14/v1-episode-000017-oblique-from2s.mp4"
+    }
+  ],
+  "S-9": [
+    {
+      "label": "Demonstration",
+      "firstPerson": "resources/videos/tasks/S-9/episode-000000-ego-from2s.mp4",
+      "thirdPerson": "resources/videos/tasks/S-9/episode-000000-right-from2s.mp4",
+      "episode": 0
+    },
+    {
+      "episode": 3,
+      "label": "Configuration 1",
+      "firstPerson": "resources/videos/tasks/S-9/v1-episode-000003-ego-from2s.mp4",
+      "thirdPerson": "resources/videos/tasks/S-9/v1-episode-000003-oblique-from2s.mp4"
+    },
+    {
+      "episode": 9,
+      "label": "Configuration 2",
+      "firstPerson": "resources/videos/tasks/S-9/v1-episode-000009-ego-from2s.mp4",
+      "thirdPerson": "resources/videos/tasks/S-9/v1-episode-000009-oblique-from2s.mp4"
+    },
+    {
+      "episode": 6,
+      "label": "Configuration 3",
+      "firstPerson": "resources/videos/tasks/S-9/v1-episode-000006-ego-from2s.mp4",
+      "thirdPerson": "resources/videos/tasks/S-9/v1-episode-000006-oblique-from2s.mp4"
+    },
+    {
+      "episode": 32,
+      "label": "Configuration 5",
+      "firstPerson": "resources/videos/tasks/S-9/v1-episode-000032-ego-from2s.mp4",
+      "thirdPerson": "resources/videos/tasks/S-9/v1-episode-000032-oblique-from2s.mp4"
+    }
+  ],
+  "S-19": [
+    {
+      "label": "Demonstration",
+      "firstPerson": "resources/videos/tasks/S-19/episode-000000-ego-from2s.mp4",
+      "thirdPerson": "resources/videos/tasks/S-19/episode-000000-right-from2s.mp4",
+      "episode": 0
+    },
+    {
+      "episode": 48,
+      "label": "Configuration 2",
+      "firstPerson": "resources/videos/tasks/S-19/v1-episode-000048-ego-from2s.mp4",
+      "thirdPerson": "resources/videos/tasks/S-19/v1-episode-000048-oblique-from2s.mp4"
+    },
+    {
+      "episode": 2,
+      "label": "Configuration 3",
+      "firstPerson": "resources/videos/tasks/S-19/v1-episode-000002-ego-from2s.mp4",
+      "thirdPerson": "resources/videos/tasks/S-19/v1-episode-000002-oblique-from2s.mp4"
+    },
+    {
+      "episode": 20,
+      "label": "Configuration 4",
+      "firstPerson": "resources/videos/tasks/S-19/v1-episode-000020-ego-from2s.mp4",
+      "thirdPerson": "resources/videos/tasks/S-19/v1-episode-000020-oblique-from2s.mp4"
+    },
+    {
+      "episode": 26,
+      "label": "Configuration 5",
+      "firstPerson": "resources/videos/tasks/S-19/v1-episode-000026-ego-from2s.mp4",
+      "thirdPerson": "resources/videos/tasks/S-19/v1-episode-000026-oblique-from2s.mp4"
+    }
+  ],
+  "S-2": [
+    {
+      "label": "Demonstration",
+      "firstPerson": "resources/videos/tasks/S-2/episode-000000-ego-from2s.mp4",
+      "thirdPerson": "resources/videos/tasks/S-2/episode-000000-right-from2s.mp4",
+      "episode": 0
+    },
+    {
+      "episode": 31,
+      "label": "Configuration 1",
+      "firstPerson": "resources/videos/tasks/S-2/v1-episode-000031-ego-from2s.mp4",
+      "thirdPerson": "resources/videos/tasks/S-2/v1-episode-000031-oblique-from2s.mp4"
+    },
+    {
+      "episode": 38,
+      "label": "Configuration 2",
+      "firstPerson": "resources/videos/tasks/S-2/v1-episode-000038-ego-from2s.mp4",
+      "thirdPerson": "resources/videos/tasks/S-2/v1-episode-000038-oblique-from2s.mp4"
+    },
+    {
+      "episode": 40,
+      "label": "Configuration 3",
+      "firstPerson": "resources/videos/tasks/S-2/v1-episode-000040-ego-from2s.mp4",
+      "thirdPerson": "resources/videos/tasks/S-2/v1-episode-000040-oblique-from2s.mp4"
+    },
+    {
+      "episode": 49,
+      "label": "Configuration 5",
+      "firstPerson": "resources/videos/tasks/S-2/v1-episode-000049-ego-from2s.mp4",
+      "thirdPerson": "resources/videos/tasks/S-2/v1-episode-000049-oblique-from2s.mp4"
+    }
+  ],
+  "S-12": [
+    {
+      "label": "Demonstration",
+      "firstPerson": "resources/videos/tasks/S-12/episode-000000-ego-from2s.mp4",
+      "thirdPerson": "resources/videos/tasks/S-12/episode-000000-left-from2s.mp4",
+      "episode": 0
+    },
+    {
+      "episode": 38,
+      "label": "Configuration 1",
+      "firstPerson": "resources/videos/tasks/S-12/v1-episode-000038-ego-from2s.mp4",
+      "thirdPerson": "resources/videos/tasks/S-12/v1-episode-000038-oblique-from2s.mp4"
+    },
+    {
+      "episode": 23,
+      "label": "Configuration 2",
+      "firstPerson": "resources/videos/tasks/S-12/v1-episode-000023-ego-from2s.mp4",
+      "thirdPerson": "resources/videos/tasks/S-12/v1-episode-000023-oblique-from2s.mp4"
+    },
+    {
+      "episode": 24,
+      "label": "Configuration 3",
+      "firstPerson": "resources/videos/tasks/S-12/v1-episode-000024-ego-from2s.mp4",
+      "thirdPerson": "resources/videos/tasks/S-12/v1-episode-000024-oblique-from2s.mp4"
+    },
+    {
+      "episode": 6,
+      "label": "Configuration 5",
+      "firstPerson": "resources/videos/tasks/S-12/v1-episode-000006-ego-from2s.mp4",
+      "thirdPerson": "resources/videos/tasks/S-12/v1-episode-000006-oblique-from2s.mp4"
+    }
+  ],
+  "C-3": [
+    {
+      "label": "Right empty",
+      "firstPerson": "resources/videos/tasks/C-3/episode-000032-ego-from2s.mp4",
+      "thirdPerson": "resources/videos/tasks/C-3/episode-000032-right-from2s.mp4",
+      "episode": 32
+    },
+    {
+      "episode": 46,
+      "label": "Left empty",
+      "firstPerson": "resources/videos/tasks/C-3/v1-episode-000046-ego-from2s.mp4",
+      "thirdPerson": "resources/videos/tasks/C-3/v1-episode-000046-oblique-from2s.mp4"
+    }
+  ],
+  "G-8": [
+    {
+      "label": "Table",
+      "firstPerson": "resources/videos/tasks/G-8/episode-000036-ego-from2s.mp4",
+      "thirdPerson": "resources/videos/tasks/G-8/episode-000036-left-from2s.mp4",
+      "episode": 36
+    },
+    {
+      "episode": 32,
+      "label": "Cabinet",
+      "instruction": "tip the pen holder and pour the eraser fully inside the cabinet compartment",
+      "firstPerson": "resources/videos/tasks/G-8/v1-episode-000032-ego-from2s.mp4",
+      "thirdPerson": "resources/videos/tasks/G-8/v1-episode-000032-oblique-from2s.mp4"
+    }
+  ],
+  "G-2": [
+    {
+      "label": "Box",
+      "firstPerson": "resources/videos/tasks/G-2/episode-000049-ego-from2s.mp4",
+      "thirdPerson": "resources/videos/tasks/G-2/episode-000049-left-from2s.mp4",
+      "episode": 49
+    },
+    {
+      "episode": 6,
+      "label": "Basket",
+      "instruction": "put the plate in the basket",
+      "firstPerson": "resources/videos/tasks/G-2/v1-episode-000006-ego-from2s.mp4",
+      "thirdPerson": "resources/videos/tasks/G-2/v1-episode-000006-oblique-from2s.mp4"
+    },
+    {
+      "episode": 46,
+      "label": "Cabinet",
+      "instruction": "put the plate fully inside the cabinet compartment",
+      "firstPerson": "resources/videos/tasks/G-2/v1-episode-000046-ego-from2s.mp4",
+      "thirdPerson": "resources/videos/tasks/G-2/v1-episode-000046-oblique-from2s.mp4"
+    }
+  ],
+  "L-11": [
+    {
+      "label": "Demonstration",
+      "firstPerson": "resources/videos/tasks/L-11/episode-000046-ego-from2s.mp4",
+      "thirdPerson": "resources/videos/tasks/L-11/episode-000046-right-from2s.mp4",
+      "episode": 46
+    }
+  ],
+  "L-15": [
+    {
+      "label": "Demonstration",
+      "firstPerson": "resources/videos/tasks/L-15/episode-000040-ego-from2s.mp4",
+      "thirdPerson": "resources/videos/tasks/L-15/episode-000040-right-from2s.mp4",
+      "episode": 40
+    }
+  ],
+  "L-5": [
+    {
+      "label": "Demonstration",
+      "firstPerson": "resources/videos/tasks/L-5/episode-000043-ego-from2s.mp4",
+      "thirdPerson": "resources/videos/tasks/L-5/episode-000043-right-from2s.mp4",
+      "episode": 43
+    }
+  ],
+  "L-16": [
+    {
+      "label": "Demonstration",
+      "firstPerson": "resources/videos/tasks/L-16/episode-000036-ego-from2s.mp4",
+      "thirdPerson": "resources/videos/tasks/L-16/episode-000036-right-from2s.mp4",
+      "episode": 36
+    }
+  ],
+  "L-17": [
+    {
+      "label": "Demonstration",
+      "firstPerson": "resources/videos/tasks/L-17/episode-000045-ego-from2s.mp4",
+      "thirdPerson": "resources/videos/tasks/L-17/episode-000045-right-from2s.mp4",
+      "episode": 45
+    }
+  ],
+  "L-1": [
+    {
+      "label": "Demonstration",
+      "firstPerson": "resources/videos/tasks/L-1/episode-000018-ego-from2s.mp4",
+      "thirdPerson": "resources/videos/tasks/L-1/episode-000018-right-from2s.mp4",
+      "episode": 18
+    }
+  ],
+  "L-2": [
+    {
+      "label": "Demonstration",
+      "firstPerson": "resources/videos/tasks/L-2/episode-000006-ego-from2s.mp4",
+      "thirdPerson": "resources/videos/tasks/L-2/episode-000006-right-from2s.mp4",
+      "episode": 6
+    }
+  ],
+  "O-6": [
+    {
+      "label": "Basket",
+      "episode": 1,
+      "firstPerson": "resources/videos/tasks/O-6/v1-episode-000001-ego-from2s.mp4",
+      "thirdPerson": "resources/videos/tasks/O-6/v1-episode-000001-oblique-from2s.mp4"
+    },
+    {
+      "label": "Bottle",
+      "episode": 0,
+      "firstPerson": "resources/videos/tasks/O-6/v1-episode-000000-ego-from2s.mp4",
+      "thirdPerson": "resources/videos/tasks/O-6/v1-episode-000000-oblique-from2s.mp4",
+      "instruction": "grasp the bottle around its side with one hand and lift it"
+    },
+    {
+      "label": "Box",
+      "episode": 2,
+      "firstPerson": "resources/videos/tasks/O-6/v1-episode-000002-ego-from2s.mp4",
+      "thirdPerson": "resources/videos/tasks/O-6/v1-episode-000002-oblique-from2s.mp4",
+      "instruction": "grasp the box with both hands and lift it from the ground"
+    },
+    {
+      "label": "Storage box",
+      "episode": 27,
+      "firstPerson": "resources/videos/tasks/O-6/v1-episode-000027-ego-from2s.mp4",
+      "thirdPerson": "resources/videos/tasks/O-6/v1-episode-000027-oblique-from2s.mp4",
+      "instruction": "grasp the storage box with both hands and lift it from the ground"
+    }
+  ],
+  "G-3": [
+    {
+      "label": "Basket",
+      "episode": 30,
+      "firstPerson": "resources/videos/tasks/G-3/v1-episode-000030-ego-from2s.mp4",
+      "thirdPerson": "resources/videos/tasks/G-3/v1-episode-000030-oblique-from2s.mp4"
+    },
+    {
+      "label": "Trash can",
+      "episode": 23,
+      "firstPerson": "resources/videos/tasks/G-3/v1-episode-000023-ego-from2s.mp4",
+      "thirdPerson": "resources/videos/tasks/G-3/v1-episode-000023-oblique-from2s.mp4",
+      "instruction": "put the bread in the trash can"
+    },
+    {
+      "label": "Tray",
+      "episode": 13,
+      "firstPerson": "resources/videos/tasks/G-3/v1-episode-000013-ego-from2s.mp4",
+      "thirdPerson": "resources/videos/tasks/G-3/v1-episode-000013-oblique-from2s.mp4",
+      "instruction": "put the bread on the tray"
+    }
+  ],
+  "M-9": [
+    {
+      "label": "Demonstration",
+      "episode": 11,
+      "firstPerson": "resources/videos/tasks/M-9/v1-episode-000011-ego-from2s.mp4",
+      "thirdPerson": "resources/videos/tasks/M-9/v1-episode-000011-oblique-from2s.mp4"
+    }
+  ],
+  "O-4": [
+    {
+      "label": "Basket",
+      "episode": 3,
+      "firstPerson": "resources/videos/tasks/O-4/v1-episode-000003-ego-from2s.mp4",
+      "thirdPerson": "resources/videos/tasks/O-4/v1-episode-000003-oblique-from2s.mp4"
+    },
+    {
+      "label": "Bottle",
+      "episode": 24,
+      "firstPerson": "resources/videos/tasks/O-4/v1-episode-000024-ego-from2s.mp4",
+      "thirdPerson": "resources/videos/tasks/O-4/v1-episode-000024-oblique-from2s.mp4",
+      "instruction": "pick up the bottle from the ground with one hand"
+    }
+  ],
+  "S-8": [
+    {
+      "label": "Configuration 1",
+      "episode": 27,
+      "firstPerson": "resources/videos/tasks/S-8/v1-episode-000027-ego-from2s.mp4",
+      "thirdPerson": "resources/videos/tasks/S-8/v1-episode-000027-oblique-from2s.mp4"
+    },
+    {
+      "label": "Configuration 2",
+      "episode": 22,
+      "firstPerson": "resources/videos/tasks/S-8/v1-episode-000022-ego-from2s.mp4",
+      "thirdPerson": "resources/videos/tasks/S-8/v1-episode-000022-oblique-from2s.mp4"
+    },
+    {
+      "label": "Configuration 3",
+      "episode": 8,
+      "firstPerson": "resources/videos/tasks/S-8/v1-episode-000008-ego-from2s.mp4",
+      "thirdPerson": "resources/videos/tasks/S-8/v1-episode-000008-oblique-from2s.mp4"
+    },
+    {
+      "label": "Configuration 4",
+      "episode": 33,
+      "firstPerson": "resources/videos/tasks/S-8/v1-episode-000033-ego-from2s.mp4",
+      "thirdPerson": "resources/videos/tasks/S-8/v1-episode-000033-oblique-from2s.mp4"
+    }
+  ],
+  "O-1": [
+    {
+      "label": "Apple",
+      "episode": 21,
+      "firstPerson": "resources/videos/tasks/O-1/v1-episode-000021-ego-from2s.mp4",
+      "thirdPerson": "resources/videos/tasks/O-1/v1-episode-000021-oblique-from2s.mp4"
+    },
+    {
+      "label": "Banana",
+      "episode": 17,
+      "firstPerson": "resources/videos/tasks/O-1/v1-episode-000017-ego-from2s.mp4",
+      "thirdPerson": "resources/videos/tasks/O-1/v1-episode-000017-oblique-from2s.mp4",
+      "instruction": "pick up the banana from the table with one hand"
+    },
+    {
+      "label": "Cake",
+      "episode": 4,
+      "firstPerson": "resources/videos/tasks/O-1/v1-episode-000004-ego-from2s.mp4",
+      "thirdPerson": "resources/videos/tasks/O-1/v1-episode-000004-oblique-from2s.mp4",
+      "instruction": "pick up the cake from the table with one hand"
+    }
+  ],
+  "C-9": [
+    {
+      "label": "Block",
+      "episode": 38,
+      "firstPerson": "resources/videos/tasks/C-9/v1-episode-000038-ego-from2s.mp4",
+      "thirdPerson": "resources/videos/tasks/C-9/v1-episode-000038-oblique-from2s.mp4"
+    },
+    {
+      "label": "Clear",
+      "episode": 15,
+      "firstPerson": "resources/videos/tasks/C-9/v1-episode-000015-ego-from2s.mp4",
+      "thirdPerson": "resources/videos/tasks/C-9/v1-episode-000015-oblique-from2s.mp4"
+    }
+  ],
+  "M-10": [
+    {
+      "label": "Demonstration",
+      "episode": 48,
+      "firstPerson": "resources/videos/tasks/M-10/v1-episode-000048-ego-from2s.mp4",
+      "thirdPerson": "resources/videos/tasks/M-10/v1-episode-000048-oblique-from2s.mp4"
+    }
+  ],
+  "M-3": [
+    {
+      "label": "Demonstration",
+      "episode": 16,
+      "firstPerson": "resources/videos/tasks/M-3/v1-episode-000016-ego-from2s.mp4",
+      "thirdPerson": "resources/videos/tasks/M-3/v1-episode-000016-oblique-from2s.mp4"
+    }
+  ],
+  "O-5": [
+    {
+      "label": "Box",
+      "episode": 7,
+      "firstPerson": "resources/videos/tasks/O-5/v1-episode-000007-ego-from2s.mp4",
+      "thirdPerson": "resources/videos/tasks/O-5/v1-episode-000007-oblique-from2s.mp4"
+    },
+    {
+      "label": "Storage box",
+      "episode": 2,
+      "firstPerson": "resources/videos/tasks/O-5/v1-episode-000002-ego-from2s.mp4",
+      "thirdPerson": "resources/videos/tasks/O-5/v1-episode-000002-oblique-from2s.mp4",
+      "instruction": "grasp the storage box with both hands and lift it from the ground"
+    }
+  ],
+  "S-17": [
+    {
+      "label": "Configuration 1",
+      "episode": 2,
+      "firstPerson": "resources/videos/tasks/S-17/v1-episode-000002-ego-from2s.mp4",
+      "thirdPerson": "resources/videos/tasks/S-17/v1-episode-000002-oblique-from2s.mp4"
+    },
+    {
+      "label": "Configuration 2",
+      "episode": 22,
+      "firstPerson": "resources/videos/tasks/S-17/v1-episode-000022-ego-from2s.mp4",
+      "thirdPerson": "resources/videos/tasks/S-17/v1-episode-000022-oblique-from2s.mp4"
+    },
+    {
+      "label": "Configuration 3",
+      "episode": 18,
+      "firstPerson": "resources/videos/tasks/S-17/v1-episode-000018-ego-from2s.mp4",
+      "thirdPerson": "resources/videos/tasks/S-17/v1-episode-000018-oblique-from2s.mp4"
+    }
+  ],
+  "C-7": [
+    {
+      "label": "Plate empty",
+      "episode": 2,
+      "firstPerson": "resources/videos/tasks/C-7/v1-episode-000002-ego-from2s.mp4",
+      "thirdPerson": "resources/videos/tasks/C-7/v1-episode-000002-oblique-from2s.mp4"
+    },
+    {
+      "label": "Tray empty",
+      "episode": 35,
+      "firstPerson": "resources/videos/tasks/C-7/v1-episode-000035-ego-from2s.mp4",
+      "thirdPerson": "resources/videos/tasks/C-7/v1-episode-000035-oblique-from2s.mp4"
+    }
+  ],
+  "O-10": [
+    {
+      "label": "Bread",
+      "episode": 21,
+      "firstPerson": "resources/videos/tasks/O-10/v1-episode-000021-ego-from2s.mp4",
+      "thirdPerson": "resources/videos/tasks/O-10/v1-episode-000021-oblique-from2s.mp4"
+    },
+    {
+      "label": "Cake",
+      "episode": 26,
+      "firstPerson": "resources/videos/tasks/O-10/v1-episode-000026-ego-from2s.mp4",
+      "thirdPerson": "resources/videos/tasks/O-10/v1-episode-000026-oblique-from2s.mp4",
+      "instruction": "put the cake into the tray"
+    }
+  ],
+  "G-1": [
+    {
+      "label": "Basket",
+      "episode": 45,
+      "firstPerson": "resources/videos/tasks/G-1/v1-episode-000045-ego-from2s.mp4",
+      "thirdPerson": "resources/videos/tasks/G-1/v1-episode-000045-oblique-from2s.mp4"
+    },
+    {
+      "label": "Box",
+      "episode": 28,
+      "firstPerson": "resources/videos/tasks/G-1/v1-episode-000028-ego-from2s.mp4",
+      "thirdPerson": "resources/videos/tasks/G-1/v1-episode-000028-oblique-from2s.mp4",
+      "instruction": "put the apple in the box"
+    },
+    {
+      "label": "Tray",
+      "episode": 11,
+      "firstPerson": "resources/videos/tasks/G-1/v1-episode-000011-ego-from2s.mp4",
+      "thirdPerson": "resources/videos/tasks/G-1/v1-episode-000011-oblique-from2s.mp4",
+      "instruction": "put the apple on the tray"
+    }
+  ],
+  "M-7": [
+    {
+      "label": "Demonstration",
+      "episode": 18,
+      "firstPerson": "resources/videos/tasks/M-7/v1-episode-000018-ego-from2s.mp4",
+      "thirdPerson": "resources/videos/tasks/M-7/v1-episode-000018-oblique-from2s.mp4"
+    }
+  ],
+  "M-5": [
+    {
+      "label": "Demonstration",
+      "episode": 10,
+      "firstPerson": "resources/videos/tasks/M-5/v1-episode-000010-ego-from2s.mp4",
+      "thirdPerson": "resources/videos/tasks/M-5/v1-episode-000010-oblique-from2s.mp4"
+    }
+  ],
+  "C-6": [
+    {
+      "label": "Ground",
+      "episode": 18,
+      "firstPerson": "resources/videos/tasks/C-6/v1-episode-000018-ego-from2s.mp4",
+      "thirdPerson": "resources/videos/tasks/C-6/v1-episode-000018-oblique-from2s.mp4"
+    },
+    {
+      "label": "On table",
+      "episode": 3,
+      "firstPerson": "resources/videos/tasks/C-6/v1-episode-000003-ego-from2s.mp4",
+      "thirdPerson": "resources/videos/tasks/C-6/v1-episode-000003-oblique-from2s.mp4"
+    }
+  ],
+  "O-7": [
+    {
+      "label": "Apple",
+      "episode": 27,
+      "firstPerson": "resources/videos/tasks/O-7/v1-episode-000027-ego-from2s.mp4",
+      "thirdPerson": "resources/videos/tasks/O-7/v1-episode-000027-oblique-from2s.mp4"
+    },
+    {
+      "label": "Banana",
+      "episode": 31,
+      "firstPerson": "resources/videos/tasks/O-7/v1-episode-000031-ego-from2s.mp4",
+      "thirdPerson": "resources/videos/tasks/O-7/v1-episode-000031-oblique-from2s.mp4",
+      "instruction": "put the banana into the basket with one hand"
+    },
+    {
+      "label": "Cake",
+      "episode": 5,
+      "firstPerson": "resources/videos/tasks/O-7/v1-episode-000005-ego-from2s.mp4",
+      "thirdPerson": "resources/videos/tasks/O-7/v1-episode-000005-oblique-from2s.mp4",
+      "instruction": "put the cake into the basket with one hand"
+    }
+  ],
+  "O-9": [
+    {
+      "label": "Bread",
+      "episode": 16,
+      "firstPerson": "resources/videos/tasks/O-9/v1-episode-000016-ego-from2s.mp4",
+      "thirdPerson": "resources/videos/tasks/O-9/v1-episode-000016-oblique-from2s.mp4"
+    },
+    {
+      "label": "Cake",
+      "episode": 35,
+      "firstPerson": "resources/videos/tasks/O-9/v1-episode-000035-ego-from2s.mp4",
+      "thirdPerson": "resources/videos/tasks/O-9/v1-episode-000035-oblique-from2s.mp4",
+      "instruction": "throw the cake from the table into the trash can"
+    },
+    {
+      "label": "Milk",
+      "episode": 12,
+      "firstPerson": "resources/videos/tasks/O-9/v1-episode-000012-ego-from2s.mp4",
+      "thirdPerson": "resources/videos/tasks/O-9/v1-episode-000012-oblique-from2s.mp4",
+      "instruction": "throw the milk carton from the table into the trash can"
+    }
+  ],
+  "C-8": [
+    {
+      "label": "Plate empty",
+      "episode": 10,
+      "firstPerson": "resources/videos/tasks/C-8/v1-episode-000010-ego-from2s.mp4",
+      "thirdPerson": "resources/videos/tasks/C-8/v1-episode-000010-oblique-from2s.mp4"
+    },
+    {
+      "label": "Plate occupied",
+      "episode": 33,
+      "firstPerson": "resources/videos/tasks/C-8/v1-episode-000033-ego-from2s.mp4",
+      "thirdPerson": "resources/videos/tasks/C-8/v1-episode-000033-oblique-from2s.mp4"
+    }
+  ],
+  "C-4": [
+    {
+      "label": "Left clear",
+      "episode": 38,
+      "firstPerson": "resources/videos/tasks/C-4/v1-episode-000038-ego-from2s.mp4",
+      "thirdPerson": "resources/videos/tasks/C-4/v1-episode-000038-oblique-from2s.mp4"
+    },
+    {
+      "label": "Right clear",
+      "episode": 5,
+      "firstPerson": "resources/videos/tasks/C-4/v1-episode-000005-ego-from2s.mp4",
+      "thirdPerson": "resources/videos/tasks/C-4/v1-episode-000005-oblique-from2s.mp4"
+    }
+  ],
+  "O-8": [
+    {
+      "label": "Plate",
+      "episode": 47,
+      "firstPerson": "resources/videos/tasks/O-8/v1-episode-000047-ego-from2s.mp4",
+      "thirdPerson": "resources/videos/tasks/O-8/v1-episode-000047-oblique-from2s.mp4"
+    },
+    {
+      "label": "Tray",
+      "episode": 6,
+      "firstPerson": "resources/videos/tasks/O-8/v1-episode-000006-ego-from2s.mp4",
+      "thirdPerson": "resources/videos/tasks/O-8/v1-episode-000006-oblique-from2s.mp4",
+      "instruction": "put the tray upright and fully inside the cabinet with both hands"
+    }
+  ],
+  "M-4": [
+    {
+      "label": "Demonstration",
+      "episode": 48,
+      "firstPerson": "resources/videos/tasks/M-4/v1-episode-000048-ego-from2s.mp4",
+      "thirdPerson": "resources/videos/tasks/M-4/v1-episode-000048-oblique-from2s.mp4"
+    }
+  ],
+  "C-1": [
+    {
+      "label": "Closed",
+      "episode": 18,
+      "firstPerson": "resources/videos/tasks/C-1/v1-episode-000018-ego-from2s.mp4",
+      "thirdPerson": "resources/videos/tasks/C-1/v1-episode-000018-oblique-from2s.mp4"
+    },
+    {
+      "label": "Open",
+      "episode": 29,
+      "firstPerson": "resources/videos/tasks/C-1/v1-episode-000029-ego-from2s.mp4",
+      "thirdPerson": "resources/videos/tasks/C-1/v1-episode-000029-oblique-from2s.mp4"
+    }
+  ],
+  "L-19": [
+    {
+      "label": "Demonstration",
+      "episode": 15,
+      "firstPerson": "resources/videos/tasks/L-19/v1-episode-000015-ego-from2s.mp4",
+      "thirdPerson": "resources/videos/tasks/L-19/v1-episode-000015-oblique-from2s.mp4"
+    }
+  ],
+  "M-2": [
+    {
+      "label": "Demonstration",
+      "episode": 28,
+      "firstPerson": "resources/videos/tasks/M-2/v1-episode-000028-ego-from2s.mp4",
+      "thirdPerson": "resources/videos/tasks/M-2/v1-episode-000028-oblique-from2s.mp4"
+    }
+  ],
+  "L-8": [
+    {
+      "label": "Demonstration",
+      "episode": 16,
+      "firstPerson": "resources/videos/tasks/L-8/v1-episode-000016-ego-from2s.mp4",
+      "thirdPerson": "resources/videos/tasks/L-8/v1-episode-000016-oblique-from2s.mp4"
+    }
+  ],
+  "G-10": [
+    {
+      "label": "Cabinet",
+      "episode": 46,
+      "firstPerson": "resources/videos/tasks/G-10/v1-episode-000046-ego-from2s.mp4",
+      "thirdPerson": "resources/videos/tasks/G-10/v1-episode-000046-oblique-from2s.mp4"
+    },
+    {
+      "label": "Ground",
+      "episode": 31,
+      "firstPerson": "resources/videos/tasks/G-10/v1-episode-000031-ego-from2s.mp4",
+      "thirdPerson": "resources/videos/tasks/G-10/v1-episode-000031-oblique-from2s.mp4",
+      "instruction": "pick up the football from the table and put it on the ground"
+    }
+  ],
+  "L-13": [
+    {
+      "label": "Demonstration",
+      "episode": 4,
+      "firstPerson": "resources/videos/tasks/L-13/v1-episode-000004-ego-from2s.mp4",
+      "thirdPerson": "resources/videos/tasks/L-13/v1-episode-000004-oblique-from2s.mp4"
+    }
+  ],
+  "G-7": [
+    {
+      "label": "Cabinet",
+      "episode": 36,
+      "firstPerson": "resources/videos/tasks/G-7/v1-episode-000036-ego-from2s.mp4",
+      "thirdPerson": "resources/videos/tasks/G-7/v1-episode-000036-oblique-from2s.mp4"
+    },
+    {
+      "label": "Table",
+      "episode": 43,
+      "firstPerson": "resources/videos/tasks/G-7/v1-episode-000043-ego-from2s.mp4",
+      "thirdPerson": "resources/videos/tasks/G-7/v1-episode-000043-oblique-from2s.mp4",
+      "instruction": "pick up the bottle from the ground and put it on the table"
+    }
+  ],
+  "C-10": [
+    {
+      "label": "Lower occupied",
+      "episode": 6,
+      "firstPerson": "resources/videos/tasks/C-10/v1-episode-000006-ego-from2s.mp4",
+      "thirdPerson": "resources/videos/tasks/C-10/v1-episode-000006-oblique-from2s.mp4"
+    },
+    {
+      "label": "Upper occupied",
+      "episode": 45,
+      "firstPerson": "resources/videos/tasks/C-10/v1-episode-000045-ego-from2s.mp4",
+      "thirdPerson": "resources/videos/tasks/C-10/v1-episode-000045-oblique-from2s.mp4"
+    }
+  ],
+  "L-10": [
+    {
+      "label": "Demonstration",
+      "episode": 26,
+      "firstPerson": "resources/videos/tasks/L-10/v1-episode-000026-ego-from2s.mp4",
+      "thirdPerson": "resources/videos/tasks/L-10/v1-episode-000026-oblique-from2s.mp4"
+    }
+  ],
+  "G-9": [
+    {
+      "label": "Book",
+      "episode": 18,
+      "firstPerson": "resources/videos/tasks/G-9/v1-episode-000018-ego-from2s.mp4",
+      "thirdPerson": "resources/videos/tasks/G-9/v1-episode-000018-oblique-from2s.mp4"
+    },
+    {
+      "label": "Ground bottle",
+      "episode": 7,
+      "firstPerson": "resources/videos/tasks/G-9/v1-episode-000007-ego-from2s.mp4",
+      "thirdPerson": "resources/videos/tasks/G-9/v1-episode-000007-oblique-from2s.mp4",
+      "instruction": "pick up the bottle from the ground and put it into the storage box"
+    },
+    {
+      "label": "Plate",
+      "episode": 35,
+      "firstPerson": "resources/videos/tasks/G-9/v1-episode-000035-ego-from2s.mp4",
+      "thirdPerson": "resources/videos/tasks/G-9/v1-episode-000035-oblique-from2s.mp4",
+      "instruction": "put the plate into the storage box"
+    }
+  ],
+  "L-3": [
+    {
+      "label": "Demonstration",
+      "episode": 10,
+      "firstPerson": "resources/videos/tasks/L-3/v1-episode-000010-ego-from2s.mp4",
+      "thirdPerson": "resources/videos/tasks/L-3/v1-episode-000010-oblique-from2s.mp4"
+    }
+  ],
+  "L-20": [
+    {
+      "label": "Demonstration",
+      "episode": 29,
+      "firstPerson": "resources/videos/tasks/L-20/v1-episode-000029-ego-from2s.mp4",
+      "thirdPerson": "resources/videos/tasks/L-20/v1-episode-000029-oblique-from2s.mp4"
+    }
+  ],
+  "L-12": [
+    {
+      "label": "Demonstration",
+      "episode": 21,
+      "firstPerson": "resources/videos/tasks/L-12/v1-episode-000021-ego-from2s.mp4",
+      "thirdPerson": "resources/videos/tasks/L-12/v1-episode-000021-oblique-from2s.mp4"
+    }
+  ],
+  "L-18": [
+    {
+      "label": "Demonstration",
+      "episode": 46,
+      "firstPerson": "resources/videos/tasks/L-18/v1-episode-000046-ego-from2s.mp4",
+      "thirdPerson": "resources/videos/tasks/L-18/v1-episode-000046-oblique-from2s.mp4"
+    }
+  ],
+  "L-14": [
+    {
+      "label": "Demonstration",
+      "episode": 21,
+      "firstPerson": "resources/videos/tasks/L-14/v1-episode-000021-ego-from2s.mp4",
+      "thirdPerson": "resources/videos/tasks/L-14/v1-episode-000021-oblique-from2s.mp4"
+    }
+  ]
+}

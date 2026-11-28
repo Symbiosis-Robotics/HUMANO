@@ -1,0 +1,3 @@
+# The project page publishes these rendered clips alongside its images.
+!/videos/**/*.mp4
+!/ood/**/*.mp4

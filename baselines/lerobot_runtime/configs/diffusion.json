@@ -1,0 +1,6 @@
+{
+  "baseline": "diffusion",
+  "policy_type": "diffusion",
+  "observation_schema": "humano.lerobot.v1",
+  "action_shape": [40, 78]
+}

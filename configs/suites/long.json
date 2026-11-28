@@ -1,0 +1,89 @@
+{
+  "tasks": [
+    "G1WholebodyLongTableAppleToDrawerTeleop",
+    "G1WholebodyLongTablePlateToDrawerTeleop",
+    "G1WholebodyLongBreadCakeToTrayTeleop",
+    "G1WholebodyLongBreadToTrayAndLiftTeleop",
+    "G1WholebodyLongCakeToPlateAndLiftTeleop",
+    "G1WholebodyLongGroundBoxToDollyAndPushTeleop",
+    "G1WholebodyLongChairPushAndSitTeleop",
+    "G1WholebodyLongTableFootballToGroundAndKickTeleop",
+    "G1WholebodyLongGroundBasketToTableAppleToBasketTeleop",
+    "G1WholebodyLongGroundBoxToTableBottleToBoxTeleop",
+    "G1WholebodyLongAppleBananaToBasketTeleop",
+    "G1WholebodyLongBasketAppleToTableBananaToTrashCanTeleop",
+    "G1WholebodyLongPeanutsFromCupToPlateTeleop",
+    "G1WholebodyLongStorageBoxCakeToTableBreadToTrayTeleop",
+    "G1WholebodyLongAppleToBasketThenBasketToGroundTeleop",
+    "G1WholebodyLongHighTableAppleToLowTableDrawerTeleop",
+    "G1WholebodyLongLowTablePlateToHighTableDrawerTeleop",
+    "G1WholebodyLongMoveBoxThenChairToTableTeleop",
+    "G1WholebodyTableBookToShelfTeleop",
+    "G1WholebodyLongShelfBookToTableDrawerTeleop"
+  ],
+  "evaluation_time_budget": {
+    "schema_version": 2,
+    "tasks": {
+      "G1WholebodyLongTableAppleToDrawerTeleop": {
+        "max_steps_200hz": 5340
+      },
+      "G1WholebodyLongTablePlateToDrawerTeleop": {
+        "max_steps_200hz": 9180
+      },
+      "G1WholebodyLongBreadCakeToTrayTeleop": {
+        "max_steps_200hz": 5480
+      },
+      "G1WholebodyLongBreadToTrayAndLiftTeleop": {
+        "max_steps_200hz": 7040
+      },
+      "G1WholebodyLongCakeToPlateAndLiftTeleop": {
+        "max_steps_200hz": 10330
+      },
+      "G1WholebodyLongGroundBoxToDollyAndPushTeleop": {
+        "max_steps_200hz": 9510
+      },
+      "G1WholebodyLongChairPushAndSitTeleop": {
+        "max_steps_200hz": 13310
+      },
+      "G1WholebodyLongTableFootballToGroundAndKickTeleop": {
+        "max_steps_200hz": 5540
+      },
+      "G1WholebodyLongGroundBasketToTableAppleToBasketTeleop": {
+        "max_steps_200hz": 5380
+      },
+      "G1WholebodyLongGroundBoxToTableBottleToBoxTeleop": {
+        "max_steps_200hz": 6070
+      },
+      "G1WholebodyLongAppleBananaToBasketTeleop": {
+        "max_steps_200hz": 9290
+      },
+      "G1WholebodyLongBasketAppleToTableBananaToTrashCanTeleop": {
+        "max_steps_200hz": 10790
+      },
+      "G1WholebodyLongPeanutsFromCupToPlateTeleop": {
+        "max_steps_200hz": 5870
+      },
+      "G1WholebodyLongStorageBoxCakeToTableBreadToTrayTeleop": {
+        "max_steps_200hz": 14310
+      },
+      "G1WholebodyLongAppleToBasketThenBasketToGroundTeleop": {
+        "max_steps_200hz": 5650
+      },
+      "G1WholebodyLongHighTableAppleToLowTableDrawerTeleop": {
+        "max_steps_200hz": 8410
+      },
+      "G1WholebodyLongLowTablePlateToHighTableDrawerTeleop": {
+        "max_steps_200hz": 10630
+      },
+      "G1WholebodyLongMoveBoxThenChairToTableTeleop": {
+        "max_steps_200hz": 11320
+      },
+      "G1WholebodyTableBookToShelfTeleop": {
+        "max_steps_200hz": 6010
+      },
+      "G1WholebodyLongShelfBookToTableDrawerTeleop": {
+        "max_steps_200hz": 11610
+      }
+    }
+  }
+}
